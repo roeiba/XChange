@@ -17,7 +17,7 @@ public abstract class Order implements Serializable {
   /** The currency pair */
   private final CurrencyPair currencyPair;
   /** An identifier that uniquely identifies the order */
-  private final String id;
+  private String id;
   /** The timestamp on the order according to the exchange's server, null if not provided */
   private final Date timestamp;
   /** Any applicable order flags */
@@ -199,6 +199,11 @@ public abstract class Order implements Serializable {
     this.leverage = leverage;
   }
 
+  public void setId(String id) {
+
+	this.id = id;
+  }
+  
   @Override
   public String toString() {
 
