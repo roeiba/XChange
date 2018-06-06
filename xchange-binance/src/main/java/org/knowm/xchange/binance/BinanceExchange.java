@@ -115,7 +115,7 @@ public class BinanceExchange extends BaseExchange {
             currencyPairs.put(
                 price.getCurrencyPair(),
                 new CurrencyPairMetaData(
-                    new BigDecimal("0.1"), // Trading fee at Binance is 0.1 %
+                    new BigDecimal("0.001"), // Trading fee at Binance is 0.1 %
                     minQty, // Min amount
                     maxQty, // Max amount
                     pairPrecision, // precision
