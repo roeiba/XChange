@@ -79,54 +79,76 @@ public class BinanceExchange extends BaseExchange {
       exchangeInfo = marketDataService.getExchangeInfo();
       Symbol[] symbols = exchangeInfo.getSymbols();
 
-      for (BinancePrice price : marketDataService.tickerAllPrices()) {
-        CurrencyPair pair = price.getCurrencyPair();
-
-        for (Symbol symbol : symbols) {
-          if (symbol.getSymbol().equals(pair.base.getCurrencyCode() + pair.counter.getCurrencyCode())) {
-
-            int basePrecision = Integer.parseInt(symbol.getBaseAssetPrecision());
-            int counterPrecision = Integer.parseInt(symbol.getQuotePrecision());
-            int pairPrecision = 8;
-            int amountPrecision = 8;
-            
-            BigDecimal minQty = null;
-            BigDecimal maxQty = null;
-
-            Filter[] filters = symbol.getFilters(); 
-
-            for (Filter filter : filters) {
-        		  if (filter.getFilterType().equals("PRICE_FILTER")) {
-        			  
-        			  pairPrecision = Math.min(pairPrecision, numberOfDecimals(filter.getMinPrice()));
-        			  
-        		  } else if (filter.getFilterType().equals("LOT_SIZE")) {
-        			  amountPrecision = Math.min(amountPrecision, numberOfDecimals(filter.getMinQty()));
-        			  minQty = new BigDecimal(filter.getMinQty()).stripTrailingZeros();
-        			  maxQty = new BigDecimal(filter.getMaxQty()).stripTrailingZeros();
-              }
-            }
-            
-            currencyPairs.put(price.getCurrencyPair(), new CurrencyPairMetaData(
-					  new BigDecimal("0.001"), // Trading fee at Binance is 0.1 %
-					  minQty, // Min amount
-					  maxQty, // Max amount
-					  pairPrecision // precision
-				  ));            
-            currencies.put(pair.base, new CurrencyMetaData(basePrecision, currencies.containsKey(pair.base) ? 
-            		currencies.get(pair.base).getWithdrawalFee() : null));
-            currencies.put(pair.counter, new CurrencyMetaData(counterPrecision, currencies.containsKey(pair.counter) ? 
-            		currencies.get(pair.counter).getWithdrawalFee() : null));
-          }
-        }
+      for (Symbol symbol : symbols) {
+        CurrencyPair pair = new CurrencyPair(symbol.getBaseAsset(), symbol.getQuoteAsset());
+        CurrencyPairMetaData pairMetaData = currencyPairs.get(pair);
+        int basePrecision = Integer.parseInt(symbol.getBaseAssetPrecision());
+        int counterPrecision = Integer.parseInt(symbol.getQuotePrecision());
+        
+        addCurrencyPairMetaData(currencyPairs, symbol, pair, pairMetaData);
+    
+        addCurrencyMetadata(currencies, pair.base, basePrecision);
+        addCurrencyMetadata(currencies, pair.counter, counterPrecision);
+        
       }
     } catch (Exception e) {
       logger.warn("An exception occurred while loading the metadata", e);
     }
   }
+
+  private void addCurrencyPairMetaData(
+		  Map<CurrencyPair, CurrencyPairMetaData> currencyPairs, 
+		  Symbol symbol,
+		  CurrencyPair pair, 
+		  CurrencyPairMetaData pairMetaData) {
+	  
+	// Avoid overriding existing values.
+	if (pairMetaData == null) {
+	  
+	  int pairPrecision = DEFAULT_PRECISION;
+	  int amountPrecision = DEFAULT_PRECISION;
+	    
+	  BigDecimal minQty = null;
+	  BigDecimal maxQty = null;
+
+	  Filter[] filters = symbol.getFilters(); 
+
+	  for (Filter filter : filters) {
+		    if (filter.getFilterType().equals("PRICE_FILTER")) {
+				  
+	      pairPrecision = Math.min(pairPrecision, numberOfDecimals(filter.getMinPrice()));
+				  
+		    } else if (filter.getFilterType().equals("LOT_SIZE")) {
+		      amountPrecision = Math.min(amountPrecision, numberOfDecimals(filter.getMinQty()));
+			  minQty = new BigDecimal(filter.getMinQty());
+			  maxQty = new BigDecimal(filter.getMaxQty());
+	    }
+	  }
+	    
+	  currencyPairs.put(pair, new CurrencyPairMetaData(
+		new BigDecimal("0.001"), // Trading fee at Binance is 0.1 %
+		minQty, // Min amount
+		maxQty, // Max amount
+		pairPrecision) // precision
+	  );            
+	}
+}
+
+  private void addCurrencyMetadata(Map<Currency, CurrencyMetaData> currencies, Currency currency, int precision) {
+	CurrencyMetaData baseMetaData = currencies.get(currency);
+	if (baseMetaData == null) {
+	    currencies.put(
+	    		currency, 
+	    		new CurrencyMetaData(
+	    			precision, 
+	        		currencies.containsKey(currency) ? currencies.get(currency).getWithdrawalFee() : null
+			)
+		);
+	}
+  }
   
   private int numberOfDecimals(String value) {
-	  return new BigDecimal(value).stripTrailingZeros().scale();
+    return new BigDecimal(value).stripTrailingZeros().scale();
   }
 
   public void clearDeltaServerTime() {
