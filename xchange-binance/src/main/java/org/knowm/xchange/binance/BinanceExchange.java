@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 import org.knowm.xchange.BaseExchange;
 import org.knowm.xchange.ExchangeSpecification;
 import org.knowm.xchange.binance.dto.marketdata.BinancePrice;
+import org.knowm.xchange.binance.dto.meta.BinanceCurrencyPairMetaData;
 import org.knowm.xchange.binance.dto.meta.exchangeinfo.BinanceExchangeInfo;
 import org.knowm.xchange.binance.dto.meta.exchangeinfo.Filter;
 import org.knowm.xchange.binance.dto.meta.exchangeinfo.Symbol;
@@ -84,67 +85,106 @@ public class BinanceExchange extends BaseExchange {
       exchangeInfo = marketDataService.getExchangeInfo();
       Symbol[] symbols = exchangeInfo.getSymbols();
 
-      for (BinancePrice price : marketDataService.tickerAllPrices()) {
-        CurrencyPair pair = price.getCurrencyPair();
-
-        for (Symbol symbol : symbols) {
-          if (symbol
-              .getSymbol()
-              .equals(pair.base.getCurrencyCode() + pair.counter.getCurrencyCode())) {
-
-            int basePrecision = Integer.parseInt(symbol.getBaseAssetPrecision());
-            int counterPrecision = Integer.parseInt(symbol.getQuotePrecision());
-            int pairPrecision = 8;
-            int amountPrecision = 8;
-
-            BigDecimal minQty = null;
-            BigDecimal maxQty = null;
-
-            Filter[] filters = symbol.getFilters();
-
-            for (Filter filter : filters) {
-              if (filter.getFilterType().equals("PRICE_FILTER")) {
-                pairPrecision = Math.min(pairPrecision, numberOfDecimals(filter.getTickSize()));
-              } else if (filter.getFilterType().equals("LOT_SIZE")) {
-                amountPrecision = Math.min(amountPrecision, numberOfDecimals(filter.getMinQty()));
-                minQty = new BigDecimal(filter.getMinQty()).stripTrailingZeros();
-                maxQty = new BigDecimal(filter.getMaxQty()).stripTrailingZeros();
-              }
-            }
-
-            currencyPairs.put(
-                price.getCurrencyPair(),
-                new CurrencyPairMetaData(
-                    new BigDecimal("0.001"), // Trading fee at Binance is 0.1 %
-                    minQty, // Min amount
-                    maxQty, // Max amount
-                    pairPrecision, // precision
-                    null /* TODO get fee tiers, although this is not necessary now
-                         because their API returns current fee directly */));
-            currencies.put(
-                pair.base,
-                new CurrencyMetaData(
-                    basePrecision,
-                    currencies.containsKey(pair.base)
-                        ? currencies.get(pair.base).getWithdrawalFee()
-                        : null));
-            currencies.put(
-                pair.counter,
-                new CurrencyMetaData(
-                    counterPrecision,
-                    currencies.containsKey(pair.counter)
-                        ? currencies.get(pair.counter).getWithdrawalFee()
-                        : null));
-          }
-        }
+      for (Symbol symbol : symbols) {
+        CurrencyPair pair = new CurrencyPair(symbol.getBaseAsset(), symbol.getQuoteAsset());
+        CurrencyPairMetaData pairMetaData = currencyPairs.get(pair);
+        int basePrecision = Integer.parseInt(symbol.getBaseAssetPrecision());
+        int counterPrecision = Integer.parseInt(symbol.getQuotePrecision());
+        
+        addCurrencyPairMetaData(currencyPairs, symbol, pair, pairMetaData);
+    
+        addCurrencyMetadata(currencies, pair.base, basePrecision);
+        addCurrencyMetadata(currencies, pair.counter, counterPrecision);
+        
       }
     } catch (Exception e) {
       throw new ExchangeException("Failed to initialize: " + e.getMessage(), e);
     }
   }
 
-  private int numberOfDecimals(String value) {
+  
+  private void addCurrencyPairMetaData(
+    Map<CurrencyPair, CurrencyPairMetaData> currencyPairs, 
+	Symbol symbol,
+	CurrencyPair pair, 
+	CurrencyPairMetaData pairMetaData) {
+	  
+	// Avoid overriding existing values.
+	if (pairMetaData == null) {
+	  
+	  int priceScale = DEFAULT_PRECISION;
+	    
+	  // defaults
+	  BigDecimal tradingFee = new BigDecimal("0.001"); // Trading fee at Binance is 0.1 %
+	  BigDecimal minAmount = BigDecimal.ZERO;
+	  BigDecimal maxAmount = BigDecimal.ZERO;
+	  BigDecimal minNotional = BigDecimal.ZERO;
+	  
+	  /**
+	   * Binance Filter example: 
+	   * 
+	   * filters: [
+			{
+				filterType: "PRICE_FILTER",
+				minPrice: "0.00000001",
+				maxPrice: "100000.00000000",
+				tickSize: "0.00000001"
+			},
+			{
+				filterType: "LOT_SIZE",
+				minQty: "1.00000000",
+				maxQty: "90000000.00000000",
+				stepSize: "1.00000000"
+			},
+			{
+				filterType: "MIN_NOTIONAL",
+				minNotional: "0.01000000"
+			}
+		]
+	   */
+    Filter[] filters = symbol.getFilters(); 
 
+	for (Filter filter : filters) {
+	  switch (filter.getFilterType()) {
+	  	case "PRICE_FILTER":
+	 	  priceScale = Math.min(priceScale, numberOfDecimals(filter.getMinPrice()));
+	  	  break;
+	  	case "LOT_SIZE":
+	  	  // In Binance, minimum amount is also minimum step size
+		  // Remove all trailing zeros in order to get the real scale the amount  
+	  	  minAmount = new BigDecimal(filter.getMinQty()).stripTrailingZeros();
+	  	  maxAmount = new BigDecimal(filter.getMaxQty()).stripTrailingZeros();
+		  break;
+	  	case "MIN_NOTIONAL":
+	  	  minNotional = new BigDecimal(filter.getMinNotional());
+	  	  break;
+	    }
+	  }
+	    
+	  currencyPairs.put(pair, new BinanceCurrencyPairMetaData(
+		tradingFee,
+		minAmount, 
+		maxAmount, 
+		priceScale,
+		minNotional) 
+	  );            
+	}
+}
+
+  private void addCurrencyMetadata(Map<Currency, CurrencyMetaData> currencies, Currency currency, int precision) {
+	CurrencyMetaData baseMetaData = currencies.get(currency);
+	if (baseMetaData == null) {
+	    currencies.put(
+	    		currency, 
+	    		new CurrencyMetaData(
+	    			precision, 
+	        		currencies.containsKey(currency) ? currencies.get(currency).getWithdrawalFee() : null
+			)
+		);
+	}
+  }
+  
+  private int numberOfDecimals(String value) {
     return new BigDecimal(value).stripTrailingZeros().scale();
   }
 
