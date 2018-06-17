@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 import org.knowm.xchange.BaseExchange;
 import org.knowm.xchange.ExchangeSpecification;
 import org.knowm.xchange.binance.dto.marketdata.BinancePrice;
+import org.knowm.xchange.binance.dto.meta.BinanceCurrencyPairMetaData;
 import org.knowm.xchange.binance.dto.meta.exchangeinfo.BinanceExchangeInfo;
 import org.knowm.xchange.binance.dto.meta.exchangeinfo.Filter;
 import org.knowm.xchange.binance.dto.meta.exchangeinfo.Symbol;
@@ -96,40 +97,71 @@ public class BinanceExchange extends BaseExchange {
     }
   }
 
+  
   private void addCurrencyPairMetaData(
-		  Map<CurrencyPair, CurrencyPairMetaData> currencyPairs, 
-		  Symbol symbol,
-		  CurrencyPair pair, 
-		  CurrencyPairMetaData pairMetaData) {
+    Map<CurrencyPair, CurrencyPairMetaData> currencyPairs, 
+	Symbol symbol,
+	CurrencyPair pair, 
+	CurrencyPairMetaData pairMetaData) {
 	  
 	// Avoid overriding existing values.
 	if (pairMetaData == null) {
 	  
-	  int pairPrecision = DEFAULT_PRECISION;
-	  int amountPrecision = DEFAULT_PRECISION;
+	  int priceScale = DEFAULT_PRECISION;
 	    
-	  BigDecimal minQty = null;
-	  BigDecimal maxQty = null;
+	  // defaults
+	  BigDecimal tradingFee = new BigDecimal("0.001"); // Trading fee at Binance is 0.1 %
+	  BigDecimal minAmount = BigDecimal.ZERO;
+	  BigDecimal maxAmount = BigDecimal.ZERO;
+	  BigDecimal minNotional = BigDecimal.ZERO;
+	  
+	  /**
+	   * Binance Filter example: 
+	   * 
+	   * filters: [
+			{
+				filterType: "PRICE_FILTER",
+				minPrice: "0.00000001",
+				maxPrice: "100000.00000000",
+				tickSize: "0.00000001"
+			},
+			{
+				filterType: "LOT_SIZE",
+				minQty: "1.00000000",
+				maxQty: "90000000.00000000",
+				stepSize: "1.00000000"
+			},
+			{
+				filterType: "MIN_NOTIONAL",
+				minNotional: "0.01000000"
+			}
+		]
+	   */
+    Filter[] filters = symbol.getFilters(); 
 
-	  Filter[] filters = symbol.getFilters(); 
-
-	  for (Filter filter : filters) {
-		    if (filter.getFilterType().equals("PRICE_FILTER")) {
-				  
-	      pairPrecision = Math.min(pairPrecision, numberOfDecimals(filter.getMinPrice()));
-				  
-		    } else if (filter.getFilterType().equals("LOT_SIZE")) {
-		      amountPrecision = Math.min(amountPrecision, numberOfDecimals(filter.getMinQty()));
-			  minQty = new BigDecimal(filter.getMinQty());
-			  maxQty = new BigDecimal(filter.getMaxQty());
+	for (Filter filter : filters) {
+	  switch (filter.getFilterType()) {
+	  	case "PRICE_FILTER":
+	 	  priceScale = Math.min(priceScale, numberOfDecimals(filter.getMinPrice()));
+	  	  break;
+	  	case "LOT_SIZE":
+	  	  // In Binance, minimum amount is also minimum step size
+		  // Remove all trailing zeros in order to get the real scale the amount  
+	  	  minAmount = new BigDecimal(filter.getMinQty()).stripTrailingZeros();
+	  	  maxAmount = new BigDecimal(filter.getMaxQty()).stripTrailingZeros();
+		  break;
+	  	case "MIN_NOTIONAL":
+	  	  minNotional = new BigDecimal(filter.getMinNotional());
+	  	  break;
 	    }
 	  }
 	    
-	  currencyPairs.put(pair, new CurrencyPairMetaData(
-		new BigDecimal("0.001"), // Trading fee at Binance is 0.1 %
-		minQty, // Min amount
-		maxQty, // Max amount
-		pairPrecision) // precision
+	  currencyPairs.put(pair, new BinanceCurrencyPairMetaData(
+		tradingFee,
+		minAmount, 
+		maxAmount, 
+		priceScale,
+		minNotional) 
 	  );            
 	}
 }
