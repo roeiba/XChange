@@ -140,6 +140,16 @@
       "price_scale": 8,
       "trading_fee": 0.002
     },
+    "BOX/BTC": {
+      "min_amount": 0.10,
+      "price_scale": 10,
+      "trading_fee": 0.002
+    },
+    "BOX/ETH": {
+      "min_amount": 0.10,
+      "price_scale": 8,
+      "trading_fee": 0.002
+    },
     "BTC/USDT": {
       "min_amount": 0.0010,
       "price_scale": 2,
@@ -278,6 +288,16 @@
     "DCR/ETH": {
       "min_amount": 0.1000,
       "price_scale": 6,
+      "trading_fee": 0.002
+    },
+    "DGB/BTC": {
+      "min_amount": 1.0000,
+      "price_scale": 10,
+      "trading_fee": 0.002
+    },
+    "DGB/ETH": {
+      "min_amount": 1.0000,
+      "price_scale": 8,
       "trading_fee": 0.002
     },
     "DGD/BTC": {
@@ -790,6 +810,16 @@
       "price_scale": 8,
       "trading_fee": 0.002
     },
+    "PAI/BTC": {
+      "min_amount": 0.10,
+      "price_scale": 8,
+      "trading_fee": 0.002
+    },
+    "PAI/ETH": {
+      "min_amount": 0.1000,
+      "price_scale": 6,
+      "trading_fee": 0.002
+    },
     "PAY/BTC": {
       "min_amount": 0.10,
       "price_scale": 8,
@@ -1140,6 +1170,16 @@
       "price_scale": 6,
       "trading_fee": 0.002
     },
+    "WAVES/BTC": {
+      "min_amount": 0.1000,
+      "price_scale": 6,
+      "trading_fee": 0.002
+    },
+    "WAVES/ETH": {
+      "min_amount": 0.1000,
+      "price_scale": 6,
+      "trading_fee": 0.002
+    },
     "WAX/BTC": {
       "min_amount": 0.0010,
       "price_scale": 8,
@@ -1173,6 +1213,16 @@
     "WPR/ETH": {
       "min_amount": 0.01,
       "price_scale": 8,
+      "trading_fee": 0.002
+    },
+    "WTC/BTC": {
+      "min_amount": 0.10,
+      "price_scale": 8,
+      "trading_fee": 0.002
+    },
+    "WTC/ETH": {
+      "min_amount": 0.1000,
+      "price_scale": 6,
       "trading_fee": 0.002
     },
     "XEM/BTC": {
@@ -1297,6 +1347,10 @@
     "DASH": {
       "scale": 8,
       "withdrawal_fee": 0.0002
+    },
+    "DGB": {
+      "scale": 8,
+      "withdrawal_fee": 50
     },
     "EOS": {
       "scale": 8,
