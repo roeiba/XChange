@@ -103,6 +103,9 @@ public class HuobiAdapters {
     List<Balance> balances = new ArrayList<>(huobiWallet.size());
     for (Map.Entry<String, HuobiBalanceSum> record : huobiWallet.entrySet()) {
       Currency currency = adaptCurrency(record.getKey());
+      if (currency == null) {
+    	    continue;
+      }
       Balance balance =
           new Balance(
               currency,
