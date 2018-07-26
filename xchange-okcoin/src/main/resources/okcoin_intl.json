@@ -2845,8 +2845,85 @@
             "price_scale": 4,
             "trading_fee": 0.002
         }    		
+    },
+    "currencies": {
+        "BCH": {
+		    "scale": 8,
+		    "withdrawal_fee": 0.001
+	    },
+        "BNT": {
+            "scale": 8,
+            "withdrawal_fee": 1.0
+        },
+		"BTC": {
+		    "scale": 8,
+		    "withdrawal_fee": 0.0005
+		},
+        "BTG": {
+		    "scale": 8,
+		    "withdrawal_fee": 0.001
+		},
+		"DASH": {
+		    "scale": 8,
+		    "withdrawal_fee": 0.002
+		},
+		"DGB": {
+		    "scale": 8,
+		    "withdrawal_fee": 0.2
+		},
+		"EOS": {
+		    "scale": 8,
+		    "withdrawal_fee": 0.1
+		},
+		"ETC": {
+		    "scale": 8,
+		    "withdrawal_fee": 0.001
+		},
+		"ETH": {
+		    "scale": 8,
+		    "withdrawal_fee": 0.01
+		},
+		"LSK": {
+		    "scale": 8,
+		    "withdrawal_fee": 0.4
+		},
+		"LTC": {
+		    "scale": 8,
+		    "withdrawal_fee": 0.001
+		},
+		"NEO": {
+		    "scale": 0,
+		    "withdrawal_fee": 0
+		},
+		"OMG": {
+		    "scale": 8,
+		    "withdrawal_fee": 0.1
+		},
+		"QTUM": {
+		    "scale": 8,
+		    "withdrawal_fee": 0.01
+		},
+		"SC": {
+		    "scale": 8,
+		    "withdrawal_fee": 200
+		},
+		"TRX": {
+		    "scale": 8,
+		    "withdrawal_fee": 100.0
+		},
+		"USDT": {
+		    "scale": 8,
+		    "withdrawal_fee": 2.0
+		},
+		"XRP": {
+		    "scale": 8,
+		    "withdrawal_fee": 0.15
+		},
+		"ZRX": {
+		    "scale": 8,
+		    "withdrawal_fee": 10.0
+		}
 	},
-	"currencies": {},
 	"private_rate_limits": [
 		{
 			"calls": 20,
