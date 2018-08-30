@@ -442,7 +442,7 @@ public class Currency implements Comparable<Currency>, Serializable {
   @Override
   public String toString() {
 
-    return code;
+    return attributes.commonCode;
   }
 
   @Override
@@ -473,7 +473,7 @@ public class Currency implements Comparable<Currency>, Serializable {
 
     if (attributes.equals(o.attributes)) return 0;
 
-    int comparison = code.compareTo(o.code);
+    int comparison = attributes.commonCode.compareTo(o.attributes.commonCode);
     if (comparison == 0) comparison = getDisplayName().compareTo(o.getDisplayName());
     if (comparison == 0) comparison = hashCode() - o.hashCode();
     return comparison;
