@@ -15,9 +15,10 @@ import org.knowm.xchange.dto.Order.OrderType;
 import org.knowm.xchange.dto.trade.LimitOrder;
 
 /** DTO representing the exchange order book */
-public final class OrderBook implements Serializable {
+public class OrderBook implements Serializable {
 
   private Calendar arrivalTimestamp;
+  private int counter;
   
   /** the asks */
   private final List<LimitOrder> asks;
@@ -114,14 +115,22 @@ public final class OrderBook implements Serializable {
 
   /** The time this OrderBook has arrived to Nostro system */
   public Calendar getArrivalTimeStamp() {
-
     return arrivalTimestamp;
   }
 
   /** Sets the arrival time for this OrderBook. */
   public void setArrivalTimeStamp(Calendar cal) {
-
     this.arrivalTimestamp = cal;
+  }
+
+  /** Gets the internal Nostro counter.*/
+  public int getCounter() {
+	return counter;
+  }
+
+  /** Sets the internal Nostro counter.*/
+  public void setCounter(int counter) {
+	this.counter = counter;
   }
 
   public List<LimitOrder> getAsks() {
