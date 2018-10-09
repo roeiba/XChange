@@ -1,6 +1,14 @@
 {
   "currency_pairs": {
-   	"BCH/BTC": {
+   	"ADA/BTC": {
+      "price_scale": 8,
+      "min_amount": 1.000
+    },
+    "ADA/ETH": {
+      "price_scale": 8,
+      "min_amount": 1.000
+    },
+    "BCH/BTC": {
       "price_scale": 5,
       "min_amount": 0.002
     },
@@ -128,6 +136,14 @@
       "price_scale": 5,
       "min_amount": 0.100
     },
+    "QTUM/BTC": {
+      "price_scale": 7,
+      "min_amount": 0.100
+    },
+    "QTUM/ETH": {
+      "price_scale": 7,
+      "min_amount": 0.100
+    },
     "REP/BTC": {
       "price_scale": 6,
       "min_amount": 0.300
@@ -186,11 +202,43 @@
     }
   },
   "currencies": {
-    "EUR": {
+    "ADA": {
+      "scale": 5,
+      "withdrawal_fee": 0.3
+    },
+    "BCH": {
+      "scale": 5,
+      "withdrawal_fee": 0.00100
+    },
+    "BTC": {
+      "scale": 5,
+      "withdrawal_fee": 0.001
+    },
+    "CAD": {
       "scale": 4,
       "withdrawal_fee": 60.0
     },
-    "USD": {
+    "DASH": {
+      "scale": 5,
+      "withdrawal_fee": 0.00500
+    },
+    "DOGE": {
+      "scale": 5,
+      "withdrawal_fee": 2.00
+    },
+    "EOS": {
+      "scale": 5,
+      "withdrawal_fee": 0.50000
+    },
+    "ETC": {
+      "scale": 5,
+      "withdrawal_fee": 0.00500
+    },
+    "ETH": {
+      "scale": 5,
+      "withdrawal_fee": 0.00500
+    },
+    "EUR": {
       "scale": 4,
       "withdrawal_fee": 60.0
     },
@@ -198,90 +246,66 @@
       "scale": 4,
       "withdrawal_fee": 60.0
     },
-    "CAD": {
-      "scale": 4,
-      "withdrawal_fee": 60.0
+    "GNO": {
+      "scale": 5,
+      "withdrawal_fee": 0.00500
+    },
+    "ICN": {
+      "scale": 5,
+      "withdrawal_fee": 0.20000
     },
     "JPY": {
       "scale": 2,
       "withdrawal_fee": 300.0
     },
-    "BTC": {
-      "scale": 10,
-      "withdrawal_fee": 0.001
-    },
-    "USDT": {
-      "scale": 8,
-      "withdrawal_fee": 5.0000
-    },
-    "XRP": {
-      "scale": 8,
-      "withdrawal_fee": 0.02000
-    },
-    "XLM": {
-      "scale": 8,
-      "withdrawal_fee": 0.00002
-    },
     "LTC": {
-      "scale": 10,
+      "scale": 5,
       "withdrawal_fee": 0.00100
-    },
-    "XVN": {
-      "scale": 4,
-      "withdrawal_fee": 0.00010
-    },
-    "DOGE": {
-      "scale": 8,
-      "withdrawal_fee": 2.00
-    },
-    "DASH": {
-      "scale": 10,
-      "withdrawal_fee": 0.00500
-    },
-    "ETH": {
-      "scale": 10,
-      "withdrawal_fee": 0.00500
-    },
-    "ETC": {
-      "scale": 10,
-      "withdrawal_fee": 0.00500
-    },
-    "REP": {
-      "scale": 8,
-      "withdrawal_fee": 0.01000
-    },
-    "ZEC": {
-      "scale": 10,
-      "withdrawal_fee": 0.00010
-    },
-    "ICN": {
-      "scale": 10,
-      "withdrawal_fee": 0.20000
     },
     "MLN": {
-      "scale": 10,
+      "scale": 5,
       "withdrawal_fee": 0.00300
     },
+    "QTUM": {
+      "scale": 5,
+      "withdrawal_fee": 0.01000
+    },
+    "REP": {
+      "scale": 5,
+      "withdrawal_fee": 0.01000
+    },
+    "USD": {
+      "scale": 4,
+      "withdrawal_fee": 60.0
+    },
+    "USDT": {
+      "scale": 5,
+      "withdrawal_fee": 5.0000
+    },
+    "XLM": {
+      "scale": 5,
+      "withdrawal_fee": 0.00002
+    },
     "XMR": {
-      "scale": 10,
+      "scale": 5,
       "withdrawal_fee": 0.05000
     },
-    "GNO": {
-      "scale": 10,
-      "withdrawal_fee": 0.00500
+    "XRP": {
+      "scale": 5,
+      "withdrawal_fee": 0.02000
     },
-    "EOS": {
-      "scale": 10,
-      "withdrawal_fee": 0.50000
+    "XVN": {
+      "scale": 5,
+      "withdrawal_fee": 0.00010
     },
-    "BCH": {
-      "scale": 10,
-      "withdrawal_fee": 0.00100
+    "ZEC": {
+      "scale": 5,
+      "withdrawal_fee": 0.00010
     }
   },
   "public_rate_limits": [
     {
-      "calls": 4,
+      "calls": 2,
       "time_span": 1,
       "time_unit": "seconds"
     }
