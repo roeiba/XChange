@@ -558,6 +558,18 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"DOCK/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.001
+		},
+		"DOCK/ETH": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.001
+		},
 		"EDO/BTC": {
 			"min_amount": 0.01,
 			"max_amount": 90000000,
@@ -732,6 +744,18 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"GO/BNB": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 6,
+			"trading_fee": 0.001
+		},
+		"GO/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.001
+		},
 		"GRS/BTC": {
 			"min_amount": 1,
 			"max_amount": 90000000,
@@ -784,6 +808,30 @@
 			"min_amount": 0.01,
 			"max_amount": 90000000,
 			"price_scale": 6,
+			"trading_fee": 0.001
+		},
+		"HC/BTC": {
+			"min_amount": 0.01,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.001
+		},
+		"HC/ETH": {
+			"min_amount": 0.01,
+			"max_amount": 90000000,
+			"price_scale": 6,
+			"trading_fee": 0.001
+		},
+		"HOT/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.001
+		},
+		"HOT/ETH": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
 			"trading_fee": 0.001
 		},
 		"HSR/BTC": {
@@ -1278,6 +1326,12 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"NULS/USDT": {
+			"min_amount": 0.01,
+			"max_amount": 10000000,
+			"price_scale": 4,
+			"trading_fee": 0.001
+		},
 		"NXS/BNB": {
 			"min_amount": 0.01,
 			"max_amount": 10000000,
@@ -1362,6 +1416,48 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"PAX/BNB": {
+			"min_amount": 0.1,
+			"max_amount": 90000000,
+			"price_scale": 5,
+			"trading_fee": 0.001
+		},
+		"PAX/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.001
+		},
+		"PAX/ETH": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.001
+		},
+		"PAX/USDT": {
+			"min_amount": 0.01,
+			"max_amount": 10000000,
+			"price_scale": 4,
+			"trading_fee": 0.001
+		},
+		"PHX/BNB": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 6,
+			"trading_fee": 0.001
+		},
+		"PHX/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.001
+		},
+		"PHX/ETH": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.001
+		},
 		"PIVX/BNB": {
 			"min_amount": 0.01,
 			"max_amount": 90000000,
@@ -1405,6 +1501,18 @@
 			"trading_fee": 0.001
 		},
 		"POE/ETH": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.001
+		},
+		"POLY/BNB": {
+			"min_amount": 0.1,
+			"max_amount": 90000000,
+			"price_scale": 5,
+			"trading_fee": 0.001
+		},
+		"POLY/BTC": {
 			"min_amount": 1,
 			"max_amount": 90000000,
 			"price_scale": 8,
@@ -1848,6 +1956,12 @@
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
+		"TRX/BNB": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 6,
+			"trading_fee": 0.001
+		},
 		"TRX/BTC": {
 			"min_amount": 1,
 			"max_amount": 90000000,
@@ -1912,6 +2026,30 @@
 			"min_amount": 0.01,
 			"max_amount": 10000000,
 			"price_scale": 4,
+			"trading_fee": 0.001
+		},
+		"VET/BNB": {
+			"min_amount": 0.1,
+			"max_amount": 90000000,
+			"price_scale": 5,
+			"trading_fee": 0.001
+		},
+		"VET/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.001
+		},
+		"VET/ETH": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.001
+		},
+		"VET/USDT": {
+			"min_amount": 0.1,
+			"max_amount": 90000000,
+			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"VIA/BNB": {
@@ -2392,6 +2530,9 @@
 			"scale": 8,
 			"withdrawal_fee": 42.0
 		},
+		"DOCK": {
+			"scale": 8
+		},
 		"EDO": {
 			"scale": 8,
 			"withdrawal_fee": 1.7
@@ -2443,6 +2584,9 @@
 		"GNT": {
 			"scale": 8
 		},
+		"GO": {
+			"scale": 8
+		},
 		"GRS": {
 			"scale": 8,
 			"withdrawal_fee": 0.2
@@ -2459,9 +2603,15 @@
 			"scale": 8,
 			"withdrawal_fee": 0.3
 		},
+		"HC": {
+			"scale": 8
+		},
 		"HCC": {
 			"scale": 8,
 			"withdrawal_fee": 0.00050
+		},
+		"HOT": {
+			"scale": 8
 		},
 		"HSR": {
 			"scale": 8,
@@ -2612,6 +2762,12 @@
 			"scale": 8,
 			"withdrawal_fee": 17.0
 		},
+		"PAX": {
+			"scale": 8
+		},
+		"PHX": {
+			"scale": 8
+		},
 		"PIVX": {
 			"scale": 8,
 			"withdrawal_fee": 0.02
@@ -2623,6 +2779,9 @@
 		"POE": {
 			"scale": 8,
 			"withdrawal_fee": 86.0
+		},
+		"POLY": {
+			"scale": 8
 		},
 		"POWR": {
 			"scale": 8,
@@ -2750,6 +2909,9 @@
 		"VEN": {
 			"scale": 8,
 			"withdrawal_fee": 1.0
+		},
+		"VET": {
+			"scale": 8
 		},
 		"VIA": {
 			"scale": 8,
