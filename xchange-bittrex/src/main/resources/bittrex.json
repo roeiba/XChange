@@ -44,18 +44,6 @@
       "price_scale": 8,
       "min_amount": 0.00055000
     },
-    "BTG/BTC": {
-      "price_scale": 8,
-      "min_amount": 0.07000000
-    },
-    "BTG/ETH": {
-      "price_scale": 8,
-      "min_amount": 0.07000000
-    },
-    "BTG/USDT": {
-      "price_scale": 8,
-      "min_amount": 0.07000000
-    },
     "DASH/BTC": {
       "price_scale": 8,
       "min_amount": 0.01200000
@@ -433,10 +421,6 @@
     "BTCD": {
       "scale": 8,
       "withdrawal_fee": 0.02
-    },
-    "BTG": {
-      "scale": 8,
-      "withdrawal_fee": 0.001
     },
     "DASH": {
       "scale": 8,
