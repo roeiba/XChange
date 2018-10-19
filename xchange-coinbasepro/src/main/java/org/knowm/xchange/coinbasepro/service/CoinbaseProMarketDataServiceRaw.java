@@ -14,9 +14,12 @@ import org.knowm.xchange.coinbasepro.dto.marketdata.CoinbaseProProductStats;
 import org.knowm.xchange.coinbasepro.dto.marketdata.CoinbaseProProductTicker;
 import org.knowm.xchange.coinbasepro.dto.marketdata.CoinbaseProTrade;
 import org.knowm.xchange.currency.CurrencyPair;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @Slf4j
 public class CoinbaseProMarketDataServiceRaw extends CoinbaseProBaseService {
+  private final Logger log = LoggerFactory.getLogger(CoinbaseProMarketDataServiceRaw.class);
 
   public CoinbaseProMarketDataServiceRaw(Exchange exchange) {
 
