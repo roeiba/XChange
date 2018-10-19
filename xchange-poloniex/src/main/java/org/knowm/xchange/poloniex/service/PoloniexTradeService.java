@@ -27,6 +27,7 @@ import org.knowm.xchange.poloniex.PoloniexErrorAdapter;
 import org.knowm.xchange.poloniex.PoloniexUtils;
 import org.knowm.xchange.poloniex.dto.PoloniexException;
 import org.knowm.xchange.poloniex.dto.trade.PoloniexLimitOrder;
+import org.knowm.xchange.poloniex.dto.trade.PoloniexMoveResponse;
 import org.knowm.xchange.poloniex.dto.trade.PoloniexOpenOrder;
 import org.knowm.xchange.poloniex.dto.trade.PoloniexTradeResponse;
 import org.knowm.xchange.poloniex.dto.trade.PoloniexUserTrade;
@@ -115,7 +116,16 @@ public class PoloniexTradeService extends PoloniexTradeServiceRaw implements Tra
       throw PoloniexErrorAdapter.adapt(e);
     }
   }
-
+  
+  @Override
+  public String replaceLimitOrder(String replaceOrderId, LimitOrder newLimitOrder) throws IOException {
+	  PoloniexMoveResponse response = move(replaceOrderId, newLimitOrder.getOriginalAmount(), newLimitOrder.getLimitPrice());
+	  if (response.success() == false) {
+		  return null; // Atomic operation failed
+	  }
+      return response.getOrderNumber().toString();
+  }
+  
   @Override
   public boolean cancelOrder(String orderId) throws IOException {
 
