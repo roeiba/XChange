@@ -107,6 +107,12 @@ public class BitfinexTradeService extends BitfinexTradeServiceRaw implements Tra
   }
 
   @Override
+  public String replaceLimitOrder(String replaceOrderId, LimitOrder newLimitOrder) throws IOException {
+	BitfinexOrderStatusResponse newOrder = replaceBitfinexLimitOrder(newLimitOrder, BitfinexOrderType.LIMIT, Long.valueOf(replaceOrderId));
+    return String.valueOf(newOrder.getId());
+  }
+  
+  @Override
   public boolean cancelOrder(String orderId) throws IOException {
 
     return cancelBitfinexOrder(orderId);
