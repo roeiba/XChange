@@ -3,6 +3,7 @@ package org.knowm.xchange.service.trade;
 import java.io.IOException;
 import java.util.Collection;
 import org.knowm.xchange.dto.Order;
+import org.knowm.xchange.dto.Order.OrderType;
 import org.knowm.xchange.dto.account.OpenPositions;
 import org.knowm.xchange.dto.trade.*;
 import org.knowm.xchange.exceptions.ExchangeException;
@@ -174,7 +175,28 @@ public interface TradeService extends BaseService {
   }
 
   /**
-   * cancels order with matching orderId (conveniance method, typical just delegate to
+   * Replaces an existing {@link LimitOrder} in a single atomic transaction.
+   * <br>This usually involves canceling the existing order and placing a new one, of the same
+   * {@link OrderType} but with an updated amount and/or price.
+   *
+   * @param replaceOrderId - the order ID to be replaced. When null is returned it means the atomic
+   * transaction has failed
+   * @param newLimitOrder - the new {@link LimitOrder}
+   * @return the new order ID
+   * @throws ExchangeException - Indication that the exchange reported some kind of error with the
+   *     request or response
+   * @throws NotAvailableFromExchangeException - Indication that the exchange does not support the
+   *     requested function or data
+   * @throws NotYetImplementedForExchangeException - Indication that the exchange supports the
+   *     requested function or data, but it has not yet been implemented
+   * @throws IOException - Indication that a networking error occurred while fetching JSON data
+   */
+  default String replaceLimitOrder(String replaceOrderId, LimitOrder newLimitOrder) throws IOException {
+    throw new NotYetImplementedForExchangeException();
+  }
+  
+  /**
+   * cancels order with matching orderId (convenience method, typical just delegate to
    * cancelOrder(CancelOrderByIdParams))
    *
    * @param orderId
