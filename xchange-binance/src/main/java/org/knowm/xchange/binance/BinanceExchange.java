@@ -160,7 +160,7 @@ public class BinanceExchange extends BaseExchange {
     for (Filter filter : filters) {
       switch (filter.getFilterType()) {
         case "PRICE_FILTER":
-          priceScale = Math.min(priceScale, numberOfDecimals(filter.getMinPrice()));
+          priceScale = numberOfDecimals(filter.getMinPrice());
           break;
         case "LOT_SIZE":
           // In Binance, minimum amount is also minimum step size
