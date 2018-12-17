@@ -2,6 +2,7 @@ package org.knowm.xchange.binance;
 
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Map;
@@ -160,13 +161,14 @@ public class BinanceExchange extends BaseExchange {
     for (Filter filter : filters) {
       switch (filter.getFilterType()) {
         case "PRICE_FILTER":
-          priceScale = numberOfDecimals(filter.getMinPrice());
+          priceScale = numberOfDecimals(filter.getTickSize());
           break;
         case "LOT_SIZE":
           // In Binance, minimum amount is also minimum step size
-          // Remove all trailing zeros in order to get the real scale the amount  
-	      minAmount = new BigDecimal(filter.getMinQty()).stripTrailingZeros();
-	      maxAmount = new BigDecimal(filter.getMaxQty()).stripTrailingZeros();
+          // Remove all trailing zeros in order to get the real scale the amount
+        	  int amountScale = numberOfDecimals(filter.getStepSize());
+	      minAmount = new BigDecimal(filter.getMinQty()).stripTrailingZeros().setScale(amountScale, RoundingMode.HALF_DOWN);
+	      maxAmount = new BigDecimal(filter.getMaxQty()).stripTrailingZeros().setScale(amountScale, RoundingMode.HALF_DOWN);
           break;
 	  	case "MIN_NOTIONAL":
 	      minNotional = new BigDecimal(filter.getMinNotional());
