@@ -87,11 +87,10 @@ public class BinanceExchange extends BaseExchange {
 
       for (Symbol symbol : symbols) {
         CurrencyPair pair = new CurrencyPair(symbol.getBaseAsset(), symbol.getQuoteAsset());
-        CurrencyPairMetaData pairMetaData = currencyPairs.get(pair);
         int basePrecision = Integer.parseInt(symbol.getBaseAssetPrecision());
         int counterPrecision = Integer.parseInt(symbol.getQuotePrecision());
         
-        addCurrencyPairMetaData(currencyPairs, symbol, pair, pairMetaData);
+        addCurrencyPairMetaData(currencyPairs, symbol, pair);
     
         addCurrencyMetadata(currencies, pair.base, basePrecision);
         addCurrencyMetadata(currencies, pair.counter, counterPrecision);
@@ -106,70 +105,85 @@ public class BinanceExchange extends BaseExchange {
   private void addCurrencyPairMetaData(
     Map<CurrencyPair, CurrencyPairMetaData> currencyPairs, 
 	Symbol symbol,
-	CurrencyPair pair, 
-	CurrencyPairMetaData pairMetaData) {
-	  
-	// Avoid overriding existing values.
-	if (pairMetaData == null) {
-	  
-	  int priceScale = DEFAULT_PRECISION;
-	    
-	  // defaults
-	  BigDecimal tradingFee = new BigDecimal("0.001"); // Trading fee at Binance is 0.1 %
-	  BigDecimal minAmount = BigDecimal.ZERO;
-	  BigDecimal maxAmount = BigDecimal.ZERO;
-	  BigDecimal minNotional = BigDecimal.ZERO;
-	  
-	  /**
-	   * Binance Filter example: 
-	   * 
-	   * filters: [
-			{
-				filterType: "PRICE_FILTER",
-				minPrice: "0.00000001",
-				maxPrice: "100000.00000000",
-				tickSize: "0.00000001"
-			},
-			{
-				filterType: "LOT_SIZE",
-				minQty: "1.00000000",
-				maxQty: "90000000.00000000",
-				stepSize: "1.00000000"
-			},
-			{
-				filterType: "MIN_NOTIONAL",
-				minNotional: "0.01000000"
-			}
-		]
-	   */
+	CurrencyPair pair) {
+	
+    CurrencyPairMetaData existingPairMetaData = currencyPairs.get(pair);
+    
+    // defaults
+    int priceScale = DEFAULT_PRECISION;
+    BigDecimal tradingFee = new BigDecimal("0.001"); // Trading fee at Binance is 0.1 %
+    BigDecimal minAmount = BigDecimal.ZERO;
+    BigDecimal maxAmount = BigDecimal.ZERO;
+    BigDecimal minNotional = BigDecimal.ZERO;
+    
+	// Override defaults with static
+    if (existingPairMetaData != null) {
+      if (existingPairMetaData.getPriceScale() != null) {
+		priceScale = existingPairMetaData.getPriceScale();
+	  }
+	  if (existingPairMetaData.getTradingFee() != null) {
+	    tradingFee = existingPairMetaData.getTradingFee();
+	  }
+	  if (existingPairMetaData.getMinimumAmount() != null) {
+	    minAmount = existingPairMetaData.getMinimumAmount();
+	  }
+	  if (existingPairMetaData.getMaximumAmount() != null) {
+	    maxAmount = existingPairMetaData.getMaximumAmount();
+	  }
+    }
+	
+	// Override static data with dynamic data if exist
+    /**
+     * Binance Filter example: 
+	 * 
+	 * filters: [
+		{
+			filterType: "PRICE_FILTER",
+			minPrice: "0.00000001",
+			maxPrice: "100000.00000000",
+			tickSize: "0.00000001"
+		},
+		{
+			filterType: "LOT_SIZE",
+			minQty: "1.00000000",
+			maxQty: "90000000.00000000",
+			stepSize: "1.00000000"
+		},
+		{
+			filterType: "MIN_NOTIONAL",
+			minNotional: "0.01000000"
+		}
+	  ]
+	*/
     Filter[] filters = symbol.getFilters(); 
 
-	for (Filter filter : filters) {
-	  switch (filter.getFilterType()) {
-	  	case "PRICE_FILTER":
-	 	  priceScale = Math.min(priceScale, numberOfDecimals(filter.getMinPrice()));
-	  	  break;
-	  	case "LOT_SIZE":
-	  	  // In Binance, minimum amount is also minimum step size
-		  // Remove all trailing zeros in order to get the real scale the amount  
-	  	  minAmount = new BigDecimal(filter.getMinQty()).stripTrailingZeros();
-	  	  maxAmount = new BigDecimal(filter.getMaxQty()).stripTrailingZeros();
-		  break;
+    for (Filter filter : filters) {
+      switch (filter.getFilterType()) {
+        case "PRICE_FILTER":
+          priceScale = Math.min(priceScale, numberOfDecimals(filter.getMinPrice()));
+          break;
+        case "LOT_SIZE":
+          // In Binance, minimum amount is also minimum step size
+          // Remove all trailing zeros in order to get the real scale the amount  
+	      minAmount = new BigDecimal(filter.getMinQty()).stripTrailingZeros();
+	      maxAmount = new BigDecimal(filter.getMaxQty()).stripTrailingZeros();
+          break;
 	  	case "MIN_NOTIONAL":
-	  	  minNotional = new BigDecimal(filter.getMinNotional());
-	  	  break;
-	    }
+	      minNotional = new BigDecimal(filter.getMinNotional());
+	      break;
 	  }
-	    
-	  currencyPairs.put(pair, new BinanceCurrencyPairMetaData(
-		tradingFee,
-		minAmount, 
-		maxAmount, 
-		priceScale,
-		minNotional) 
-	  );            
-	}
-}
+    }
+	
+	// Assign the new value
+	currencyPairs.put(pair, new BinanceCurrencyPairMetaData(
+	  tradingFee,
+	  minAmount,
+	  maxAmount,
+	  priceScale,
+	  minNotional)
+	);
+  }
+
 
   private void addCurrencyMetadata(Map<Currency, CurrencyMetaData> currencies, Currency currency, int precision) {
 	CurrencyMetaData baseMetaData = currencies.get(currency);
