@@ -473,7 +473,8 @@ public final class BitfinexAdapters {
                 		  currencyPairs.get(currencyPair) == null ? null : currencyPairs.get(currencyPair).getTradingFee(), // Take tradingFee from static metaData if exists
                           bitfinexSymbolDetail.getMinimum_order_size().setScale(2, RoundingMode.DOWN), // Bitfinex amount's scale is always 2
                           bitfinexSymbolDetail.getMaximum_order_size().setScale(2, RoundingMode.DOWN),
-                          priceScale);
+                          priceScale,
+                          null);
               currencyPairs.put(currencyPair, newMetaData);
          });
     return exchangeMetaData;
@@ -503,7 +504,7 @@ public final class BitfinexAdapters {
     // lets go with the assumption that the trading fees are common across all trading pairs for now.
     // also setting the taker_fee as the trading_fee for now.
     final CurrencyPairMetaData metaData =
-        new CurrencyPairMetaData(bitfinexAccountInfos[0].getTakerFees().movePointLeft(2), null, null, null);
+        new CurrencyPairMetaData(bitfinexAccountInfos[0].getTakerFees().movePointLeft(2), null, null, null, null);
     currencyPairs
         .keySet()
         .parallelStream()
