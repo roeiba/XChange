@@ -181,7 +181,8 @@ public class BinanceExchange extends BaseExchange {
 	  minAmount,
 	  maxAmount,
 	  priceScale,
-	  minNotional)
+	  minNotional,
+	  null)
 	);
   }
 
