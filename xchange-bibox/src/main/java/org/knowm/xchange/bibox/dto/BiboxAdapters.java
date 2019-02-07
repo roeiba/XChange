@@ -1,6 +1,9 @@
 package org.knowm.xchange.bibox.dto;
 
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -40,7 +43,9 @@ import org.knowm.xchange.utils.DateUtils;
 
 /** @author odrotleff */
 public class BiboxAdapters {
-
+	
+  private static final int DEFAULT_PRECISION = 8;
+  
   public static String toBiboxPair(CurrencyPair pair) {
 
     return pair.base.getCurrencyCode() + "_" + pair.counter.getCurrencyCode();
@@ -127,10 +132,40 @@ public class BiboxAdapters {
   public static ExchangeMetaData adaptMetadata(List<BiboxMarket> markets) {
     Map<CurrencyPair, CurrencyPairMetaData> pairMeta = new HashMap<>();
     for (BiboxMarket biboxMarket : markets) {
-      pairMeta.put(
-          new CurrencyPair(biboxMarket.getCoinSymbol(), biboxMarket.getCurrencySymbol()),
-          new CurrencyPairMetaData(null, null, null, null, null));
+    	  // defaults
+      int priceScale = DEFAULT_PRECISION;
+      BigDecimal tradingFee = new BigDecimal("0.001"); // Trading fee at Bibox is 0.1 %
+      BigDecimal minAmount = BigDecimal.ZERO;
+      BigDecimal maxAmount = BigDecimal.ZERO;
+        
+      CurrencyPair pair = new CurrencyPair(biboxMarket.getCoinSymbol(), biboxMarket.getCurrencySymbol());
+      priceScale = biboxMarket.getLast().scale();
+    	  
+    	  // In Bibox, minimum amount cannot be parsed from API. There's minimum notional of 1 USD...
+      int amountScale = biboxMarket.getAmount().scale();
+    	  BigDecimal minAmountByScale = BigDecimal.ONE
+    			  .divide(BigDecimal.TEN)
+    			  .pow(amountScale);
+    	  BigDecimal minAmountByMinimumNotional = BigDecimal.ONE.
+    			  divide(biboxMarket.getLastUsd(), RoundingMode.HALF_DOWN);
+    	  
+    	  // Choose the amount that holds both restrictions
+    	  minAmount  = minAmountByMinimumNotional
+    			  .max(minAmountByScale)
+    			  .setScale(amountScale, RoundingMode.HALF_DOWN);
+    	  
+    	  // Assume $10,000 as maximum notional and calculate max amount 
+      maxAmount = new BigDecimal("10000").divide(biboxMarket.getLastUsd(), RoundingMode.HALF_DOWN).setScale(amountScale, RoundingMode.HALF_DOWN);
+      
+      CurrencyPairMetaData metadata = new CurrencyPairMetaData(
+    		  tradingFee,
+    		  minAmount,
+    		  maxAmount,
+    		  priceScale,
+    		  null); 
+      pairMeta.put(pair, metadata);
     }
+    // Currencies are not returned from API and exist only on resource file
     return new ExchangeMetaData(pairMeta, null, null, null, null);
   }
 

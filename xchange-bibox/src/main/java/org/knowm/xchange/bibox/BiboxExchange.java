@@ -1,16 +1,27 @@
 package org.knowm.xchange.bibox;
 
 import java.io.IOException;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+
 import org.knowm.xchange.BaseExchange;
 import org.knowm.xchange.Exchange;
 import org.knowm.xchange.ExchangeSpecification;
+import org.knowm.xchange.bibox.dto.marketdata.BiboxMarket;
 import org.knowm.xchange.bibox.service.BiboxAccountService;
 import org.knowm.xchange.bibox.service.BiboxMarketDataService;
 import org.knowm.xchange.bibox.service.BiboxTradeService;
+import org.knowm.xchange.currency.Currency;
+import org.knowm.xchange.currency.CurrencyPair;
+import org.knowm.xchange.dto.meta.CurrencyMetaData;
+import org.knowm.xchange.dto.meta.CurrencyPairMetaData;
+import org.knowm.xchange.dto.meta.ExchangeMetaData;
 import org.knowm.xchange.exceptions.ExchangeException;
 
 public class BiboxExchange extends BaseExchange implements Exchange {
 
+  private ExchangeMetaData exchangeInfo;
   @Override
   protected void initServices() {
     this.marketDataService = new BiboxMarketDataService(this);
@@ -32,6 +43,14 @@ public class BiboxExchange extends BaseExchange implements Exchange {
 
   @Override
   public void remoteInit() throws IOException, ExchangeException {
-    exchangeMetaData = ((BiboxMarketDataService) marketDataService).getMetadata();
+    try {
+      // Update local exchange meta data from remote API call
+      BiboxMarketDataService marketDataService = (BiboxMarketDataService) this.marketDataService;
+      exchangeInfo = marketDataService.getMetadata();
+      exchangeMetaData.getCurrencyPairs().putAll(exchangeInfo.getCurrencyPairs());
+      // Currencies are not returned from API and exist only on resource file
+    } catch (Exception e) {
+      throw new ExchangeException("Failed to initialize: " + e.getMessage(), e);
+    }
   }
 }
