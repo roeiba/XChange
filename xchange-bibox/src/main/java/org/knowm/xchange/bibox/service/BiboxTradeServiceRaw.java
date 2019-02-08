@@ -19,6 +19,7 @@ import org.knowm.xchange.bibox.dto.trade.BiboxOrderSide;
 import org.knowm.xchange.bibox.dto.trade.BiboxOrderType;
 import org.knowm.xchange.bibox.dto.trade.BiboxOrders;
 import org.knowm.xchange.bibox.dto.trade.BiboxTradeCommand;
+import org.knowm.xchange.currency.CurrencyPair;
 import org.knowm.xchange.dto.trade.LimitOrder;
 import org.knowm.xchange.dto.trade.MarketOrder;
 import org.knowm.xchange.exceptions.ExchangeException;
@@ -82,11 +83,16 @@ public class BiboxTradeServiceRaw extends BiboxBaseService {
       throw new ExchangeException(e.getMessage());
     }
   }
-
   public BiboxOrders getBiboxOpenOrders() {
+	  return getBiboxOpenOrders(null);
+  }
+  
+  public BiboxOrders getBiboxOpenOrders(CurrencyPair pair) {
     try {
       BiboxOrderPendingListCommandBody body =
           new BiboxOrderPendingListCommandBody(
+        		  pair == null ? null: BiboxAdapters.toBiboxPair(pair),
+        		  // Maximum page size is define to 50. Paging might be needed
               1, Integer.MAX_VALUE); // wonder if this actually works
       BiboxOrderPendingListCommand cmd = new BiboxOrderPendingListCommand(body);
       BiboxSingleResponse<BiboxOrders> response =
@@ -97,11 +103,16 @@ public class BiboxTradeServiceRaw extends BiboxBaseService {
       throw new ExchangeException(e.getMessage());
     }
   }
-
+ 
   public BiboxOrders getBiboxOrderHistory() {
+	  return getBiboxOrderHistory(null);
+  }
+  
+  public BiboxOrders getBiboxOrderHistory(CurrencyPair pair) {
     try {
       BiboxOrderPendingListCommandBody body =
           new BiboxOrderPendingListCommandBody(
+        		  pair == null ? null: BiboxAdapters.toBiboxPair(pair),
               1, Integer.MAX_VALUE); // wonder if this actually works
       BiboxOrderHistoryCommand cmd = new BiboxOrderHistoryCommand(body);
       BiboxSingleResponse<BiboxOrders> response =
