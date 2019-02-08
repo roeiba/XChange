@@ -1,7 +1,5 @@
 package org.knowm.xchange.bitfinex.v2;
 
-import static org.junit.Assert.*;
-
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
