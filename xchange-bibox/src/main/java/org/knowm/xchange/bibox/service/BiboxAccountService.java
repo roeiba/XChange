@@ -58,7 +58,7 @@ public class BiboxAccountService extends BiboxAccountServiceRaw implements Accou
   public List<FundingRecord> getFundingHistory(TradeHistoryParams params) {
 
     if (!(params instanceof TradeHistoryParamCurrency)) {
-      throw new RuntimeException("You must provide the currency for funding history @ Bibox.");
+      throw new RuntimeException("You must provide the TradeHistoryParamCurrency for funding history @ Bibox.");
     }
     Currency c = ((TradeHistoryParamCurrency) params).getCurrency();
     if (c == null) {
