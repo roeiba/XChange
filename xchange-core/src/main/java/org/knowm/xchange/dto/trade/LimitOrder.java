@@ -99,6 +99,47 @@ public class LimitOrder extends Order implements Comparable<LimitOrder> {
       BigDecimal fee,
       OrderStatus status) {
 
+    this(
+        type,
+        originalAmount,
+        currencyPair,
+        id,
+        timestamp,
+        limitPrice,
+        averagePrice,
+        cumulativeAmount,
+        fee,
+        status,
+        null);
+  }
+  
+  /**
+   * @param type Either BID (buying) or ASK (selling)
+   * @param originalAmount The amount to trade
+   * @param currencyPair The identifier (e.g. BTC/USD)
+   * @param id An id (usually provided by the exchange)
+   * @param timestamp a Date object representing the order's timestamp according to the exchange's
+   *     server, null if not provided
+   * @param limitPrice In a BID this is the highest acceptable price, in an ASK this is the lowest
+   *     acceptable price
+   * @param averagePrice the weighted average price of any fills belonging to the order
+   * @param cumulativeAmount the amount that has been filled
+   * @param status the status of the order at the exchange or broker
+   * @param userReference An id provided by the user
+   */
+  public LimitOrder(
+      OrderType type,
+      BigDecimal originalAmount,
+      CurrencyPair currencyPair,
+      String id,
+      Date timestamp,
+      BigDecimal limitPrice,
+      BigDecimal averagePrice,
+      BigDecimal cumulativeAmount,
+      BigDecimal fee,
+      OrderStatus status,
+      String userReference) {
+
     super(
         type,
         originalAmount,
@@ -108,7 +149,8 @@ public class LimitOrder extends Order implements Comparable<LimitOrder> {
         averagePrice,
         cumulativeAmount,
         fee,
-        status);
+        status,
+        userReference);
     this.limitPrice = limitPrice;
   }
 
@@ -192,7 +234,8 @@ public class LimitOrder extends Order implements Comparable<LimitOrder> {
                   .id(order.getId())
                   .flags(order.getOrderFlags())
                   .orderStatus(order.getStatus())
-                  .averagePrice(order.getAveragePrice());
+                  .averagePrice(order.getAveragePrice())
+                  .userReference(order.getUserReference());
       if (order instanceof LimitOrder) {
         LimitOrder limitOrder = (LimitOrder) order;
         builder.limitPrice(limitOrder.getLimitPrice());
@@ -233,6 +276,12 @@ public class LimitOrder extends Order implements Comparable<LimitOrder> {
     public Builder id(String id) {
 
       return (Builder) super.id(id);
+    }
+
+    @Override
+    public Builder userReference(String userReference) {
+
+      return (Builder) super.userReference(userReference);
     }
 
     @Override
@@ -291,7 +340,8 @@ public class LimitOrder extends Order implements Comparable<LimitOrder> {
                   ? cumulativeAmount
                   : originalAmount.subtract(remainingAmount),
               fee,
-              status);
+              status,
+              userReference);
       order.setOrderFlags(flags);
       return order;
     }
