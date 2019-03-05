@@ -229,6 +229,10 @@ public class BiboxAdapters {
     }
   }
 
+  public static Date convert(long millisecondsFromEpoch) {
+      return DateUtils.fromMillisUtc(millisecondsFromEpoch);
+  }
+
   public static FundingRecord adaptDeposit(BiboxDeposit d) {
     return new FundingRecord(
         d.to,
