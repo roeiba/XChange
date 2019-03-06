@@ -47,7 +47,7 @@ public class HitbtcAdapters {
               "EURSTUSD",
               "ZRXTUSD"));
 
-  public static CurrencyPair adaptSymbol(String symbol) {
+  public static CurrencyPair adaptCurrencyPairIn(String symbol) {
     // In order to differentiate xxxTUSD and xxxUSD
     String tempSymbol =
         symbol.endsWith("USD") && !TUSD_SYMBOLS.contains(symbol) ? symbol + "T" : symbol;
@@ -67,7 +67,9 @@ public class HitbtcAdapters {
 
   public static CurrencyPair adaptSymbol(HitbtcSymbol hitbtcSymbol) {
 
-    return new CurrencyPair(hitbtcSymbol.getBaseCurrency(), hitbtcSymbol.getQuoteCurrency());
+    return new CurrencyPair(
+    		adaptCurrencyIn(hitbtcSymbol.getBaseCurrency()), 
+    		adaptCurrencyIn(hitbtcSymbol.getQuoteCurrency()));
   }
 
   public static Ticker adaptTicker(HitbtcTicker hitbtcTicker, CurrencyPair currencyPair) {
@@ -98,7 +100,7 @@ public class HitbtcAdapters {
 
     for (Map.Entry<String, HitbtcTicker> ticker : hitbtcTickers.entrySet()) {
 
-      tickers.add(adaptTicker(ticker.getValue(), adaptSymbol(ticker.getKey())));
+      tickers.add(adaptTicker(ticker.getValue(), adaptCurrencyPairIn(ticker.getKey())));
     }
 
     return tickers;
@@ -177,7 +179,7 @@ public class HitbtcAdapters {
     return new HitbtcLimitOrder(
         type,
         hitbtcOrder.quantity,
-        adaptSymbol(hitbtcOrder.symbol),
+        adaptCurrencyPairIn(hitbtcOrder.symbol),
         hitbtcOrder.id,
         hitbtcOrder.getCreatedAt(),
         hitbtcOrder.price,
@@ -213,7 +215,7 @@ public class HitbtcAdapters {
     for (HitbtcOwnTrade hitbtcOwnTrade : tradeHistoryRaw) {
 
       OrderType type = adaptOrderType(hitbtcOwnTrade.getSide().getValue());
-      CurrencyPair pair = adaptSymbol(hitbtcOwnTrade.symbol);
+      CurrencyPair pair = adaptCurrencyPairIn(hitbtcOwnTrade.symbol);
       BigDecimal originalAmount = hitbtcOwnTrade.getQuantity();
       Date timestamp = hitbtcOwnTrade.getTimestamp();
       String id = Long.toString(hitbtcOwnTrade.getId());
@@ -244,7 +246,7 @@ public class HitbtcAdapters {
     List<Balance> balances = new ArrayList<>(hitbtcBalances.size());
 
     for (HitbtcBalance balanceRaw : hitbtcBalances) {
-      Currency currency = Currency.getInstance(balanceRaw.getCurrency());
+      Currency currency = adaptCurrencyIn(balanceRaw.getCurrency());
       Balance balance =
           new Balance(currency, null, balanceRaw.getAvailable(), balanceRaw.getReserved());
       balances.add(balance);
@@ -252,9 +254,25 @@ public class HitbtcAdapters {
     return new Wallet(name, name, balances);
   }
 
-  public static String adaptCurrencyPair(CurrencyPair pair) {
+  public static Currency adaptCurrencyIn(String currencyString) {
 
-    return pair == null ? null : pair.base.getCurrencyCode() + pair.counter.getCurrencyCode();
+    Currency currency = Currency.getInstance(currencyString);
+    if (currency.equals(Currency.USD)) {
+       currency = Currency.USDT;
+    }
+	return currency;
+  }
+  
+  public static String adaptCurrencyOut(Currency currency) {
+	  // Convert USDT to USD
+	  return currency.equals(Currency.USDT) ?
+			  Currency.USD.getCurrencyCode() :
+			  currency.getCurrencyCode();
+  }
+
+  public static String adaptCurrencyPairOut(CurrencyPair pair) {
+
+    return pair == null ? null : adaptCurrencyOut(pair.base) + adaptCurrencyOut(pair.counter);
   }
 
   public static HitbtcSide getSide(OrderType type) {
@@ -307,7 +325,7 @@ public class HitbtcAdapters {
 
     return new FundingRecord.Builder()
         .setAddress(transaction.getAddress())
-        .setCurrency(Currency.getInstance(transaction.getCurrency()))
+        .setCurrency(adaptCurrencyIn(transaction.getCurrency()))
         .setAmount(transaction.getAmount())
         .setType(convertType(transaction.getType()))
         .setFee(transaction.getFee())

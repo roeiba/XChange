@@ -29,7 +29,7 @@ public class HitbtcTradeServiceRaw extends HitbtcBaseService {
 
   public HitbtcOrder placeMarketOrderRaw(MarketOrder marketOrder) throws IOException {
 
-    String symbol = HitbtcAdapters.adaptCurrencyPair(marketOrder.getCurrencyPair());
+    String symbol = HitbtcAdapters.adaptCurrencyPairOut(marketOrder.getCurrencyPair());
     String side = HitbtcAdapters.getSide(marketOrder.getType()).toString();
 
     String clientOrderId = null;
@@ -49,7 +49,7 @@ public class HitbtcTradeServiceRaw extends HitbtcBaseService {
 
   public HitbtcOrder placeLimitOrderRaw(LimitOrder limitOrder, HitbtcTimeInForce timeInForce)
       throws IOException {
-    String symbol = HitbtcAdapters.adaptCurrencyPair(limitOrder.getCurrencyPair());
+    String symbol = HitbtcAdapters.adaptCurrencyPairOut(limitOrder.getCurrencyPair());
     String side = HitbtcAdapters.getSide(limitOrder.getType()).toString();
 
     return hitbtc.postHitbtcNewOrder(

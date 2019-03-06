@@ -47,18 +47,18 @@ public class HitbtcMarketDataServiceRaw extends HitbtcBaseService {
 
   public HitbtcTicker getHitbtcTicker(CurrencyPair currencyPair) throws IOException {
 
-    return hitbtc.getTicker(HitbtcAdapters.adaptCurrencyPair(currencyPair));
+    return hitbtc.getTicker(HitbtcAdapters.adaptCurrencyPairOut(currencyPair));
   }
 
   public HitbtcOrderBook getHitbtcOrderBook(CurrencyPair currencyPair) throws IOException {
 
-    return hitbtc.getOrderBook(HitbtcAdapters.adaptCurrencyPair(currencyPair), null);
+    return hitbtc.getOrderBook(HitbtcAdapters.adaptCurrencyPairOut(currencyPair), null);
   }
 
   public HitbtcOrderBook getHitbtcOrderBook(CurrencyPair currencyPair, Integer limit)
       throws IOException {
 
-    return hitbtc.getOrderBook(HitbtcAdapters.adaptCurrencyPair(currencyPair), limit);
+    return hitbtc.getOrderBook(HitbtcAdapters.adaptCurrencyPairOut(currencyPair), limit);
   }
 
   public List<HitbtcTrade> getHitbtcTrades(CurrencyPair currencyPair) throws IOException {
@@ -84,7 +84,7 @@ public class HitbtcMarketDataServiceRaw extends HitbtcBaseService {
       long offset)
       throws IOException {
 
-    return hitbtc.getTrades(HitbtcAdapters.adaptCurrencyPair(currencyPair), maxResults, offset);
+    return hitbtc.getTrades(HitbtcAdapters.adaptCurrencyPairOut(currencyPair), maxResults, offset);
   }
 
   public List<HitbtcTrade> getHitbtcTrades(
@@ -96,7 +96,7 @@ public class HitbtcMarketDataServiceRaw extends HitbtcBaseService {
       throws IOException {
 
     return hitbtc.getTrades(
-        HitbtcAdapters.adaptCurrencyPair(currencyPair),
+        HitbtcAdapters.adaptCurrencyPairOut(currencyPair),
         sortDirection.toString(),
         sortBy.toString(),
         String.valueOf(from),
@@ -106,7 +106,7 @@ public class HitbtcMarketDataServiceRaw extends HitbtcBaseService {
   public List<HitbtcCandle> getHitbtcCandles(CurrencyPair currencyPair, int limit, String period)
       throws IOException {
 
-    return hitbtc.getHitbtcOHLC(HitbtcAdapters.adaptCurrencyPair(currencyPair), limit, period);
+    return hitbtc.getHitbtcOHLC(HitbtcAdapters.adaptCurrencyPairOut(currencyPair), limit, period);
   }
 
   public List<HitbtcCandle> getHitbtcCandles(

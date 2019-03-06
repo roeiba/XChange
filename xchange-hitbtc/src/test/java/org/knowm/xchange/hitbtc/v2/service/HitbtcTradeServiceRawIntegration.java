@@ -160,6 +160,6 @@ public class HitbtcTradeServiceRawIntegration extends BaseAuthenticatedServiceTe
   @Test
   public void testCancelAllOrders() throws IOException {
 
-    service.cancelAllOrdersRaw(HitbtcAdapters.adaptCurrencyPair(CurrencyPair.BTC_USD));
+    service.cancelAllOrdersRaw(HitbtcAdapters.adaptCurrencyPairOut(CurrencyPair.BTC_USD));
   }
 }

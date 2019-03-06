@@ -81,7 +81,7 @@ public class HitbtcTradeService extends HitbtcTradeServiceRaw implements TradeSe
     String symbol = null;
     if (params instanceof TradeHistoryParamCurrencyPair) {
       CurrencyPair pair = ((TradeHistoryParamCurrencyPair) params).getCurrencyPair();
-      symbol = HitbtcAdapters.adaptCurrencyPair(pair);
+      symbol = HitbtcAdapters.adaptCurrencyPairOut(pair);
     }
 
     List<HitbtcOwnTrade> tradeHistoryRaw = getTradeHistoryRaw(symbol, limit, offset);
@@ -112,7 +112,7 @@ public class HitbtcTradeService extends HitbtcTradeServiceRaw implements TradeSe
       }
       HitbtcOrder rawOrder =
           getHitbtcOrder(
-              HitbtcAdapters.adaptCurrencyPair(
+              HitbtcAdapters.adaptCurrencyPairOut(
                   ((OrderQueryParamCurrencyPair) param).getCurrencyPair()),
               param.getOrderId());
 

@@ -1072,7 +1072,7 @@ public class HitbtcAdaptersTest {
       "ETH", "USD"
     };
     for (int i = 0; i < symbols.length; i++) {
-      CurrencyPair parsedCurrencyPair = HitbtcAdapters.adaptSymbol(symbols[i]);
+      CurrencyPair parsedCurrencyPair = HitbtcAdapters.adaptCurrencyPairIn(symbols[i]);
       String expectedBaseCurrency = bases[i];
       String expectedCounterCurrency = counters[i];
       Assert.assertEquals(expectedBaseCurrency, parsedCurrencyPair.base.toString());
