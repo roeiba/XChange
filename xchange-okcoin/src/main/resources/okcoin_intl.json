@@ -2892,7 +2892,7 @@
 		    "withdrawal_fee": 0.001
 		},
 		"NEO": {
-		    "scale": 0,
+		    "scale": 8,
 		    "withdrawal_fee": 0
 		},
 		"OMG": {

@@ -1993,7 +1993,7 @@
 			"withdrawal_fee": 14.737
 		},
 		"ADD": {
-			"scale": 0,
+			"scale": 8,
 			"withdrawal_fee": 0
 		},
 		"AGI": {
@@ -2013,7 +2013,7 @@
 			"withdrawal_fee": 0.20221
 		},
 		"ATD": {
-			"scale": 0,
+			"scale": 8,
 			"withdrawal_fee": 0
 		},
 		"ATM": {
@@ -2049,7 +2049,7 @@
 			"withdrawal_fee": 4.7379
 		},
 		"BNT": {
-			"scale": 5,
+			"scale": 8,
 			"withdrawal_fee": 0.19592
 		},
 		"BOX": {
@@ -2057,7 +2057,7 @@
 			"withdrawal_fee": 25.715
 		},
 		"BSV": {
-			"scale": 2,
+			"scale": 8,
 			"withdrawal_fee": 0
 		},
 		"BTC": {
@@ -2109,7 +2109,7 @@
 			"withdrawal_fee": 6.5052
 		},
 		"DGB": {
-			"scale": 2,
+			"scale": 8,
 			"withdrawal_fee": 0
 		},
 		"DGX": {
@@ -2263,7 +2263,7 @@
 			"withdrawal_fee": 16.796
 		},
 		"MTO": {
-			"scale": 1,
+			"scale": 8,
 			"withdrawal_fee": 3872.9
 		},
 		"NCA": {
@@ -2327,7 +2327,7 @@
 			"withdrawal_fee": 0.46683
 		},
 		"QTUM": {
-			"scale": 2,
+			"scale": 8,
 			"withdrawal_fee": 0.01
 		},
 		"RBT": {
@@ -2398,7 +2398,7 @@
 			"withdrawal_fee": 25.808
 		},
 		"TRX": {
-			"scale": 3,
+			"scale": 8,
 			"withdrawal_fee": 34.395
 		},
 		"TSD": {
@@ -2457,7 +2457,7 @@
 			"withdrawal_fee": 0.08497
 		},
 		"XLM": {
-			"scale": 2,
+			"scale": 8,
 			"withdrawal_fee": 0
 		},
 		"XMR": {
@@ -2477,7 +2477,7 @@
 			"withdrawal_fee": 0.2
 		},
 		"XVG": {
-			"scale": 2,
+			"scale": 8,
 			"withdrawal_fee": 0.5
 		},
 		"YGG": {
@@ -2501,7 +2501,7 @@
 			"withdrawal_fee": 7.7864
 		},
 		"ZRX": {
-			"scale": 5,
+			"scale": 8,
 			"withdrawal_fee": 0.33885
 		}
 	},

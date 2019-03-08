@@ -2207,7 +2207,7 @@
       "withdrawal_fee": 0.001
     },
     "NEO": {
-      "scale": 6, 
+      "scale": 8, 
       "withdrawal_fee": 0
     },
     "OMG": {
@@ -2223,7 +2223,7 @@
       "withdrawal_fee": 1.0
     },
     "QTUM": {
-      "scale": 6,
+      "scale": 8,
       "withdrawal_fee": 0.01
     },
     "SALT": {
@@ -2258,11 +2258,11 @@
       "withdrawal_fee": 0.04
     },
     "XRP": {
-      "scale": 4,
+      "scale": 8,
       "withdrawal_fee": 0.1
     },
     "XVG": {
-      "scale": 6,
+      "scale": 8,
       "withdrawal_fee": 50.0
     },
     "ZEC": {
