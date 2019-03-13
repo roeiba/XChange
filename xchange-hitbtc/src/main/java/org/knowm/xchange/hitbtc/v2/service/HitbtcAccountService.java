@@ -88,7 +88,7 @@ public class HitbtcAccountService extends HitbtcAccountServiceRaw implements Acc
     if (params instanceof TradeHistoryParamCurrency) {
       Currency currency = ((TradeHistoryParamCurrency) params).getCurrency();
       currencyCode = currency != null 
-    		  ? currency.getCurrencyCode() 
+    		  ? HitbtcAdapters.adaptCurrencyOut(currency) 
 			  : null;
     }
     		

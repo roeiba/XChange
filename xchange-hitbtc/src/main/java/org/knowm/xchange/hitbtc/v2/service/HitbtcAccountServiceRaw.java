@@ -9,6 +9,7 @@ import java.util.Map;
 import org.knowm.xchange.Exchange;
 import org.knowm.xchange.currency.Currency;
 import org.knowm.xchange.exceptions.ExchangeException;
+import org.knowm.xchange.hitbtc.v2.HitbtcAdapters;
 import org.knowm.xchange.hitbtc.v2.dto.*;
 import si.mazi.rescu.HttpStatusIOException;
 
@@ -29,7 +30,7 @@ public class HitbtcAccountServiceRaw extends HitbtcBaseService {
       Currency currency, BigDecimal amount, String address, String paymentId, Boolean includeFee)
       throws HttpStatusIOException {
     Map response =
-        hitbtc.payout(amount, currency.getCurrencyCode(), address, paymentId, includeFee);
+        hitbtc.payout(amount, HitbtcAdapters.adaptCurrencyOut(currency), address, paymentId, includeFee);
 
     return response.get("id").toString();
   }
@@ -37,8 +38,8 @@ public class HitbtcAccountServiceRaw extends HitbtcBaseService {
   public HitbtcInternalTransferResponse transferFunds(
       Currency currency, BigDecimal amount, HitbtcTransferType hitbtcTransferType)
       throws IOException {
-    return hitbtc.transferToTrading(
-        amount, currency.getCurrencyCode(), hitbtcTransferType.getType());
+    return hitbtc.transferFunds(
+        amount, HitbtcAdapters.adaptCurrencyOut(currency), hitbtcTransferType.getType());
   }
 
   public String transferToTrading(Currency currency, BigDecimal amount) throws IOException {
@@ -71,7 +72,7 @@ public class HitbtcAccountServiceRaw extends HitbtcBaseService {
   }
 
   public HitbtcAddress getDepositAddress(Currency currency) throws IOException {
-    return hitbtc.getHitbtcDepositAddress(currency.toString());
+    return hitbtc.getHitbtcDepositAddress(HitbtcAdapters.adaptCurrencyOut(currency));
   }
 
   public List<HitbtcTransaction> getTransactions(String currency, Integer limit, Integer offset)

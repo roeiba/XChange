@@ -53,7 +53,7 @@ public interface HitbtcAuthenticated extends Hitbtc {
 
   @POST
   @Path("account/transfer")
-  HitbtcInternalTransferResponse transferToTrading(
+  HitbtcInternalTransferResponse transferFunds(
       @FormParam("amount") BigDecimal amount,
       @FormParam("currency") String currency,
       @FormParam("type") String type)
