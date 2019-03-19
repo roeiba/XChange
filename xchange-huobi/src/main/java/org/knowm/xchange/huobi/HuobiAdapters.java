@@ -325,9 +325,8 @@ public class HuobiAdapters {
       case "wallet-reject":
       case "reject	":
       case "confirm-error":
-        return Status.FAILED;
       case "repealed":
-
+        return Status.FAILED;
       default:
         return null;
     }
@@ -336,9 +335,9 @@ public class HuobiAdapters {
   private static Status adaptDepostStatus(String state) {
     switch (state) {
       case "confirming":
-      case "safe":
-        return Status.PROCESSING;
       case "confirmed":
+        return Status.PROCESSING;
+      case "safe":
         return Status.COMPLETE;
       case "unknown":
       case "orphan":
