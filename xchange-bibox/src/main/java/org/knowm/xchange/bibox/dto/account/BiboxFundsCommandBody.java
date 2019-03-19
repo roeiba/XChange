@@ -7,9 +7,15 @@ public class BiboxFundsCommandBody {
   /** coin symbol */
   @JsonProperty public final String search;
 
-  /** 0：all，1：in progress，2：completed，3：failed */
-  @JsonProperty("filter_type")
-  public final int filterType;
+  /** 
+   * -2: The review fails; 
+   * -1: user canceled; 
+   * 0: to be reviewed; 
+   * 1: The review passes (token to be listed); 
+   * 2: token listing; 
+   * 3: token listing completed */
+//  @JsonProperty("filter_type")
+//  public final int filterType;
 
   /** page number，start from 1 */
   @JsonProperty public final int page;
@@ -17,15 +23,15 @@ public class BiboxFundsCommandBody {
   /** how many */
   @JsonProperty public final int size;
 
-  public BiboxFundsCommandBody(String search, int filterType, int page, int size) {
+  public BiboxFundsCommandBody(String search, int page, int size) {
     super();
     this.search = search;
-    this.filterType = filterType;
+//    this.filterType = filterType;
     this.page = page;
     this.size = size;
   }
 
   public BiboxFundsCommandBody(String coinSymbol) {
-    this(coinSymbol, 0, 1, 100);
+    this(coinSymbol, 1, 100);
   }
 }

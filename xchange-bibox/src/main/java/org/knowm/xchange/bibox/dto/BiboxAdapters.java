@@ -256,12 +256,12 @@ public class BiboxAdapters {
         null);
   }
 
-  public static FundingRecord adaptDeposit(BiboxWithdrawal w) {
+  public static FundingRecord adaptWithdrawal(BiboxWithdrawal w) {
     return new FundingRecord(
         w.toAddress,
         w.getCreatedAt(),
         Currency.getInstance(w.coinSymbol),
-        w.amountReal,
+        w.amount,
         null,
         null,
         Type.WITHDRAWAL,
@@ -272,13 +272,25 @@ public class BiboxAdapters {
   }
 
   public static Status convertStatus(int status) {
+	  /**
+	   * Status:
+	   * 	-2: The review fails; 
+	   * 	-1: user canceled; 
+	   * 	0: to be reviewed; 
+	   * 	1: The review passes (token to be listed); 
+	   * 	2: token listing; 
+	   * 	3: token listing completed
+	   */
     switch (status) {
+      case -2:
+      case -1:
+    	return Status.FAILED;
+      case 0:
       case 1:
-        return Status.PROCESSING;
       case 2:
-        return Status.COMPLETE;
+        return Status.PROCESSING;
       case 3:
-        return Status.FAILED;
+        return Status.COMPLETE;
       default:
         throw new RuntimeException("Unknown status of bibox deposit: " + status);
     }
