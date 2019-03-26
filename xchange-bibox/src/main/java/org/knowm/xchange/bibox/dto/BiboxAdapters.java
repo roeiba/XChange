@@ -134,7 +134,9 @@ public class BiboxAdapters {
     for (BiboxMarket biboxMarket : markets) {
       // defaults
       int priceScale = DEFAULT_PRECISION;
-      BigDecimal tradingFee = new BigDecimal("0.001"); // Trading fee at Bibox is 0.1 %
+      // Trading fee at Bibox is 0.1 %
+      // When using BIX, it reduces by 50% to 0.05%   
+      BigDecimal tradingFee = new BigDecimal("0.0005"); 
       BigDecimal minAmount = BigDecimal.ZERO;
       BigDecimal maxAmount = BigDecimal.ZERO;
 
