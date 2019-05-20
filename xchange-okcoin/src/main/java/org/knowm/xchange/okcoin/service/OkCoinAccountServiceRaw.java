@@ -61,11 +61,7 @@ public class OkCoinAccountServiceRaw extends OKCoinBaseTradeService {
 	  
       APIConfiguration config = new APIConfiguration();
 
-      // config.setEndpoint(exchangeSpecification.getSslUri());
-//      config.setApiKey(exchangeSpecification.getApiKey());
-//      config.setSecretKey(exchangeSpecification.getSecretKey());
-//      config.setPassphrase(tradepwd);
-      config.setEndpoint("https://www.okex.com");
+      config.setEndpoint(exchangeSpecification.getHost());
       config.setApiKey(apiKeyV3);
       config.setSecretKey(secretKeyV3);
       config.setPassphrase(tradepwd);
