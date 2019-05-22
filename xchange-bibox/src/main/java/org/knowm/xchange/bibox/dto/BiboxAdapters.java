@@ -151,9 +151,12 @@ public class BiboxAdapters {
       
       try {
         BigDecimal minAmountByMinimumNotional;
-      
+        BigDecimal usdValue = biboxMarket.getLastUsd();
+        if (usdValue == null || usdValue.compareTo(BigDecimal.ZERO) == 0) {
+        	continue;
+        }
     	minAmountByMinimumNotional = BigDecimal.ONE
-    	  .divide(biboxMarket.getLastUsd(), amountScale, RoundingMode.HALF_DOWN);
+    	  .divide(usdValue, amountScale, RoundingMode.HALF_DOWN);
       	  
         // Choose the amount that holds both restrictions
         minAmount  = minAmountByMinimumNotional
