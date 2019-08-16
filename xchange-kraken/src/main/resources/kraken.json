@@ -22,6 +22,26 @@
 			"price_scale": 6,
 			"trading_fee": 0.0026
 		},
+		"ATOM/BTC": {
+			"price_scale": 7,
+			"trading_fee": 0.0026
+		},
+		"ATOM/CAD": {
+			"price_scale": 4,
+			"trading_fee": 0.0026
+		},
+		"ATOM/ETH": {
+			"price_scale": 6,
+			"trading_fee": 0.0026
+		},
+		"ATOM/EUR": {
+			"price_scale": 4,
+			"trading_fee": 0.0026
+		},
+		"ATOM/USD": {
+			"price_scale": 4,
+			"trading_fee": 0.0026
+		},
 		"BCH/BTC": {
 			"min_amount": 0.002,
 			"price_scale": 5,
@@ -178,14 +198,6 @@
 		"GNO/USD": {
 			"price_scale": 2,
 			"trading_fee": 0.0026
-		},
-		"ICN/BTC": {
-			"min_amount": 2.000,
-			"price_scale": 6
-		},
-		"ICN/ETH": {
-			"min_amount": 2.000,
-			"price_scale": 6
 		},
 		"LTC/BTC": {
 			"min_amount": 0.100,
@@ -354,6 +366,9 @@
 			"scale": 8,
 			"withdrawal_fee": 0.3
 		},
+		"ATOM": {
+			"scale": 8
+		},
 		"BCH": {
 			"scale": 10,
 			"withdrawal_fee": 0.00100
@@ -406,10 +421,6 @@
 		"GNO": {
 			"scale": 10,
 			"withdrawal_fee": 0.00500
-		},
-		"ICN": {
-			"scale": 10,
-			"withdrawal_fee": 0.20000
 		},
 		"JPY": {
 			"scale": 2,

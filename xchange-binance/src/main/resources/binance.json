@@ -1,9 +1,9 @@
 {
 	"currency_pairs": {
 		"ADA/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"ADA/BTC": {
@@ -18,16 +18,34 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"ADA/PAX": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"ADA/TUSD": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"ADA/USDC": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
 		"ADA/USDT": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"ADX/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"ADX/BTC": {
@@ -44,7 +62,7 @@
 		},
 		"AE/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -61,9 +79,9 @@
 			"trading_fee": 0.001
 		},
 		"AGI/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"AGI/BTC": {
@@ -79,9 +97,9 @@
 			"trading_fee": 0.001
 		},
 		"AION/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"AION/BTC": {
@@ -96,10 +114,46 @@
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
-		"AMB/BNB": {
+		"ALGO/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"ALGO/BTC": {
+			"min_amount": 0.01,
+			"max_amount": 90000000.00,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"ALGO/PAX": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
+		"ALGO/TUSD": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
+		"ALGO/USDC": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
+		"ALGO/USDT": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
+		"AMB/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"AMB/BTC": {
@@ -114,10 +168,46 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
-		"APPC/BNB": {
+		"ANKR/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"ANKR/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"ANKR/PAX": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"ANKR/TUSD": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"ANKR/USDC": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"ANKR/USDT": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"APPC/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"APPC/BTC": {
@@ -133,9 +223,9 @@
 			"trading_fee": 0.001
 		},
 		"ARDR/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"ARDR/BTC": {
@@ -186,9 +276,45 @@
 			"price_scale": 7,
 			"trading_fee": 0.001
 		},
+		"ATOM/BNB": {
+			"min_amount": 0.01,
+			"max_amount": 9000000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"ATOM/BTC": {
+			"min_amount": 0.01,
+			"max_amount": 90000000.00,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"ATOM/PAX": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
+		"ATOM/TUSD": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
+		"ATOM/USDC": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
+		"ATOM/USDT": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
 		"BAT/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -204,9 +330,33 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"BAT/PAX": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"BAT/TUSD": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"BAT/USDC": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"BAT/USDT": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
 		"BCC/BNB": {
 			"min_amount": 0.00001,
-			"max_amount": 10000000.00000,
+			"max_amount": 900000.00000,
 			"price_scale": 2,
 			"trading_fee": 0.001
 		},
@@ -224,7 +374,7 @@
 		},
 		"BCC/USDT": {
 			"min_amount": 0.00001,
-			"max_amount": 10000000.00000,
+			"max_amount": 900000.00000,
 			"price_scale": 2,
 			"trading_fee": 0.001
 		},
@@ -246,9 +396,27 @@
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
+		"BCHABC/PAX": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
+		"BCHABC/TUSD": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
+		"BCHABC/USDC": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
 		"BCHABC/USDT": {
 			"min_amount": 0.00001,
-			"max_amount": 10000000.00000,
+			"max_amount": 900000.00000,
 			"price_scale": 2,
 			"trading_fee": 0.001
 		},
@@ -258,15 +426,33 @@
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
+		"BCHSV/PAX": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
+		"BCHSV/TUSD": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
+		"BCHSV/USDC": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
 		"BCHSV/USDT": {
 			"min_amount": 0.00001,
-			"max_amount": 10000000.00000,
+			"max_amount": 900000.00000,
 			"price_scale": 2,
 			"trading_fee": 0.001
 		},
 		"BCN/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
+			"max_amount": 9000000,
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
@@ -283,9 +469,9 @@
 			"trading_fee": 0.001
 		},
 		"BCPT/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"BCPT/BTC": {
@@ -300,10 +486,34 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
-		"BLZ/BNB": {
+		"BCPT/PAX": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"BCPT/TUSD": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"BCPT/USDC": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"BGBP/USDC": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"BLZ/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"BLZ/BTC": {
@@ -320,7 +530,7 @@
 		},
 		"BNB/BTC": {
 			"min_amount": 0.01,
-			"max_amount": 90000000.00,
+			"max_amount": 100000.00,
 			"price_scale": 7,
 			"trading_fee": 0.001
 		},
@@ -332,19 +542,31 @@
 		},
 		"BNB/PAX": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
+		},
+		"BNB/TUSD": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
 		},
 		"BNB/USDC": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
+		"BNB/USDS": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
 		"BNB/USDT": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
@@ -374,7 +596,7 @@
 		},
 		"BRD/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -392,21 +614,39 @@
 		},
 		"BTC/PAX": {
 			"min_amount": 0.000001,
-			"max_amount": 10000000.000000,
+			"max_amount": 9000.000000,
 			"price_scale": 2,
 			"trading_fee": 0.001
+		},
+		"BTC/TUSD": {
+			"min_amount": 0.000001,
+			"max_amount": 9000.000000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
 		},
 		"BTC/USDC": {
 			"min_amount": 0.000001,
-			"max_amount": 10000000.000000,
+			"max_amount": 9000.000000,
 			"price_scale": 2,
 			"trading_fee": 0.001
 		},
+		"BTC/USDS": {
+			"min_amount": 0.000001,
+			"max_amount": 9000.000000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
 		"BTC/USDT": {
 			"min_amount": 0.000001,
-			"max_amount": 10000000.000000,
+			"max_amount": 9000.000000,
 			"price_scale": 2,
 			"trading_fee": 0.001
+		},
+		"BTCB/BTC": {
+			"min_amount": 0.001,
+			"max_amount": 10000000.000,
+			"price_scale": 6,
+			"trading_fee": 0.00075
 		},
 		"BTG/BTC": {
 			"min_amount": 0.01,
@@ -421,9 +661,9 @@
 			"trading_fee": 0.001
 		},
 		"BTS/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"BTS/BTC": {
@@ -438,6 +678,42 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"BTT/BNB": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"BTT/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"BTT/PAX": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"BTT/TUSD": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"BTT/USDC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"BTT/USDT": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
 		"CDT/BTC": {
 			"min_amount": 1,
 			"max_amount": 90000000,
@@ -449,6 +725,24 @@
 			"max_amount": 90000000,
 			"price_scale": 8,
 			"trading_fee": 0.001
+		},
+		"CELR/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"CELR/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"CELR/USDT": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
 		},
 		"CHAT/BTC": {
 			"min_amount": 1,
@@ -475,9 +769,9 @@
 			"trading_fee": 0.001
 		},
 		"CMT/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"CMT/BTC": {
@@ -494,8 +788,8 @@
 		},
 		"CND/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
-			"price_scale": 6,
+			"max_amount": 9000000,
+			"price_scale": 7,
 			"trading_fee": 0.001
 		},
 		"CND/BTC": {
@@ -510,10 +804,28 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
-		"CVC/BNB": {
+		"COS/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
+			"trading_fee": 0.00075
+		},
+		"COS/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"COS/USDT": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"CVC/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"CVC/BTC": {
@@ -528,6 +840,12 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"DASH/BNB": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
 		"DASH/BTC": {
 			"min_amount": 0.001,
 			"max_amount": 10000000.000,
@@ -539,6 +857,12 @@
 			"max_amount": 10000000.000,
 			"price_scale": 5,
 			"trading_fee": 0.001
+		},
+		"DASH/USDT": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
 		},
 		"DATA/BTC": {
 			"min_amount": 1,
@@ -554,7 +878,7 @@
 		},
 		"DCR/BNB": {
 			"min_amount": 0.001,
-			"max_amount": 10000000.000,
+			"max_amount": 900000.000,
 			"price_scale": 3,
 			"trading_fee": 0.001
 		},
@@ -589,9 +913,9 @@
 			"trading_fee": 0.001
 		},
 		"DLT/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"DLT/BTC": {
@@ -629,6 +953,66 @@
 			"max_amount": 90000000,
 			"price_scale": 8,
 			"trading_fee": 0.001
+		},
+		"DOGE/BNB": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"DOGE/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"DOGE/PAX": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"DOGE/USDC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"DOGE/USDT": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"DUSK/BNB": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"DUSK/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"DUSK/PAX": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"DUSK/USDC": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"DUSK/USDT": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
 		},
 		"EDO/BTC": {
 			"min_amount": 0.01,
@@ -668,7 +1052,7 @@
 		},
 		"ENJ/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
+			"max_amount": 9000000,
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
@@ -684,9 +1068,15 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"ENJ/USDT": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
 		"EOS/BNB": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 9000000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
@@ -704,31 +1094,61 @@
 		},
 		"EOS/PAX": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
 		"EOS/TUSD": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
 		"EOS/USDC": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
 		"EOS/USDT": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
+		"ERD/BNB": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"ERD/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"ERD/PAX": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"ERD/USDC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"ERD/USDT": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
 		"ETC/BNB": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 9000000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
@@ -744,9 +1164,27 @@
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
+		"ETC/PAX": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
+		"ETC/TUSD": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
+		"ETC/USDC": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
 		"ETC/USDT": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
@@ -758,19 +1196,25 @@
 		},
 		"ETH/PAX": {
 			"min_amount": 0.00001,
-			"max_amount": 10000000.00000,
+			"max_amount": 900000.00000,
 			"price_scale": 2,
 			"trading_fee": 0.001
 		},
+		"ETH/TUSD": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
 		"ETH/USDC": {
 			"min_amount": 0.00001,
-			"max_amount": 10000000.00000,
+			"max_amount": 900000.00000,
 			"price_scale": 2,
 			"trading_fee": 0.001
 		},
 		"ETH/USDT": {
 			"min_amount": 0.00001,
-			"max_amount": 10000000.00000,
+			"max_amount": 9000.00000,
 			"price_scale": 2,
 			"trading_fee": 0.001
 		},
@@ -785,6 +1229,60 @@
 			"max_amount": 90000000,
 			"price_scale": 7,
 			"trading_fee": 0.001
+		},
+		"FET/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
+			"trading_fee": 0.00075
+		},
+		"FET/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"FET/USDT": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"FTM/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
+			"trading_fee": 0.00075
+		},
+		"FTM/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"FTM/PAX": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"FTM/TUSD": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"FTM/USDC": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"FTM/USDT": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
 		},
 		"FUEL/BTC": {
 			"min_amount": 1,
@@ -817,9 +1315,9 @@
 			"trading_fee": 0.001
 		},
 		"GNT/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 900000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"GNT/BTC": {
@@ -836,8 +1334,8 @@
 		},
 		"GO/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
-			"price_scale": 6,
+			"max_amount": 9000000,
+			"price_scale": 7,
 			"trading_fee": 0.001
 		},
 		"GO/BTC": {
@@ -859,9 +1357,9 @@
 			"trading_fee": 0.001
 		},
 		"GTO/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"GTO/BTC": {
@@ -875,6 +1373,30 @@
 			"max_amount": 90000000,
 			"price_scale": 8,
 			"trading_fee": 0.001
+		},
+		"GTO/PAX": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"GTO/TUSD": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"GTO/USDC": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"GTO/USDT": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
 		},
 		"GVT/BTC": {
 			"min_amount": 0.01,
@@ -912,6 +1434,12 @@
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
+		"HOT/BNB": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
 		"HOT/BTC": {
 			"min_amount": 1,
 			"max_amount": 90000000,
@@ -923,6 +1451,12 @@
 			"max_amount": 90000000,
 			"price_scale": 8,
 			"trading_fee": 0.001
+		},
+		"HOT/USDT": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
 		},
 		"HSR/BTC": {
 			"min_amount": 0.01,
@@ -950,7 +1484,7 @@
 		},
 		"ICX/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -968,7 +1502,7 @@
 		},
 		"ICX/USDT": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
@@ -984,6 +1518,12 @@
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
+		"IOST/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
 		"IOST/BTC": {
 			"min_amount": 1,
 			"max_amount": 90000000,
@@ -996,27 +1536,33 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
-		"IOTA/BNB": {
+		"IOST/USDT": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 6,
+			"trading_fee": 0.00075
+		},
+		"IOT/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
-		"IOTA/BTC": {
+		"IOT/BTC": {
 			"min_amount": 1,
 			"max_amount": 90000000,
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
-		"IOTA/ETH": {
+		"IOT/ETH": {
 			"min_amount": 1,
 			"max_amount": 90000000,
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
-		"IOTA/USDT": {
+		"IOT/USDT": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
@@ -1092,10 +1638,34 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"LINK/PAX": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"LINK/TUSD": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"LINK/USDC": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"LINK/USDT": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
 		"LOOM/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"LOOM/BTC": {
@@ -1123,9 +1693,9 @@
 			"trading_fee": 0.001
 		},
 		"LSK/BNB": {
-			"min_amount": 0.01,
-			"max_amount": 10000000.00,
-			"price_scale": 4,
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"LSK/BTC": {
@@ -1141,9 +1711,9 @@
 			"trading_fee": 0.001
 		},
 		"LTC/BNB": {
-			"min_amount": 0.00001,
-			"max_amount": 10000000.00000,
-			"price_scale": 2,
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
 			"trading_fee": 0.001
 		},
 		"LTC/BTC": {
@@ -1158,9 +1728,27 @@
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
+		"LTC/PAX": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
+		"LTC/TUSD": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
+		"LTC/USDC": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
 		"LTC/USDT": {
 			"min_amount": 0.00001,
-			"max_amount": 10000000.00000,
+			"max_amount": 900000.00000,
 			"price_scale": 2,
 			"trading_fee": 0.001
 		},
@@ -1188,9 +1776,27 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"MATIC/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"MATIC/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"MATIC/USDT": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
 		"MCO/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -1220,8 +1826,8 @@
 		},
 		"MFT/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
-			"price_scale": 6,
+			"max_amount": 9000000,
+			"price_scale": 7,
 			"trading_fee": 0.001
 		},
 		"MFT/BTC": {
@@ -1237,9 +1843,9 @@
 			"trading_fee": 0.001
 		},
 		"MITH/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"MITH/BTC": {
@@ -1247,6 +1853,12 @@
 			"max_amount": 90000000,
 			"price_scale": 8,
 			"trading_fee": 0.001
+		},
+		"MITH/USDT": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
 		},
 		"MOD/BTC": {
 			"min_amount": 0.01,
@@ -1285,9 +1897,9 @@
 			"trading_fee": 0.001
 		},
 		"NANO/BNB": {
-			"min_amount": 0.01,
-			"max_amount": 10000000.00,
-			"price_scale": 4,
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"NANO/BTC": {
@@ -1302,9 +1914,15 @@
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
+		"NANO/USDT": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
 		"NAS/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -1321,9 +1939,9 @@
 			"trading_fee": 0.001
 		},
 		"NAV/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"NAV/BTC": {
@@ -1340,8 +1958,8 @@
 		},
 		"NCASH/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
-			"price_scale": 6,
+			"max_amount": 9000000,
+			"price_scale": 7,
 			"trading_fee": 0.001
 		},
 		"NCASH/BTC": {
@@ -1358,7 +1976,7 @@
 		},
 		"NEBL/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -1375,9 +1993,9 @@
 			"trading_fee": 0.001
 		},
 		"NEO/BNB": {
-			"min_amount": 0.001,
-			"max_amount": 10000000.000,
-			"price_scale": 3,
+			"min_amount": 0.01,
+			"max_amount": 9000000.00,
+			"price_scale": 4,
 			"trading_fee": 0.001
 		},
 		"NEO/BTC": {
@@ -1392,9 +2010,27 @@
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
+		"NEO/PAX": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
+		"NEO/TUSD": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
+		"NEO/USDC": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
 		"NEO/USDT": {
 			"min_amount": 0.001,
-			"max_amount": 10000000.000,
+			"max_amount": 900000.000,
 			"price_scale": 3,
 			"trading_fee": 0.001
 		},
@@ -1410,9 +2046,21 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"NPXS/USDC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"NPXS/USDT": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
 		"NULS/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -1430,14 +2078,14 @@
 		},
 		"NULS/USDT": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
 		"NXS/BNB": {
-			"min_amount": 0.01,
-			"max_amount": 10000000.00,
-			"price_scale": 4,
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"NXS/BTC": {
@@ -1464,6 +2112,12 @@
 			"price_scale": 7,
 			"trading_fee": 0.001
 		},
+		"OMG/BNB": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
 		"OMG/BTC": {
 			"min_amount": 0.01,
 			"max_amount": 10000000.00,
@@ -1476,9 +2130,69 @@
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
+		"OMG/USDT": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"ONE/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"ONE/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"ONE/PAX": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"ONE/TUSD": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"ONE/USDC": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"ONE/USDT": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"ONG/BNB": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"ONG/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"ONG/USDT": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
 		"ONT/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -1494,16 +2208,28 @@
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
+		"ONT/PAX": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"ONT/USDC": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
 		"ONT/USDT": {
-			"min_amount": 0.001,
-			"max_amount": 10000000.000,
-			"price_scale": 3,
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
 			"trading_fee": 0.001
 		},
 		"OST/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
-			"price_scale": 6,
+			"max_amount": 9000000,
+			"price_scale": 7,
 			"trading_fee": 0.001
 		},
 		"OST/BTC": {
@@ -1520,7 +2246,7 @@
 		},
 		"PAX/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -1536,15 +2262,51 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"PAX/TUSD": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
 		"PAX/USDT": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
-		"PHX/BNB": {
+		"PHB/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"PHB/BTC": {
 			"min_amount": 1,
 			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"PHB/PAX": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"PHB/TUSD": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"PHB/USDC": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"PHX/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
@@ -1562,7 +2324,7 @@
 		},
 		"PIVX/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 900000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -1579,9 +2341,9 @@
 			"trading_fee": 0.001
 		},
 		"POA/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"POA/BTC": {
@@ -1609,9 +2371,9 @@
 			"trading_fee": 0.001
 		},
 		"POLY/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"POLY/BTC": {
@@ -1622,7 +2384,7 @@
 		},
 		"POWR/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 900000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -1664,7 +2426,7 @@
 		},
 		"QLC/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
+			"max_amount": 9000000,
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
@@ -1682,8 +2444,8 @@
 		},
 		"QSP/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
-			"price_scale": 6,
+			"max_amount": 9000000,
+			"price_scale": 7,
 			"trading_fee": 0.001
 		},
 		"QSP/BTC": {
@@ -1700,7 +2462,7 @@
 		},
 		"QTUM/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -1718,13 +2480,13 @@
 		},
 		"QTUM/USDT": {
 			"min_amount": 0.001,
-			"max_amount": 10000000.000,
+			"max_amount": 900000.000,
 			"price_scale": 3,
 			"trading_fee": 0.001
 		},
 		"RCN/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
+			"max_amount": 9000000,
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
@@ -1742,7 +2504,7 @@
 		},
 		"RDN/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -1759,9 +2521,9 @@
 			"trading_fee": 0.001
 		},
 		"REN/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"REN/BTC": {
@@ -1771,9 +2533,9 @@
 			"trading_fee": 0.001
 		},
 		"REP/BNB": {
-			"min_amount": 0.001,
-			"max_amount": 10000000.000,
-			"price_scale": 3,
+			"min_amount": 0.01,
+			"max_amount": 9000000.00,
+			"price_scale": 4,
 			"trading_fee": 0.001
 		},
 		"REP/BTC": {
@@ -1802,7 +2564,7 @@
 		},
 		"RLC/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -1820,7 +2582,7 @@
 		},
 		"RPX/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
+			"max_amount": 9000000,
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
@@ -1838,7 +2600,7 @@
 		},
 		"RVN/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
+			"max_amount": 9000000,
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
@@ -1862,8 +2624,8 @@
 		},
 		"SC/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
-			"price_scale": 6,
+			"max_amount": 9000000,
+			"price_scale": 7,
 			"trading_fee": 0.001
 		},
 		"SC/BTC": {
@@ -1879,9 +2641,9 @@
 			"trading_fee": 0.001
 		},
 		"SKY/BNB": {
-			"min_amount": 0.001,
-			"max_amount": 10000000.000,
-			"price_scale": 3,
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"SKY/BTC": {
@@ -1934,14 +2696,14 @@
 		},
 		"STEEM/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"STEEM/BTC": {
-			"min_amount": 0.01,
-			"max_amount": 90000000.00,
-			"price_scale": 7,
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
 			"trading_fee": 0.001
 		},
 		"STEEM/ETH": {
@@ -1964,8 +2726,8 @@
 		},
 		"STORM/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
-			"price_scale": 6,
+			"max_amount": 9000000,
+			"price_scale": 7,
 			"trading_fee": 0.001
 		},
 		"STORM/BTC": {
@@ -2005,9 +2767,9 @@
 			"trading_fee": 0.001
 		},
 		"SYS/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"SYS/BTC": {
@@ -2022,10 +2784,46 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
-		"THETA/BNB": {
+		"TFUEL/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"TFUEL/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"TFUEL/PAX": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"TFUEL/TUSD": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"TFUEL/USDC": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"TFUEL/USDT": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"THETA/BNB": {
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"THETA/BTC": {
@@ -2039,6 +2837,12 @@
 			"max_amount": 90000000,
 			"price_scale": 8,
 			"trading_fee": 0.001
+		},
+		"THETA/USDT": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
 		},
 		"TNB/BTC": {
 			"min_amount": 1,
@@ -2066,7 +2870,7 @@
 		},
 		"TRIG/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -2084,7 +2888,7 @@
 		},
 		"TRX/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
+			"max_amount": 9000000,
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
@@ -2100,15 +2904,39 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"TRX/PAX": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"TRX/TUSD": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"TRX/USDC": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
 		"TRX/USDT": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
+		"TRX/XRP": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
 		"TUSD/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -2126,13 +2954,19 @@
 		},
 		"TUSD/USDT": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
+		"TUSDB/TUSD": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
 		"USDC/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -2142,15 +2976,63 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"USDC/PAX": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"USDC/TUSD": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
 		"USDC/USDT": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
+		"USDS/PAX": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"USDS/TUSD": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"USDS/USDC": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"USDS/USDT": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"USDSB/USDS": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"USDSB/USDT": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
 		"VEN/BNB": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 9000000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
@@ -2168,14 +3050,14 @@
 		},
 		"VEN/USDT": {
 			"min_amount": 0.01,
-			"max_amount": 10000000.00,
+			"max_amount": 900000.00,
 			"price_scale": 4,
 			"trading_fee": 0.001
 		},
 		"VET/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 7,
 			"trading_fee": 0.001
 		},
 		"VET/BTC": {
@@ -2191,14 +3073,14 @@
 			"trading_fee": 0.001
 		},
 		"VET/USDT": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"VIA/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -2239,9 +3121,9 @@
 			"trading_fee": 0.001
 		},
 		"WABI/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"WABI/BTC": {
@@ -2258,7 +3140,7 @@
 		},
 		"WAN/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -2275,9 +3157,9 @@
 			"trading_fee": 0.001
 		},
 		"WAVES/BNB": {
-			"min_amount": 0.01,
-			"max_amount": 10000000.00,
-			"price_scale": 4,
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"WAVES/BTC": {
@@ -2291,6 +3173,54 @@
 			"max_amount": 90000000.00,
 			"price_scale": 6,
 			"trading_fee": 0.001
+		},
+		"WAVES/PAX": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"WAVES/TUSD": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"WAVES/USDC": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"WAVES/USDT": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
+		},
+		"WIN/BNB": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"WIN/BTC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 8,
+			"trading_fee": 0.00075
+		},
+		"WIN/USDC": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
+		},
+		"WIN/USDT": {
+			"min_amount": 1,
+			"max_amount": 90000000,
+			"price_scale": 7,
+			"trading_fee": 0.00075
 		},
 		"WINGS/BTC": {
 			"min_amount": 1,
@@ -2317,9 +3247,9 @@
 			"trading_fee": 0.001
 		},
 		"WTC/BNB": {
-			"min_amount": 0.01,
-			"max_amount": 10000000.00,
-			"price_scale": 4,
+			"min_amount": 0.1,
+			"max_amount": 900000.0,
+			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"WTC/BTC": {
@@ -2335,9 +3265,9 @@
 			"trading_fee": 0.001
 		},
 		"XEM/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"XEM/BTC": {
@@ -2353,9 +3283,9 @@
 			"trading_fee": 0.001
 		},
 		"XLM/BNB": {
-			"min_amount": 0.1,
-			"max_amount": 90000000.0,
-			"price_scale": 5,
+			"min_amount": 1,
+			"max_amount": 9000000,
+			"price_scale": 6,
 			"trading_fee": 0.001
 		},
 		"XLM/BTC": {
@@ -2372,27 +3302,33 @@
 		},
 		"XLM/PAX": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"XLM/TUSD": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"XLM/USDC": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"XLM/USDT": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
+		},
+		"XMR/BNB": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
 		},
 		"XMR/BTC": {
 			"min_amount": 0.001,
@@ -2406,9 +3342,15 @@
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
+		"XMR/USDT": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
 		"XRP/BNB": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -2426,25 +3368,25 @@
 		},
 		"XRP/PAX": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"XRP/TUSD": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"XRP/USDC": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
 		"XRP/USDT": {
 			"min_amount": 0.1,
-			"max_amount": 90000000.0,
+			"max_amount": 9000000.0,
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
@@ -2461,9 +3403,9 @@
 			"trading_fee": 0.001
 		},
 		"XZC/BNB": {
-			"min_amount": 0.001,
-			"max_amount": 10000000.000,
-			"price_scale": 3,
+			"min_amount": 0.01,
+			"max_amount": 9000000.00,
+			"price_scale": 4,
 			"trading_fee": 0.001
 		},
 		"XZC/BTC": {
@@ -2478,9 +3420,15 @@
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
+		"XZC/XRP": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
 		"YOYO/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
+			"max_amount": 9000000,
 			"price_scale": 6,
 			"trading_fee": 0.001
 		},
@@ -2496,6 +3444,12 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"ZEC/BNB": {
+			"min_amount": 0.001,
+			"max_amount": 900000.000,
+			"price_scale": 3,
+			"trading_fee": 0.00075
+		},
 		"ZEC/BTC": {
 			"min_amount": 0.001,
 			"max_amount": 10000000.000,
@@ -2508,10 +3462,34 @@
 			"price_scale": 5,
 			"trading_fee": 0.001
 		},
+		"ZEC/PAX": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
+		"ZEC/TUSD": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
+		"ZEC/USDC": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
+		"ZEC/USDT": {
+			"min_amount": 0.00001,
+			"max_amount": 900000.00000,
+			"price_scale": 2,
+			"trading_fee": 0.00075
+		},
 		"ZEN/BNB": {
-			"min_amount": 0.001,
-			"max_amount": 10000000.000,
-			"price_scale": 3,
+			"min_amount": 0.01,
+			"max_amount": 9000000.00,
+			"price_scale": 4,
 			"trading_fee": 0.001
 		},
 		"ZEN/BTC": {
@@ -2528,8 +3506,8 @@
 		},
 		"ZIL/BNB": {
 			"min_amount": 1,
-			"max_amount": 90000000,
-			"price_scale": 6,
+			"max_amount": 9000000,
+			"price_scale": 7,
 			"trading_fee": 0.001
 		},
 		"ZIL/BTC": {
@@ -2544,6 +3522,18 @@
 			"price_scale": 8,
 			"trading_fee": 0.001
 		},
+		"ZIL/USDT": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
+		"ZRX/BNB": {
+			"min_amount": 0.1,
+			"max_amount": 9000000.0,
+			"price_scale": 5,
+			"trading_fee": 0.00075
+		},
 		"ZRX/BTC": {
 			"min_amount": 1,
 			"max_amount": 90000000,
@@ -2555,6 +3545,12 @@
 			"max_amount": 90000000,
 			"price_scale": 8,
 			"trading_fee": 0.001
+		},
+		"ZRX/USDT": {
+			"min_amount": 0.01,
+			"max_amount": 900000.00,
+			"price_scale": 4,
+			"trading_fee": 0.00075
 		}
 	},
 	"currencies": {
@@ -2577,9 +3573,15 @@
 			"scale": 8,
 			"withdrawal_fee": 1.2
 		},
+		"ALGO": {
+			"scale": 8
+		},
 		"AMB": {
 			"scale": 8,
 			"withdrawal_fee": 8.9
+		},
+		"ANKR": {
+			"scale": 8
 		},
 		"APPC": {
 			"scale": 8,
@@ -2599,6 +3601,9 @@
 		"AST": {
 			"scale": 8,
 			"withdrawal_fee": 8.9
+		},
+		"ATOM": {
+			"scale": 8
 		},
 		"BAT": {
 			"scale": 8,
@@ -2632,6 +3637,9 @@
 			"scale": 8,
 			"withdrawal_fee": 1.0
 		},
+		"BGBP": {
+			"scale": 8
+		},
 		"BLZ": {
 			"scale": 8,
 			"withdrawal_fee": 7.0
@@ -2656,6 +3664,9 @@
 			"scale": 8,
 			"withdrawal_fee": 0.00050
 		},
+		"BTCB": {
+			"scale": 8
+		},
 		"BTG": {
 			"scale": 8,
 			"withdrawal_fee": 0.001
@@ -2668,9 +3679,15 @@
 			"scale": 8,
 			"withdrawal_fee": 1.0
 		},
+		"BTT": {
+			"scale": 8
+		},
 		"CDT": {
 			"scale": 8,
 			"withdrawal_fee": 71.0
+		},
+		"CELR": {
+			"scale": 8
 		},
 		"CHAT": {
 			"scale": 8,
@@ -2686,6 +3703,9 @@
 		"CND": {
 			"scale": 8,
 			"withdrawal_fee": 39.0
+		},
+		"COS": {
+			"scale": 8
 		},
 		"CTR": {
 			"scale": 8,
@@ -2722,6 +3742,12 @@
 		"DOCK": {
 			"scale": 8
 		},
+		"DOGE": {
+			"scale": 8
+		},
+		"DUSK": {
+			"scale": 8
+		},
 		"EDO": {
 			"scale": 8,
 			"withdrawal_fee": 1.7
@@ -2742,6 +3768,9 @@
 			"scale": 8,
 			"withdrawal_fee": 0.1
 		},
+		"ERD": {
+			"scale": 8
+		},
 		"ETC": {
 			"scale": 8,
 			"withdrawal_fee": 0.01
@@ -2757,6 +3786,12 @@
 		"EVX": {
 			"scale": 8,
 			"withdrawal_fee": 2.5
+		},
+		"FET": {
+			"scale": 8
+		},
+		"FTM": {
+			"scale": 8
 		},
 		"FUEL": {
 			"scale": 8,
@@ -2826,10 +3861,6 @@
 			"scale": 8,
 			"withdrawal_fee": 0.5
 		},
-		"IOTA": {
-			"scale": 8,
-			"withdrawal_fee": 0.5
-		},
 		"IOTX": {
 			"scale": 8
 		},
@@ -2878,6 +3909,9 @@
 		"MANA": {
 			"scale": 8,
 			"withdrawal_fee": 33.0
+		},
+		"MATIC": {
+			"scale": 8
 		},
 		"MCO": {
 			"scale": 8,
@@ -2946,6 +3980,12 @@
 			"scale": 8,
 			"withdrawal_fee": 0.33
 		},
+		"ONE": {
+			"scale": 8
+		},
+		"ONG": {
+			"scale": 8
+		},
 		"ONT": {
 			"scale": 8,
 			"withdrawal_fee": 0.1
@@ -2955,6 +3995,9 @@
 			"withdrawal_fee": 17.0
 		},
 		"PAX": {
+			"scale": 8
+		},
+		"PHB": {
 			"scale": 8
 		},
 		"PHX": {
@@ -3078,6 +4121,9 @@
 			"scale": 8,
 			"withdrawal_fee": 0.001
 		},
+		"TFUEL": {
+			"scale": 8
+		},
 		"THETA": {
 			"scale": 8
 		},
@@ -3100,7 +4146,16 @@
 		"TUSD": {
 			"scale": 8
 		},
+		"TUSDB": {
+			"scale": 8
+		},
 		"USDC": {
+			"scale": 8
+		},
+		"USDS": {
+			"scale": 8
+		},
+		"USDSB": {
 			"scale": 8
 		},
 		"USDT": {
@@ -3137,6 +4192,9 @@
 		"WAVES": {
 			"scale": 8,
 			"withdrawal_fee": 0.002
+		},
+		"WIN": {
+			"scale": 8
 		},
 		"WINGS": {
 			"scale": 8,

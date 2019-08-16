@@ -10,6 +10,21 @@
 			"price_scale": 8,
 			"trading_fee": 0.0025
 		},
+		"ATOM/BTC": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
+		"ATOM/USDC": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
+		"ATOM/USDT": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
 		"BAT/BTC": {
 			"min_amount": 0.00010000,
 			"price_scale": 8,
@@ -65,12 +80,22 @@
 			"price_scale": 8,
 			"trading_fee": 0.0025
 		},
+		"BCHABC/USDT": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
 		"BCHSV/BTC": {
 			"min_amount": 0.00010000,
 			"price_scale": 8,
 			"trading_fee": 0.0025
 		},
 		"BCHSV/USDC": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
+		"BCHSV/USDT": {
 			"min_amount": 0.00010000,
 			"price_scale": 8,
 			"trading_fee": 0.0025
@@ -165,6 +190,11 @@
 			"price_scale": 8,
 			"trading_fee": 0.0025
 		},
+		"DASH/USDC": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
 		"DASH/USDT": {
 			"min_amount": 0.00010000,
 			"price_scale": 8,
@@ -181,6 +211,11 @@
 			"trading_fee": 0.0025
 		},
 		"DGB/BTC": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
+		"DGB/USDT": {
 			"min_amount": 0.00010000,
 			"price_scale": 8,
 			"trading_fee": 0.0025
@@ -215,6 +250,11 @@
 			"price_scale": 8,
 			"trading_fee": 0.0025
 		},
+		"EOS/USDC": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
 		"EOS/USDT": {
 			"min_amount": 0.00010000,
 			"price_scale": 8,
@@ -226,6 +266,11 @@
 			"trading_fee": 0.0025
 		},
 		"ETC/ETH": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
+		"ETC/USDC": {
 			"min_amount": 0.00010000,
 			"price_scale": 8,
 			"trading_fee": 0.0025
@@ -325,6 +370,21 @@
 			"price_scale": 8,
 			"trading_fee": 0.0025
 		},
+		"GRIN/BTC": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
+		"GRIN/USDC": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
+		"GRIN/USDT": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
 		"HUC/BTC": {
 			"min_amount": 0.00010000,
 			"price_scale": 8,
@@ -361,6 +421,11 @@
 			"trading_fee": 0.0025
 		},
 		"LOOM/USDT": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
+		"LPT/BTC": {
 			"min_amount": 0.00010000,
 			"price_scale": 8,
 			"trading_fee": 0.0025
@@ -440,6 +505,11 @@
 			"price_scale": 8,
 			"trading_fee": 0.0025
 		},
+		"NMR/BTC": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
 		"NXC/BTC": {
 			"min_amount": 0.00010000,
 			"price_scale": 8,
@@ -481,6 +551,11 @@
 			"trading_fee": 0.0025
 		},
 		"PINK/BTC": {
+			"min_amount": 0.00010000,
+			"price_scale": 8,
+			"trading_fee": 0.0025
+		},
+		"POLY/BTC": {
 			"min_amount": 0.00010000,
 			"price_scale": 8,
 			"trading_fee": 0.0025
@@ -769,6 +844,10 @@
 		"ARDR": {
 			"scale": 8,
 			"withdrawal_fee": 1.00000000
+		},
+		"ATOM": {
+			"scale": 8,
+			"withdrawal_fee": 5.00000000
 		},
 		"AUR": {
 			"scale": 8,
@@ -1218,6 +1297,10 @@
 			"scale": 8,
 			"withdrawal_fee": 5.00000000
 		},
+		"GRIN": {
+			"scale": 8,
+			"withdrawal_fee": 5.00000000
+		},
 		"GRS": {
 			"scale": 8,
 			"withdrawal_fee": 5.00000000
@@ -1331,6 +1414,10 @@
 			"withdrawal_fee": 5.00000000
 		},
 		"LOVE": {
+			"scale": 8,
+			"withdrawal_fee": 5.00000000
+		},
+		"LPT": {
 			"scale": 8,
 			"withdrawal_fee": 5.00000000
 		},
@@ -1470,6 +1557,10 @@
 			"scale": 8,
 			"withdrawal_fee": 0.01000000
 		},
+		"NMR": {
+			"scale": 8,
+			"withdrawal_fee": 5.00000000
+		},
 		"NOBL": {
 			"scale": 8,
 			"withdrawal_fee": 5.00000000
@@ -1543,6 +1634,10 @@
 			"withdrawal_fee": 5.00000000
 		},
 		"PMC": {
+			"scale": 8,
+			"withdrawal_fee": 5.00000000
+		},
+		"POLY": {
 			"scale": 8,
 			"withdrawal_fee": 5.00000000
 		},

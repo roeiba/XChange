@@ -3,4564 +3,5373 @@
 		"1ST/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"1ST/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ABA/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ABA/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ABA/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"ABA/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ABTC/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ABYSS/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ABYSS/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ACAT/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ACAT/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ACAT/USD": {
 			"min_amount": 100,
-			"price_scale": 9,
-			"trading_fee": 0.001
+			"price_scale": 9
 		},
-		"ACO/ETH": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
+		"ACAT/USDT": {
+			"min_amount": 100,
+			"price_scale": 9,
+			"trading_fee": 0.002
 		},
 		"ACT/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ACT/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ACT/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"ACT/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ADA/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ADA/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ADA/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"ADA/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
-		},
-		"ADH/BTC": {
-			"min_amount": 10,
-			"price_scale": 11,
-			"trading_fee": 0.001
-		},
-		"ADH/ETH": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ADX/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ADX/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ADX/USD": {
 			"min_amount": 0.1,
+			"price_scale": 7
+		},
+		"ADX/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"AE/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"AEON/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"AGI/BTC": {
+			"min_amount": 1,
+			"price_scale": 10,
+			"trading_fee": 0.002
 		},
 		"AMB/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"AMB/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"AMB/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"AMB/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"AMM/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"AMM/ETH": {
 			"min_amount": 10,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"AMM/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"AMM/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"AMP/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ANT/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"APPC/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"APPC/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"APPC/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"APPC/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
-		},
-		"ARCT/BTC": {
-			"min_amount": 100,
-			"price_scale": 11,
-			"trading_fee": 0.001
-		},
-		"ARCT/USD": {
-			"min_amount": 100,
-			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ARDR/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ARDR/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"ARDR/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ARN/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ARN/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ART/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
-		"ATL/BTC": {
-			"min_amount": 1,
-			"price_scale": 10,
-			"trading_fee": 0.001
+		"ATOM/BTC": {
+			"min_amount": 0.01,
+			"price_scale": 8,
+			"trading_fee": 0.002
+		},
+		"ATOM/ETH": {
+			"min_amount": 0.01,
+			"price_scale": 7,
+			"trading_fee": 0.002
+		},
+		"ATOM/USD": {
+			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"ATOM/USDT": {
+			"min_amount": 0.01,
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"AUC/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"AUC/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"AUTO/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"AVT/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"AXPR/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"AXPR/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"B2G/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"B2G/USD": {
 			"min_amount": 0.01,
-			"price_scale": 5,
-			"trading_fee": 0.001
+			"price_scale": 5
 		},
-		"B2X/BTC": {
-			"min_amount": 0.01,
-			"price_scale": 7,
-			"trading_fee": 0.001
-		},
-		"B2X/ETH": {
-			"min_amount": 0.01,
-			"price_scale": 7,
-			"trading_fee": 0.001
-		},
-		"B2X/USD": {
+		"B2G/USDT": {
 			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BANCA/BTC": {
 			"min_amount": 1000,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BANCA/ETH": {
 			"min_amount": 1000,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BANCA/USD": {
 			"min_amount": 1000,
+			"price_scale": 10
+		},
+		"BANCA/USDT": {
+			"min_amount": 1000,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BAT/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BAT/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BAT/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"BAT/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCD/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCD/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"BCD/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCH/BTC": {
 			"min_amount": 0.0001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCH/DAI": {
 			"min_amount": 0.0001,
 			"price_scale": 3,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCH/ETH": {
 			"min_amount": 0.0001,
-			"price_scale": 6,
-			"trading_fee": 0.001
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"BCH/EURS": {
 			"min_amount": 0.0001,
 			"price_scale": 3,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCH/TUSD": {
 			"min_amount": 0.0001,
 			"price_scale": 3,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCH/USD": {
 			"min_amount": 0.0001,
-			"price_scale": 5,
-			"trading_fee": 0.001
+			"price_scale": 3
 		},
-		"BCHABC/BTC": {
-			"min_amount": 0.0001,
-			"price_scale": 6,
-			"trading_fee": 0.001
-		},
-		"BCHABC/USD": {
+		"BCH/USDT": {
 			"min_amount": 0.0001,
 			"price_scale": 3,
-			"trading_fee": 0.001
-		},
-		"BCHSV/BTC": {
-			"min_amount": 0.001,
-			"price_scale": 6,
-			"trading_fee": 0.001
-		},
-		"BCHSV/USD": {
-			"min_amount": 0.001,
-			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCI/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCN/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCN/EOS": {
 			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCN/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCN/USD": {
 			"min_amount": 100,
+			"price_scale": 9
+		},
+		"BCN/USDT": {
+			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCPT/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCPT/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BCPT/USD": {
 			"min_amount": 1,
-			"price_scale": 7,
-			"trading_fee": 0.001
+			"price_scale": 7
 		},
-		"BCST/BTC": {
-			"min_amount": 1,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"BCST/ETH": {
-			"min_amount": 1,
-			"price_scale": 9,
-			"trading_fee": 0.001
-		},
-		"BCST/USD": {
+		"BCPT/USDT": {
 			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BDG/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BDG/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BERRY/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BERRY/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BERRY/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"BERRY/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"BET/BTC": {
+			"min_amount": 1,
+			"price_scale": 10,
+			"trading_fee": 0.002
 		},
 		"BET/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BETR/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BETR/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BETR/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"BETR/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BIT/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BITS/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BITS/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BITS/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"BITS/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BKX/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"BLZ/BTC": {
+			"min_amount": 1,
+			"price_scale": 10,
+			"trading_fee": 0.002
 		},
 		"BMC/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BMC/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BMC/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"BMC/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BMH/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BNB/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BNB/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BNB/USD": {
 			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"BNB/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BNK/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BNK/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BNK/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"BNK/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BNT/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BNT/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BNT/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"BNT/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BOS/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BOX/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BOX/EOS": {
 			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BOX/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BOX/EURS": {
 			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BQX/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BQX/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BQX/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"BQX/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BRD/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BRD/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"BRDG/BTC": {
+			"min_amount": 100,
+			"price_scale": 11,
+			"trading_fee": 0.002
+		},
+		"BRDG/ETH": {
+			"min_amount": 100,
+			"price_scale": 10,
+			"trading_fee": 0.002
+		},
+		"BRDG/USD": {
+			"min_amount": 100,
+			"price_scale": 9
+		},
+		"BRDG/USDT": {
+			"min_amount": 100,
+			"price_scale": 9,
+			"trading_fee": 0.002
+		},
+		"BSV/BTC": {
+			"min_amount": 0.001,
+			"price_scale": 6,
+			"trading_fee": 0.002
+		},
+		"BSV/USD": {
+			"min_amount": 0.001,
+			"price_scale": 4
+		},
+		"BSV/USDT": {
+			"min_amount": 0.001,
+			"price_scale": 4,
+			"trading_fee": 0.002
 		},
 		"BTC/DAI": {
 			"min_amount": 0.00001,
 			"price_scale": 2,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"BTC/EOSDT": {
+			"min_amount": 0.00001,
+			"price_scale": 2,
+			"trading_fee": 0.002
 		},
 		"BTC/EURS": {
 			"min_amount": 0.00001,
 			"price_scale": 2,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BTC/GUSD": {
 			"min_amount": 0.00001,
 			"price_scale": 2,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"BTC/KRWB": {
+			"min_amount": 0.00001,
+			"price_scale": 0,
+			"trading_fee": 0.002
 		},
 		"BTC/PAX": {
 			"min_amount": 0.00001,
 			"price_scale": 2,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BTC/TUSD": {
 			"min_amount": 0.00001,
 			"price_scale": 2,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BTC/USD": {
 			"min_amount": 0.00001,
-			"price_scale": 2,
-			"trading_fee": 0.001
+			"price_scale": 2
 		},
 		"BTC/USDC": {
 			"min_amount": 0.00001,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
-		"BTCP/BTC": {
-			"min_amount": 0.1,
-			"price_scale": 8,
-			"trading_fee": 0.001
+		"BTC/USDT": {
+			"min_amount": 0.00001,
+			"price_scale": 2,
+			"trading_fee": 0.002
 		},
-		"BTCP/ETH": {
-			"min_amount": 0.01,
-			"price_scale": 7,
-			"trading_fee": 0.001
+		"BTC/USDT20": {
+			"min_amount": 0.00001,
+			"price_scale": 2,
+			"trading_fee": 0.002
 		},
-		"BTCP/USD": {
-			"min_amount": 0.01,
-			"price_scale": 6,
-			"trading_fee": 0.001
+		"BTCB/BTC": {
+			"min_amount": 0.000001,
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"BTG/BTC": {
 			"min_amount": 0.001,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BTG/ETH": {
 			"min_amount": 0.001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BTG/USD": {
 			"min_amount": 0.001,
+			"price_scale": 5
+		},
+		"BTG/USDT": {
+			"min_amount": 0.001,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BTM/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BTM/ETH": {
 			"min_amount": 1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BTM/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"BTM/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BTS/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BTT/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BTT/ETH": {
 			"min_amount": 10,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BTT/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"BTT/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BTX/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"BTX/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"BTX/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
-		},
-		"BUBO/BTC": {
-			"min_amount": 10,
-			"price_scale": 11,
-			"trading_fee": 0.001
-		},
-		"BUBO/ETH": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"BUBO/USD": {
-			"min_amount": 10,
-			"price_scale": 8,
-			"trading_fee": 0.001
-		},
-		"BUS/BTC": {
-			"min_amount": 0.01,
-			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"C20/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"C20/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
-		"CAS/BTC": {
+		"CBC/BTC": {
 			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
+			"price_scale": 7,
+			"trading_fee": 0.002
 		},
-		"CAS/ETH": {
+		"CBC/ETH": {
 			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
+			"price_scale": 6,
+			"trading_fee": 0.002
 		},
-		"CAS/USD": {
+		"CBC/USD": {
 			"min_amount": 10,
-			"price_scale": 8,
-			"trading_fee": 0.001
+			"price_scale": 5
 		},
-		"CAT/BTC": {
+		"CBC/USDT": {
 			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"CAT/ETH": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"CAT/USD": {
-			"min_amount": 10,
-			"price_scale": 8,
-			"trading_fee": 0.001
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"CCL/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CCL/USD": {
 			"min_amount": 100,
+			"price_scale": 9
+		},
+		"CCL/USDT": {
+			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CDCC/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CDCC/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CDCC/USD": {
 			"min_amount": 100,
+			"price_scale": 9
+		},
+		"CDCC/USDT": {
+			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CDT/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CDT/ETH": {
 			"min_amount": 10,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CDT/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"CDT/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CENNZ/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CENNZ/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CHAT/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CHAT/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CHAT/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"CHAT/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CHP/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CHSB/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CHSB/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"CHX/BTC": {
-			"min_amount": 0.1,
-			"price_scale": 9,
-			"trading_fee": 0.001
-		},
-		"CHX/ETH": {
-			"min_amount": 0.1,
-			"price_scale": 8,
-			"trading_fee": 0.001
-		},
-		"CHX/USD": {
-			"min_amount": 0.1,
-			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CLN/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CLN/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CLO/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CLO/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CLO/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"CLO/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CMCT/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CMCT/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CMCT/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"CMCT/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CND/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CND/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CND/USD": {
 			"min_amount": 1,
+			"price_scale": 8
+		},
+		"CND/USDT": {
+			"min_amount": 1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"COSM/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"COSM/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"COV/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"COV/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CPAY/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CPT/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
-		"CPY/BTC": {
-			"min_amount": 1,
+		"CRO/BTC": {
+			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
-		"CPY/ETH": {
-			"min_amount": 1,
-			"price_scale": 9,
-			"trading_fee": 0.001
+		"CRO/ETH": {
+			"min_amount": 0.1,
+			"price_scale": 8,
+			"trading_fee": 0.002
+		},
+		"CRO/USD": {
+			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"CRO/USDT": {
+			"min_amount": 0.1,
+			"price_scale": 6,
+			"trading_fee": 0.002
 		},
 		"CRPT/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CRPT/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"CRPT/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CSM/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CSM/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CSM/USD": {
 			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"CSM/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CSNO/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"CUTE/BTC": {
+			"min_amount": 0.1,
+			"price_scale": 9,
+			"trading_fee": 0.002
+		},
+		"CUTE/EOS": {
+			"min_amount": 0.1,
+			"price_scale": 7,
+			"trading_fee": 0.002
+		},
+		"CUTE/ETH": {
+			"min_amount": 0.1,
+			"price_scale": 8,
+			"trading_fee": 0.002
+		},
+		"CUTE/USD": {
+			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"CUTE/USDT": {
+			"min_amount": 0.1,
+			"price_scale": 6,
+			"trading_fee": 0.002
 		},
 		"CVC/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"CVC/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CVCOIN/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CVCOIN/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CVCOIN/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"CVCOIN/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
-		},
-		"CVH/ETH": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"CVH/USD": {
-			"min_amount": 10,
-			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CVT/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CVT/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"CVT/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"CVT/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DADI/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DADI/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DADI/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"DADI/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DAG/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DAG/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"DAI/EOSDT": {
+			"min_amount": 0.01,
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"DAI/USDC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DAN/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"DAPP/BTC": {
+			"min_amount": 1,
+			"price_scale": 10,
+			"trading_fee": 0.002
+		},
+		"DAPP/EOS": {
+			"min_amount": 1,
+			"price_scale": 8,
+			"trading_fee": 0.002
 		},
 		"DASH/BTC": {
 			"min_amount": 0.001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DASH/EOS": {
 			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DASH/ETH": {
 			"min_amount": 0.001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DASH/EURS": {
 			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DASH/USD": {
 			"min_amount": 0.001,
+			"price_scale": 4
+		},
+		"DASH/USDT": {
+			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DATA/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DATA/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DATA/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"DATA/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DATX/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DATX/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DAV/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DAV/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"DAXT/BTC": {
-			"min_amount": 10,
-			"price_scale": 11,
-			"trading_fee": 0.001
-		},
-		"DAXT/ETH": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DAY/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DAY/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DAY/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"DAY/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
-		},
-		"DBET/BTC": {
-			"min_amount": 1,
-			"price_scale": 9,
-			"trading_fee": 0.001
-		},
-		"DBET/ETH": {
-			"min_amount": 1,
-			"price_scale": 9,
-			"trading_fee": 0.001
-		},
-		"DBET/USD": {
-			"min_amount": 1,
-			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DBIX/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DCN/BTC": {
 			"min_amount": 1000,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DCN/ETH": {
 			"min_amount": 1000,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DCN/USD": {
 			"min_amount": 1000,
+			"price_scale": 10
+		},
+		"DCN/USDT": {
+			"min_amount": 1000,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"DCR/BTC": {
+			"min_amount": 0.001,
+			"price_scale": 7,
+			"trading_fee": 0.002
+		},
+		"DCR/ETH": {
+			"min_amount": 0.001,
+			"price_scale": 6,
+			"trading_fee": 0.002
+		},
+		"DCR/USD": {
+			"min_amount": 0.001,
+			"price_scale": 4
+		},
+		"DCR/USDT": {
+			"min_amount": 0.001,
+			"price_scale": 4,
+			"trading_fee": 0.002
 		},
 		"DCT/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"DENT/BTC": {
+			"min_amount": 100,
+			"price_scale": 11,
+			"trading_fee": 0.002
 		},
 		"DENT/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"DENT/USD": {
+			"min_amount": 100,
+			"price_scale": 9
+		},
+		"DENT/USDT": {
+			"min_amount": 100,
+			"price_scale": 9,
+			"trading_fee": 0.002
 		},
 		"DGB/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DGB/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DGB/TUSD": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DGB/USD": {
 			"min_amount": 1,
+			"price_scale": 8
+		},
+		"DGB/USDT": {
+			"min_amount": 1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DGD/BTC": {
 			"min_amount": 0.001,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DGTX/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DGTX/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DGTX/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"DGTX/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DICE/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DICE/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DIM/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DIM/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DIM/USD": {
 			"min_amount": 10,
+			"price_scale": 9
+		},
+		"DIM/USDT": {
+			"min_amount": 10,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DIT/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DIT/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DLT/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DNT/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DOGE/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DOGE/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DOGE/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"DOGE/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
-		},
-		"DOR/BTC": {
-			"min_amount": 100,
-			"price_scale": 11,
-			"trading_fee": 0.001
-		},
-		"DOR/ETH": {
-			"min_amount": 100,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"DOR/USD": {
-			"min_amount": 100,
-			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DOV/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DOV/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DPN/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DRG/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DRG/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DRPU/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DRPU/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DRT/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DRT/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DRT/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"DRT/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DTR/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DTR/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DWS/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DWS/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"DWS/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"DWS/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"ECOIN/BTC": {
+			"min_amount": 1,
+			"price_scale": 10,
+			"trading_fee": 0.002
+		},
+		"ECOIN/ETH": {
+			"min_amount": 1,
+			"price_scale": 10,
+			"trading_fee": 0.002
+		},
+		"ECOIN/USD": {
+			"min_amount": 1,
+			"price_scale": 8
+		},
+		"ECOIN/USDT": {
+			"min_amount": 1,
+			"price_scale": 8,
+			"trading_fee": 0.002
 		},
 		"EDG/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EDG/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EDG/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"EDG/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EDO/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EDO/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EDO/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"EDO/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
-		},
-		"EET/BTC": {
-			"min_amount": 1,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"EET/ETH": {
-			"min_amount": 1,
-			"price_scale": 9,
-			"trading_fee": 0.001
-		},
-		"EET/USD": {
-			"min_amount": 1,
-			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EKO/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EKO/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EKO/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"EKO/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ELEC/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ELEC/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ELEC/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"ELEC/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ELF/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ELF/USD": {
 			"min_amount": 0.1,
+			"price_scale": 7
+		},
+		"ELF/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EMC/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EMC/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EMC/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"EMC/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ENG/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ENGT/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ENGT/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ENJ/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ENJ/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ENJ/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"ENJ/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EOS/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EOS/DAI": {
 			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"EOS/EOSDT": {
+			"min_amount": 0.01,
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"EOS/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EOS/EURS": {
 			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EOS/GUSD": {
 			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EOS/PAX": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EOS/USD": {
 			"min_amount": 0.01,
-			"price_scale": 5,
-			"trading_fee": 0.001
+			"price_scale": 5
 		},
-		"ERO/BTC": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
+		"EOS/USDT": {
+			"min_amount": 0.01,
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"ERT/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ETC/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ETC/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ETC/USD": {
 			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"ETC/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ETH/BTC": {
 			"min_amount": 0.0001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ETH/DAI": {
 			"min_amount": 0.0001,
 			"price_scale": 3,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"ETH/EOSDT": {
+			"min_amount": 0.0001,
+			"price_scale": 3,
+			"trading_fee": 0.002
 		},
 		"ETH/EURS": {
 			"min_amount": 0.0001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ETH/GUSD": {
 			"min_amount": 0.0001,
 			"price_scale": 3,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ETH/PAX": {
 			"min_amount": 0.0001,
 			"price_scale": 3,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ETH/TUSD": {
 			"min_amount": 0.0001,
 			"price_scale": 3,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ETH/USD": {
 			"min_amount": 0.0001,
-			"price_scale": 3,
-			"trading_fee": 0.001
+			"price_scale": 3
 		},
 		"ETH/USDC": {
 			"min_amount": 0.0001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"ETH/USDT": {
+			"min_amount": 0.0001,
+			"price_scale": 3,
+			"trading_fee": 0.002
 		},
 		"ETN/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ETN/ETH": {
 			"min_amount": 10,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ETN/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"ETN/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ETP/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ETP/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ETP/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"ETP/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EURS/DAI": {
 			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"EURS/EOSDT": {
+			"min_amount": 0.01,
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"EURS/TUSD": {
 			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EURS/USD": {
 			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"EURS/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EVX/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EVX/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"EVX/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"EVX/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"EXP/BTC": {
+			"min_amount": 0.1,
+			"price_scale": 9,
+			"trading_fee": 0.002
 		},
 		"FACE/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FACE/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"FCN/BTC": {
-			"min_amount": 1,
-			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FDZ/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FDZ/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FDZ/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"FDZ/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"FET/BTC": {
+			"min_amount": 0.1,
+			"price_scale": 9,
+			"trading_fee": 0.002
 		},
 		"FLP/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FLP/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FLP/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"FLP/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FOTA/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FOTA/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FREC/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FREC/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FREC/USD": {
 			"min_amount": 100,
+			"price_scale": 9
+		},
+		"FREC/USDT": {
+			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FTX/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FTX/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
-		},
-		"FUEL/BTC": {
-			"min_amount": 10,
-			"price_scale": 9,
-			"trading_fee": 0.001
-		},
-		"FUEL/ETH": {
-			"min_amount": 10,
-			"price_scale": 9,
-			"trading_fee": 0.001
-		},
-		"FUEL/USD": {
-			"min_amount": 10,
-			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FUN/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FUN/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FUN/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"FUN/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FXT/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FXT/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"FYP/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"GAS/BTC": {
+			"min_amount": 0.01,
+			"price_scale": 8,
+			"trading_fee": 0.002
+		},
+		"GAS/ETH": {
+			"min_amount": 0.01,
+			"price_scale": 7,
+			"trading_fee": 0.002
+		},
+		"GAS/USD": {
+			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"GAS/USDT": {
+			"min_amount": 0.01,
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"GBX/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"GBX/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"GBX/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"GBX/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"GET/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"GNO/BTC": {
 			"min_amount": 0.001,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"GNO/ETH": {
 			"min_amount": 0.001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"GNT/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"GNT/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"GNT/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"GNT/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"GNX/BTC": {
+			"min_amount": 1,
+			"price_scale": 10,
+			"trading_fee": 0.002
 		},
 		"GNX/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
-		"GRMD/BTC": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
+		"GRIN/BTC": {
+			"min_amount": 0.01,
+			"price_scale": 8,
+			"trading_fee": 0.002
+		},
+		"GRIN/ETH": {
+			"min_amount": 0.01,
+			"price_scale": 7,
+			"trading_fee": 0.002
+		},
+		"GRIN/USD": {
+			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"GRIN/USDT": {
+			"min_amount": 0.01,
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"GST/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"GST/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"GST/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"GST/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"GUP/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"GVT/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HAND/ETH": {
 			"min_amount": 10000,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HAND/USD": {
 			"min_amount": 10000,
+			"price_scale": 11
+		},
+		"HAND/USDT": {
+			"min_amount": 10000,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HBT/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HBZ/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HBZ/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HBZ/USD": {
 			"min_amount": 100,
+			"price_scale": 9
+		},
+		"HBZ/USDT": {
+			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"HERO/BTC": {
+			"min_amount": 10,
+			"price_scale": 7,
+			"trading_fee": 0.002
+		},
+		"HERO/ETH": {
+			"min_amount": 10,
+			"price_scale": 6,
+			"trading_fee": 0.002
 		},
 		"HGT/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HGT/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HMQ/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HMQ/ETH": {
 			"min_amount": 10,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HPC/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HSR/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"HT/BTC": {
+			"min_amount": 0.01,
+			"price_scale": 8,
+			"trading_fee": 0.002
+		},
+		"HT/USD": {
+			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"HT/USDT": {
+			"min_amount": 0.01,
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"HTML/BTC": {
 			"min_amount": 1000,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HTML/ETH": {
 			"min_amount": 1000,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HTML/USD": {
 			"min_amount": 1000,
+			"price_scale": 10
+		},
+		"HTML/USDT": {
+			"min_amount": 1000,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HVN/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"HVN/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ICX/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ICX/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ICX/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"ICX/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"IDH/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"IDH/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"IFT/BTC": {
-			"min_amount": 10,
-			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"IGNIS/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"IHT/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"IHT/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"IHT/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"IHT/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"IND/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"INK/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"INK/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"INK/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"INK/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
-		},
-		"INSUR/BTC": {
-			"min_amount": 100,
-			"price_scale": 11,
-			"trading_fee": 0.001
-		},
-		"INSUR/ETH": {
-			"min_amount": 100,
-			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"IOST/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"IOST/USD": {
 			"min_amount": 10,
-			"price_scale": 8,
-			"trading_fee": 0.001
+			"price_scale": 8
 		},
-		"IOTA/BTC": {
+		"IOST/USDT": {
+			"min_amount": 10,
+			"price_scale": 8,
+			"trading_fee": 0.002
+		},
+		"IOT/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
-		"IOTA/ETH": {
+		"IOT/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
-		"IOTA/USD": {
+		"IOT/USD": {
+			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"IOT/USDT": {
 			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"IPL/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"IPL/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"IPL/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"IPL/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
-		},
-		"IVY/BTC": {
-			"min_amount": 1,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"IVY/ETH": {
-			"min_amount": 1,
-			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"IXT/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"IXT/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"JBC/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"JBC/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"JNT/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"JOT/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"KBC/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"KBC/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"KEY/BTC": {
+			"min_amount": 10,
+			"price_scale": 11,
+			"trading_fee": 0.002
+		},
+		"KEY/ETH": {
+			"min_amount": 10,
+			"price_scale": 10,
+			"trading_fee": 0.002
 		},
 		"KICK/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"KIN/BTC": {
 			"min_amount": 1000,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"KIN/ETH": {
 			"min_amount": 1000,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"KIND/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"KIND/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"KMD/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"KMD/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"KMD/USD": {
 			"min_amount": 0.1,
-			"price_scale": 6,
-			"trading_fee": 0.001
+			"price_scale": 6
 		},
-		"KRM/USD": {
-			"min_amount": 100,
+		"KMD/USDT": {
+			"min_amount": 0.1,
+			"price_scale": 6,
+			"trading_fee": 0.002
+		},
+		"KNC/BTC": {
+			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"KNC/ETH": {
+			"min_amount": 0.1,
+			"price_scale": 8,
+			"trading_fee": 0.002
+		},
+		"KNC/USD": {
+			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"KNC/USDT": {
+			"min_amount": 0.1,
+			"price_scale": 6,
+			"trading_fee": 0.002
 		},
 		"LA/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LCC/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LEND/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LEND/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LIFE/BTC": {
 			"min_amount": 1000,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"LINK/BTC": {
+			"min_amount": 0.01,
+			"price_scale": 8,
+			"trading_fee": 0.002
+		},
+		"LINK/ETH": {
+			"min_amount": 0.01,
+			"price_scale": 7,
+			"trading_fee": 0.002
+		},
+		"LINK/USD": {
+			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"LINK/USDT": {
+			"min_amount": 0.01,
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"LNC/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LND/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LOC/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LOC/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LOC/USD": {
 			"min_amount": 0.01,
+			"price_scale": 6
+		},
+		"LOC/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"LOOM/BTC": {
+			"min_amount": 1,
+			"price_scale": 10,
+			"trading_fee": 0.002
+		},
+		"LOOM/ETH": {
+			"min_amount": 1,
+			"price_scale": 9,
+			"trading_fee": 0.002
 		},
 		"LRC/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LRC/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LSK/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LSK/EOS": {
 			"min_amount": 0.01,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LSK/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LSK/USD": {
 			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"LSK/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LTC/BTC": {
 			"min_amount": 0.001,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LTC/DAI": {
 			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LTC/EOS": {
 			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LTC/ETH": {
 			"min_amount": 0.001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LTC/EURS": {
 			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LTC/TUSD": {
 			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LTC/USD": {
 			"min_amount": 0.001,
+			"price_scale": 4
+		},
+		"LTC/USDT": {
+			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
-		},
-		"LUC/BTC": {
-			"min_amount": 100,
-			"price_scale": 11,
-			"trading_fee": 0.001
-		},
-		"LUC/ETH": {
-			"min_amount": 100,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"LUC/USD": {
-			"min_amount": 100,
-			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"LUN/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MAID/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MAID/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MAID/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"MAID/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MAN/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MAN/ETH": {
 			"min_amount": 1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MAN/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"MAN/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MANA/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MANA/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MANA/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"MANA/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MCO/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MCO/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MCO/USD": {
 			"min_amount": 0.01,
+			"price_scale": 6
+		},
+		"MCO/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MESH/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MESH/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MESH/USD": {
 			"min_amount": 100,
+			"price_scale": 9
+		},
+		"MESH/USDT": {
+			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MESSE/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MESSE/EOS": {
 			"min_amount": 1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MESSE/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MESSE/EURS": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MESSE/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"MESSE/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"MG/BTC": {
+			"min_amount": 0.1,
+			"price_scale": 9,
+			"trading_fee": 0.002
+		},
+		"MG/EOS": {
+			"min_amount": 0.1,
+			"price_scale": 7,
+			"trading_fee": 0.002
+		},
+		"MG/ETH": {
+			"min_amount": 0.1,
+			"price_scale": 8,
+			"trading_fee": 0.002
+		},
+		"MG/USD": {
+			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"MG/USDT": {
+			"min_amount": 0.1,
+			"price_scale": 6,
+			"trading_fee": 0.002
 		},
 		"MITH/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MITH/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MITH/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"MITH/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MITX/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MITX/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MKR/BTC": {
 			"min_amount": 0.0001,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MKR/DAI": {
 			"min_amount": 0.0001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MKR/ETH": {
 			"min_amount": 0.0001,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MKR/USD": {
 			"min_amount": 0.0001,
+			"price_scale": 3
+		},
+		"MKR/USDT": {
+			"min_amount": 0.0001,
 			"price_scale": 3,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MLN/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MLN/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MNX/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MNX/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MNX/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"MNX/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
-		},
-		"MORPH/BTC": {
-			"min_amount": 10,
-			"price_scale": 11,
-			"trading_fee": 0.001
-		},
-		"MORPH/ETH": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"MORPH/USD": {
-			"min_amount": 10,
-			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MRK/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MRK/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MRS/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MRS/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MRS/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"MRS/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MTH/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MTH/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"MTL/BTC": {
+			"min_amount": 0.1,
+			"price_scale": 9,
+			"trading_fee": 0.002
+		},
+		"MTL/ETH": {
+			"min_amount": 0.1,
+			"price_scale": 8,
+			"trading_fee": 0.002
 		},
 		"MTX/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MTX/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MTX/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"MTX/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
-		},
-		"MXM/BTC": {
-			"min_amount": 1,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"MXM/ETH": {
-			"min_amount": 1,
-			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MYB/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MYST/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"MYST/ETH": {
 			"min_amount": 1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NANJ/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NANO/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NANO/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NANO/USD": {
 			"min_amount": 0.01,
+			"price_scale": 6
+		},
+		"NANO/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NAVI/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NAVI/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NCT/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NCT/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NCT/USD": {
 			"min_amount": 10,
-			"price_scale": 8,
-			"trading_fee": 0.001
+			"price_scale": 8
 		},
-		"NDC/ETH": {
+		"NCT/USDT": {
 			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
+			"price_scale": 8,
+			"trading_fee": 0.002
 		},
 		"NEBL/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NEBL/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NEO/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NEO/DAI": {
 			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NEO/EOS": {
 			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NEO/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NEO/EURS": {
 			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NEO/TUSD": {
 			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NEO/USD": {
 			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"NEO/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NEU/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NEU/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NEU/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"NEU/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NEXO/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NEXO/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NEXO/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"NEXO/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NGC/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NGC/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NGC/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"NGC/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NIM/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NIM/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NLC2/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NMR/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NOAH/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NOAH/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NOAH/USD": {
 			"min_amount": 100,
+			"price_scale": 9
+		},
+		"NOAH/USDT": {
+			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NPLC/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NPLC/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NTK/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NTK/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NTK/USD": {
 			"min_amount": 1,
-			"price_scale": 7,
-			"trading_fee": 0.001
+			"price_scale": 7
 		},
-		"NXC/BTC": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
+		"NTK/USDT": {
+			"min_amount": 1,
+			"price_scale": 7,
+			"trading_fee": 0.002
+		},
+		"NUT/BTC": {
+			"min_amount": 0.001,
+			"price_scale": 7,
+			"trading_fee": 0.002
+		},
+		"NUT/EOS": {
+			"min_amount": 0.001,
+			"price_scale": 5,
+			"trading_fee": 0.002
+		},
+		"NUT/USD": {
+			"min_amount": 0.001,
+			"price_scale": 5
+		},
+		"NUT/USDT": {
+			"min_amount": 0.001,
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"NXT/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NXT/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"NXT/USD": {
 			"min_amount": 1,
-			"price_scale": 7,
-			"trading_fee": 0.001
+			"price_scale": 7
 		},
-		"OAK/ETH": {
+		"NXT/USDT": {
 			"min_amount": 1,
-			"price_scale": 9,
-			"trading_fee": 0.001
+			"price_scale": 7,
+			"trading_fee": 0.002
 		},
 		"OAX/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"OAX/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"OAX/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"OAX/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"OCN/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"OCN/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"ODN/BTC": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"OMG/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"OMG/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"OMG/USD": {
 			"min_amount": 0.01,
+			"price_scale": 6
+		},
+		"OMG/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ONT/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ONT/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ONT/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"ONT/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"OPT/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
-		"ORME/BTC": {
-			"min_amount": 1,
+		"ORMEUS/BTC": {
+			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
-		"OTN/BTC": {
-			"min_amount": 1,
-			"price_scale": 9,
-			"trading_fee": 0.001
+		"ORMEUS/ETH": {
+			"min_amount": 0.1,
+			"price_scale": 8,
+			"trading_fee": 0.002
 		},
 		"PASS/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PASS/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PAT/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PAT/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PAT/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"PAT/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PAY/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PAY/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"PBT/BTC": {
+			"min_amount": 0.00001,
+			"price_scale": 5,
+			"trading_fee": 0.002
+		},
+		"PBT/ETH": {
+			"min_amount": 0.00001,
+			"price_scale": 4,
+			"trading_fee": 0.002
 		},
 		"PBTT/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
-		},
-		"PCL/BTC": {
-			"min_amount": 10,
-			"price_scale": 11,
-			"trading_fee": 0.001
-		},
-		"PCL/ETH": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PETH/BTC": {
 			"min_amount": 0.0001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PETH/ETH": {
 			"min_amount": 0.0001,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PETH/USD": {
 			"min_amount": 0.0001,
+			"price_scale": 3
+		},
+		"PETH/USDT": {
+			"min_amount": 0.0001,
 			"price_scale": 3,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"PHB/BTC": {
+			"min_amount": 1,
+			"price_scale": 11,
+			"trading_fee": 0.002
+		},
+		"PHX/BTC": {
+			"min_amount": 1,
+			"price_scale": 10,
+			"trading_fee": 0.002
+		},
+		"PHX/ETH": {
+			"min_amount": 1,
+			"price_scale": 9,
+			"trading_fee": 0.002
+		},
+		"PHX/USD": {
+			"min_amount": 1,
+			"price_scale": 7
+		},
+		"PHX/USDT": {
+			"min_amount": 1,
+			"price_scale": 7,
+			"trading_fee": 0.002
 		},
 		"PITCH/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PITCH/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PIX/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PIX/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PKT/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PKT/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PLA/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PLA/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PLA/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"PLA/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PLBT/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PLR/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PLR/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PLR/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"PLR/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PLU/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PLU/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PMA/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PMA/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PMA/USD": {
 			"min_amount": 100,
-			"price_scale": 9,
-			"trading_fee": 0.001
+			"price_scale": 9
 		},
-		"PMNT/BTC": {
+		"PMA/USDT": {
 			"min_amount": 100,
-			"price_scale": 11,
-			"trading_fee": 0.001
+			"price_scale": 9,
+			"trading_fee": 0.002
 		},
 		"PNT/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PNT/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"POA/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"POA/DAI": {
 			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"POA/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"POA/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"POA/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"POA20/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"POA20/DAI": {
 			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"POA20/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"POA20/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"POA20/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"POE/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"POE/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"POLY/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"POLY/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"POWR/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"POWR/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PPC/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PPC/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"PPC/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PPT/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PPT/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PRE/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"PRE/ETH": {
+			"min_amount": 1,
+			"price_scale": 9,
+			"trading_fee": 0.002
+		},
+		"PRO/BTC": {
+			"min_amount": 0.1,
+			"price_scale": 9,
+			"trading_fee": 0.002
 		},
 		"PRO/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PROC/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PTOY/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PTOY/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PXG/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"PXG/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"PXG/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"QKC/BTC": {
+			"min_amount": 1,
+			"price_scale": 10,
+			"trading_fee": 0.002
+		},
+		"QKC/ETH": {
+			"min_amount": 1,
+			"price_scale": 9,
+			"trading_fee": 0.002
 		},
 		"QNTU/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"QNTU/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"QNTU/USD": {
 			"min_amount": 100,
+			"price_scale": 9
+		},
+		"QNTU/USDT": {
+			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"QTUM/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"QTUM/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"QTUM/USD": {
 			"min_amount": 0.01,
+			"price_scale": 6
+		},
+		"QTUM/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"R/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"R/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"RCN/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"RCN/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"RCN/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"RCN/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"REP/BTC": {
 			"min_amount": 0.001,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"REP/ETH": {
 			"min_amount": 0.001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"REP/USD": {
 			"min_amount": 0.001,
+			"price_scale": 4
+		},
+		"REP/USDT": {
+			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"REX/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"REX/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"REX/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"REX/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"RLC/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
-		},
-		"RNTB/ETH": {
-			"min_amount": 100,
-			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ROX/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"RVT/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SALT/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SALT/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SAN/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SBD/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SBD/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SBD/USD": {
 			"min_amount": 0.01,
+			"price_scale": 6
+		},
+		"SBD/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SBTC/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SBTC/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SBTC/USD": {
 			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"SBTC/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SC/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SCC/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SCL/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SENT/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SENT/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SENT/USD": {
 			"min_amount": 10,
+			"price_scale": 9
+		},
+		"SENT/USDT": {
+			"min_amount": 10,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SHIP/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SHIP/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"SIG/BTC": {
-			"min_amount": 10,
-			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SILK/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SLX/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SLX/USD": {
 			"min_amount": 100,
+			"price_scale": 9
+		},
+		"SLX/USDT": {
+			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SMART/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SMART/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SMART/USD": {
 			"min_amount": 1,
+			"price_scale": 8
+		},
+		"SMART/USDT": {
+			"min_amount": 1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SMT/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SMT/ETH": {
 			"min_amount": 10,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SMT/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"SMT/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SNBL/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SNC/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SNC/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SNC/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"SNC/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SNGLS/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SNT/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SNT/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SNT/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"SNT/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SOC/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SPC/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SPC/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SPC/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"SPC/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SPD/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SPD/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SPF/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SPF/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SPF/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"SPF/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SRN/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SRN/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SRN/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"SRN/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STAR/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STEEM/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STORJ/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STORJ/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STORJ/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"STORJ/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STORM/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STQ/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STQ/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STQ/USD": {
 			"min_amount": 100,
+			"price_scale": 9
+		},
+		"STQ/USDT": {
+			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STRAT/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STRAT/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STRAT/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"STRAT/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STU/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STU/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STU/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"STU/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STX/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STX/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"STX/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"STX/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SUB/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SUB/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SUB/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"SUB/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SUNC/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SUR/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SUR/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SUR/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"SUR/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SVD/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SVD/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SVD/USD": {
 			"min_amount": 100,
+			"price_scale": 9
+		},
+		"SVD/USDT": {
+			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SWFTC/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SWFTC/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SWFTC/USD": {
 			"min_amount": 100,
+			"price_scale": 9
+		},
+		"SWFTC/USDT": {
+			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SWM/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"SWM/ETH": {
+			"min_amount": 0.1,
+			"price_scale": 8,
+			"trading_fee": 0.002
+		},
+		"SWM/USD": {
+			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"SWM/USDT": {
+			"min_amount": 0.1,
+			"price_scale": 6,
+			"trading_fee": 0.002
 		},
 		"SWT/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"SWT/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
-		},
-		"TAAS/BTC": {
-			"min_amount": 0.1,
-			"price_scale": 9,
-			"trading_fee": 0.001
-		},
-		"TAAS/ETH": {
-			"min_amount": 0.1,
-			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TAU/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TDP/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TDS/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TDS/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TDS/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"TDS/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TEL/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TEL/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TIME/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TIME/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TIV/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TIV/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TIV/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"TIV/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TIX/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
-		},
-		"TKA/BTC": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"TKA/ETH": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"TKA/USD": {
-			"min_amount": 10,
-			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TKN/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TKY/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TNT/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TNT/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TNT/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"TNT/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
-		},
-		"TOLL/BTC": {
-			"min_amount": 10,
-			"price_scale": 11,
-			"trading_fee": 0.001
-		},
-		"TOLL/ETH": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"TOLL/USD": {
-			"min_amount": 10,
-			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TRAC/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TRAD/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TRST/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TRUE/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TRX/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TRX/EOS": {
 			"min_amount": 1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TRX/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TRX/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"TRX/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
-		},
-		"TTU/BTC": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"TTU/ETH": {
-			"min_amount": 10,
-			"price_scale": 9,
-			"trading_fee": 0.001
-		},
-		"TTU/USD": {
-			"min_amount": 10,
-			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TUSD/DAI": {
 			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"TUSD/EOSDT": {
+			"min_amount": 0.01,
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"TUSD/USDC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TV/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TV/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"TV/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"TV/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
-		},
-		"UET/ETH": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"UMT/BTC": {
-			"min_amount": 10,
-			"price_scale": 11,
-			"trading_fee": 0.001
-		},
-		"UMT/ETH": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"USD/DAI": {
 			"min_amount": 0.01,
-			"price_scale": 5,
-			"trading_fee": 0.001
+			"price_scale": 5
+		},
+		"USD/EOSDT": {
+			"min_amount": 0.01,
+			"price_scale": 5
 		},
 		"USD/GUSD": {
 			"min_amount": 0.01,
-			"price_scale": 6,
-			"trading_fee": 0.001
+			"price_scale": 6
+		},
+		"USD/KRWB": {
+			"min_amount": 0.01,
+			"price_scale": 2
 		},
 		"USD/PAX": {
 			"min_amount": 0.01,
-			"price_scale": 6,
-			"trading_fee": 0.001
+			"price_scale": 6
 		},
 		"USD/TUSD": {
 			"min_amount": 0.01,
-			"price_scale": 6,
-			"trading_fee": 0.001
+			"price_scale": 6
 		},
 		"USD/USDC": {
 			"min_amount": 1,
+			"price_scale": 8
+		},
+		"USD/USDT20": {
+			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"USDT/DAI": {
+			"min_amount": 0.01,
+			"price_scale": 5,
+			"trading_fee": 0.002
+		},
+		"USDT/EOSDT": {
+			"min_amount": 0.01,
+			"price_scale": 5,
+			"trading_fee": 0.002
+		},
+		"USDT/GUSD": {
+			"min_amount": 0.01,
+			"price_scale": 6,
+			"trading_fee": 0.002
+		},
+		"USDT/KRWB": {
+			"min_amount": 0.01,
+			"price_scale": 2,
+			"trading_fee": 0.002
+		},
+		"USDT/PAX": {
+			"min_amount": 0.01,
+			"price_scale": 6,
+			"trading_fee": 0.002
+		},
+		"USDT/TUSD": {
+			"min_amount": 0.01,
+			"price_scale": 6,
+			"trading_fee": 0.002
+		},
+		"USDT/USDC": {
+			"min_amount": 1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"USDT/USDT20": {
+			"min_amount": 0.01,
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"USE/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"USE/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"UTK/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"UTK/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"UTK/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"UTK/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"UTT/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"UTT/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"UTT/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"UTT/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"UUU/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"UUU/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"VEO/BTC": {
 			"min_amount": 0.001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"VET/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"VET/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"VET/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"VET/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"VIB/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"VIB/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"VIB/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"VIB/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"VIBE/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"VME/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"VOCO/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"VOCO/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"VOCO/USD": {
 			"min_amount": 100,
+			"price_scale": 9
+		},
+		"VOCO/USDT": {
+			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"VRA/BTC": {
+			"min_amount": 1,
+			"price_scale": 10,
+			"trading_fee": 0.002
+		},
+		"VRA/ETH": {
+			"min_amount": 1,
+			"price_scale": 9,
+			"trading_fee": 0.002
 		},
 		"WAVES/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"WAX/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"WAX/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"WAX/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"WAX/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"WBTC/ETH": {
+			"min_amount": 0.00001,
+			"price_scale": 4,
+			"trading_fee": 0.002
 		},
 		"WIKI/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"WIKI/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"WIKI/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"WIKI/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"WINGS/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"WIZ/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"WIZ/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"WIZ/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"WIZ/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
-		},
-		"WLK/BTC": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"WLK/ETH": {
-			"min_amount": 10,
-			"price_scale": 10,
-			"trading_fee": 0.001
-		},
-		"WLK/USD": {
-			"min_amount": 10,
-			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"WTC/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XAUR/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XAUR/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XBP/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XCLR/BTC": {
 			"min_amount": 100,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"XCON/BTC": {
+			"min_amount": 0.1,
+			"price_scale": 9,
+			"trading_fee": 0.002
 		},
 		"XDN/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XDN/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XDN/USD": {
 			"min_amount": 100,
+			"price_scale": 9
+		},
+		"XDN/USDT": {
+			"min_amount": 100,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XEM/BTC": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XEM/EOS": {
 			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XEM/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XEM/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"XEM/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XLM/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XLM/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XLM/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"XLM/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XMC/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XMC/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XMC/USD": {
 			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"XMC/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XMR/BTC": {
 			"min_amount": 0.001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XMR/DAI": {
 			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XMR/EOS": {
 			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XMR/ETH": {
 			"min_amount": 0.001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XMR/EURS": {
 			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XMR/TUSD": {
 			"min_amount": 0.0001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XMR/USD": {
 			"min_amount": 0.001,
+			"price_scale": 4
+		},
+		"XMR/USDT": {
+			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XRP/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XRP/DAI": {
 			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XRP/EOS": {
 			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XRP/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XRP/EURS": {
 			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XRP/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"XRP/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XTZ/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XTZ/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XTZ/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"XTZ/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XUC/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XUC/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XUC/USD": {
 			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"XUC/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XVG/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XVG/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"XVG/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"XVG/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
+		},
+		"XZC/BTC": {
+			"min_amount": 0.01,
+			"price_scale": 7,
+			"trading_fee": 0.002
+		},
+		"XZC/ETH": {
+			"min_amount": 0.01,
+			"price_scale": 6,
+			"trading_fee": 0.002
+		},
+		"XZC/USD": {
+			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"XZC/USDT": {
+			"min_amount": 0.01,
+			"price_scale": 5,
+			"trading_fee": 0.002
 		},
 		"YCC/BTC": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"YOYOW/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZAP/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZAP/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZAP/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"ZAP/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZEC/BTC": {
 			"min_amount": 0.001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZEC/EOS": {
 			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZEC/ETH": {
 			"min_amount": 0.001,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZEC/EURS": {
 			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZEC/USD": {
 			"min_amount": 0.001,
+			"price_scale": 4
+		},
+		"ZEC/USDT": {
+			"min_amount": 0.001,
 			"price_scale": 4,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZEN/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZEN/ETH": {
 			"min_amount": 0.01,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZEN/USD": {
 			"min_amount": 0.01,
+			"price_scale": 5
+		},
+		"ZEN/USDT": {
+			"min_amount": 0.01,
 			"price_scale": 5,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZIL/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZIL/USD": {
 			"min_amount": 1,
+			"price_scale": 7
+		},
+		"ZIL/USDT": {
+			"min_amount": 1,
 			"price_scale": 7,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZPR/ETH": {
 			"min_amount": 100,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZPT/BTC": {
 			"min_amount": 1,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZPT/ETH": {
 			"min_amount": 1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZPT/USD": {
 			"min_amount": 1,
+			"price_scale": 8
+		},
+		"ZPT/USDT": {
+			"min_amount": 1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZRC/BTC": {
 			"min_amount": 0.01,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZRX/BTC": {
 			"min_amount": 0.1,
 			"price_scale": 9,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZRX/ETH": {
 			"min_amount": 0.1,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZRX/TUSD": {
 			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZRX/USD": {
 			"min_amount": 0.1,
+			"price_scale": 6
+		},
+		"ZRX/USDT": {
+			"min_amount": 0.1,
 			"price_scale": 6,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZSC/BTC": {
 			"min_amount": 10,
 			"price_scale": 11,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZSC/ETH": {
 			"min_amount": 10,
 			"price_scale": 10,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		},
 		"ZSC/USD": {
 			"min_amount": 10,
+			"price_scale": 8
+		},
+		"ZSC/USDT": {
+			"min_amount": 10,
 			"price_scale": 8,
-			"trading_fee": 0.001
+			"trading_fee": 0.002
 		}
 	},
 	"currencies": {
 		"1ST": {
-			"withdrawal_fee": 191.5
+			"withdrawal_fee": 69.44
 		},
 		"8BT": {},
 		"ABA": {
-			"withdrawal_fee": 826
+			"withdrawal_fee": 1567
 		},
 		"ABTC": {
-			"withdrawal_fee": 19.311
+			"withdrawal_fee": 63.001
 		},
 		"ABYSS": {
-			"withdrawal_fee": 1315
+			"withdrawal_fee": 429.2
 		},
 		"ACAT": {
-			"withdrawal_fee": 1450
+			"withdrawal_fee": 21858
 		},
 		"ACO": {
-			"withdrawal_fee": 1809
+			"withdrawal_fee": 36929
 		},
 		"ACT": {
-			"withdrawal_fee": 0.3
+			"withdrawal_fee": 292.01
 		},
-		"ADA": {},
+		"ADA": {
+			"withdrawal_fee": 70.2
+		},
 		"ADH": {
-			"withdrawal_fee": 3955
+			"withdrawal_fee": 6623
 		},
 		"ADX": {
-			"withdrawal_fee": 68.08
+			"withdrawal_fee": 68.91
 		},
 		"AE": {
-			"withdrawal_fee": 18.05
+			"withdrawal_fee": 26.27
 		},
 		"AEON": {
-			"withdrawal_fee": 0.01006
+			"withdrawal_fee": 6.01
+		},
+		"AGI": {
+			"withdrawal_fee": 283.1
 		},
 		"AION": {
-			"withdrawal_fee": 68.73
+			"withdrawal_fee": 74.3
 		},
 		"AIR": {
 			"withdrawal_fee": 6693
 		},
 		"AMB": {
-			"withdrawal_fee": 141.7
+			"withdrawal_fee": 300.7
 		},
 		"AMM": {
-			"withdrawal_fee": 1171
+			"withdrawal_fee": 1634
 		},
 		"AMP": {
-			"withdrawal_fee": 700
+			"withdrawal_fee": 853
 		},
 		"ANT": {
-			"withdrawal_fee": 19.29
+			"withdrawal_fee": 9.88
 		},
 		"APPC": {
-			"withdrawal_fee": 141.2
+			"withdrawal_fee": 175.7
 		},
 		"ARCT": {
-			"withdrawal_fee": 8439
+			"withdrawal_fee": 17241
 		},
 		"ARDR": {
 			"withdrawal_fee": 3
 		},
 		"ARN": {
-			"withdrawal_fee": 25.56
+			"withdrawal_fee": 31.64
 		},
 		"ART": {
-			"withdrawal_fee": 308
+			"withdrawal_fee": 93.5
 		},
 		"ATB": {
 			"withdrawal_fee": 0.0004
 		},
 		"ATL": {
-			"withdrawal_fee": 282.9
+			"withdrawal_fee": 312.6
 		},
 		"ATM": {
 			"withdrawal_fee": 54967.62
+		},
+		"ATOM": {
+			"withdrawal_fee": 0.005
 		},
 		"ATS": {
 			"withdrawal_fee": 18236.81
 		},
 		"AUC": {
-			"withdrawal_fee": 523
+			"withdrawal_fee": 1434
 		},
 		"AUTO": {
-			"withdrawal_fee": 3501
+			"withdrawal_fee": 6520
 		},
 		"AVH": {
 			"withdrawal_fee": 11494.92
 		},
 		"AVT": {
-			"withdrawal_fee": 51.04
+			"withdrawal_fee": 54.68
 		},
 		"AXP": {
 			"withdrawal_fee": 1047.6
 		},
 		"AXPR": {
-			"withdrawal_fee": 1345
+			"withdrawal_fee": 1278
 		},
 		"B2G": {
 			"withdrawal_fee": 0.0063
 		},
 		"B2X": {},
 		"BANCA": {
-			"withdrawal_fee": 86022
+			"withdrawal_fee": 140351
 		},
 		"BAR": {
 			"withdrawal_fee": 4423
@@ -4569,7 +5378,7 @@
 			"withdrawal_fee": 16300
 		},
 		"BAT": {
-			"withdrawal_fee": 58.76
+			"withdrawal_fee": 32.82
 		},
 		"BBC": {
 			"withdrawal_fee": 2390.73
@@ -4581,13 +5390,10 @@
 			"withdrawal_fee": 5.02
 		},
 		"BCH": {
-			"withdrawal_fee": 0.0018
-		},
-		"BCHABC": {
 			"withdrawal_fee": 0.0201
 		},
-		"BCHSV": {
-			"withdrawal_fee": 0.1701
+		"BCHOLD": {
+			"withdrawal_fee": 0.0018
 		},
 		"BCI": {
 			"withdrawal_fee": 13.0001
@@ -4596,22 +5402,22 @@
 			"withdrawal_fee": 1
 		},
 		"BCPT": {
-			"withdrawal_fee": 232
+			"withdrawal_fee": 198.6
 		},
 		"BCST": {
-			"withdrawal_fee": 656
+			"withdrawal_fee": 516.8
 		},
 		"BDG": {
-			"withdrawal_fee": 2370
+			"withdrawal_fee": 7086
 		},
 		"BERRY": {
-			"withdrawal_fee": 4362
+			"withdrawal_fee": 7306
 		},
 		"BET": {
-			"withdrawal_fee": 799.4
+			"withdrawal_fee": 442
 		},
 		"BETR": {
-			"withdrawal_fee": 2383
+			"withdrawal_fee": 7805
 		},
 		"BEZ": {
 			"withdrawal_fee": 232.54
@@ -4620,50 +5426,59 @@
 			"withdrawal_fee": 5000
 		},
 		"BIT": {
-			"withdrawal_fee": 13559
+			"withdrawal_fee": 37559
 		},
 		"BITS": {
-			"withdrawal_fee": 3507
+			"withdrawal_fee": 81633
 		},
 		"BKB": {
 			"withdrawal_fee": 215
 		},
 		"BKX": {
-			"withdrawal_fee": 558.9
+			"withdrawal_fee": 831
+		},
+		"BLZ": {
+			"withdrawal_fee": 198.2
 		},
 		"BMC": {
-			"withdrawal_fee": 41.92
+			"withdrawal_fee": 27.97
 		},
 		"BMH": {
-			"withdrawal_fee": 1804
+			"withdrawal_fee": 8939
 		},
 		"BMT": {
 			"withdrawal_fee": 2432
 		},
 		"BNB": {
-			"withdrawal_fee": 0.745
+			"withdrawal_fee": 0.002
 		},
 		"BNK": {
-			"withdrawal_fee": 3889
+			"withdrawal_fee": 4978
 		},
 		"BNT": {
-			"withdrawal_fee": 14.25
+			"withdrawal_fee": 16.63
 		},
 		"BOS": {},
 		"BOX": {
-			"withdrawal_fee": 169.6
+			"withdrawal_fee": 112.2
 		},
 		"BPTN": {
 			"withdrawal_fee": 23809.52
 		},
 		"BQX": {
-			"withdrawal_fee": 53.1
+			"withdrawal_fee": 67.26
 		},
 		"BRD": {
-			"withdrawal_fee": 35.99
+			"withdrawal_fee": 30.05
+		},
+		"BRDG": {
+			"withdrawal_fee": 40
 		},
 		"BSTN": {
 			"withdrawal_fee": 273861.56
+		},
+		"BSV": {
+			"withdrawal_fee": 0.1001
 		},
 		"BTC": {
 			"withdrawal_fee": 0.0015
@@ -4671,17 +5486,20 @@
 		"BTCA": {
 			"withdrawal_fee": 26455
 		},
+		"BTCB": {
+			"withdrawal_fee": 0.0007965
+		},
 		"BTCP": {
 			"withdrawal_fee": 0.001
 		},
 		"BTG": {
-			"withdrawal_fee": 0.0005
+			"withdrawal_fee": 0.001
 		},
 		"BTM": {
-			"withdrawal_fee": 87.2
+			"withdrawal_fee": 69.45
 		},
 		"BTS": {
-			"withdrawal_fee": 50.3
+			"withdrawal_fee": 50.5
 		},
 		"BTT": {
 			"withdrawal_fee": 50
@@ -4690,41 +5508,43 @@
 			"withdrawal_fee": 1
 		},
 		"BUBO": {
-			"withdrawal_fee": 2800
+			"withdrawal_fee": 4941
 		},
 		"BUS": {
-			"withdrawal_fee": 2.266
+			"withdrawal_fee": 1.16
 		},
 		"C20": {
-			"withdrawal_fee": 20.53
+			"withdrawal_fee": 13.72
 		},
 		"CAPP": {
 			"withdrawal_fee": 2504.6
 		},
 		"CAS": {
-			"withdrawal_fee": 1092
+			"withdrawal_fee": 947
 		},
-		"CAT": {},
+		"CAT": {
+			"withdrawal_fee": 26806
+		},
 		"CBC": {
-			"withdrawal_fee": 900
+			"withdrawal_fee": 1028
 		},
 		"CCL": {
-			"withdrawal_fee": 23952
+			"withdrawal_fee": 25078
 		},
 		"CCT": {
 			"withdrawal_fee": 707.07
 		},
 		"CDCC": {
-			"withdrawal_fee": 31274
+			"withdrawal_fee": 319361
 		},
 		"CDT": {
-			"withdrawal_fee": 1016
+			"withdrawal_fee": 503.7
 		},
 		"CDX": {
 			"withdrawal_fee": 2444
 		},
 		"CENNZ": {
-			"withdrawal_fee": 209
+			"withdrawal_fee": 286.1
 		},
 		"CFI": {
 			"withdrawal_fee": 554.63
@@ -4733,16 +5553,16 @@
 			"withdrawal_fee": 600
 		},
 		"CHAT": {
-			"withdrawal_fee": 2714
+			"withdrawal_fee": 1880
 		},
 		"CHP": {
-			"withdrawal_fee": 3990
+			"withdrawal_fee": 1379
 		},
 		"CHSB": {
-			"withdrawal_fee": 1150
+			"withdrawal_fee": 1187
 		},
 		"CHX": {
-			"withdrawal_fee": 25.73
+			"withdrawal_fee": 59.52
 		},
 		"CL": {
 			"withdrawal_fee": 3311.56
@@ -4751,7 +5571,7 @@
 			"withdrawal_fee": 1015
 		},
 		"CLN": {
-			"withdrawal_fee": 1249
+			"withdrawal_fee": 770.1
 		},
 		"CLO": {
 			"withdrawal_fee": 20
@@ -4763,13 +5583,13 @@
 			"withdrawal_fee": 200
 		},
 		"CMCT": {
-			"withdrawal_fee": 4260
+			"withdrawal_fee": 7306
 		},
 		"CMT": {
-			"withdrawal_fee": 1007
+			"withdrawal_fee": 1082
 		},
 		"CND": {
-			"withdrawal_fee": 640.7
+			"withdrawal_fee": 854
 		},
 		"CNX": {
 			"withdrawal_fee": 0.04
@@ -4778,35 +5598,38 @@
 			"withdrawal_fee": 45
 		},
 		"COSM": {
-			"withdrawal_fee": 538.2
+			"withdrawal_fee": 459.3
 		},
 		"COSS": {
 			"withdrawal_fee": 146.7
 		},
 		"COV": {
-			"withdrawal_fee": 54.47
+			"withdrawal_fee": 59.02
 		},
 		"CPAY": {
-			"withdrawal_fee": 377
+			"withdrawal_fee": 367
 		},
 		"CPG": {
 			"withdrawal_fee": 640
 		},
 		"CPT": {
-			"withdrawal_fee": 7805
+			"withdrawal_fee": 4700
 		},
 		"CPY": {
-			"withdrawal_fee": 200.3
+			"withdrawal_fee": 893
+		},
+		"CRO": {
+			"withdrawal_fee": 138.8
 		},
 		"CRPT": {
-			"withdrawal_fee": 46.95
+			"withdrawal_fee": 28.37
 		},
 		"CRS": {},
 		"CSM": {
-			"withdrawal_fee": 6.738
+			"withdrawal_fee": 35.71
 		},
 		"CSNO": {
-			"withdrawal_fee": 280
+			"withdrawal_fee": 201.6
 		},
 		"CTE": {
 			"withdrawal_fee": 6100
@@ -4817,59 +5640,68 @@
 		"CTX": {
 			"withdrawal_fee": 1680
 		},
+		"CUTE": {
+			"withdrawal_fee": 54.55
+		},
 		"CVC": {
-			"withdrawal_fee": 136.3
+			"withdrawal_fee": 153.4
 		},
 		"CVCOIN": {
 			"withdrawal_fee": 26
 		},
 		"CVH": {
-			"withdrawal_fee": 9142
+			"withdrawal_fee": 23771
 		},
 		"CVT": {
-			"withdrawal_fee": 1423
+			"withdrawal_fee": 1693
 		},
 		"DADI": {
-			"withdrawal_fee": 238.3
+			"withdrawal_fee": 131
 		},
 		"DAG": {
-			"withdrawal_fee": 5718
+			"withdrawal_fee": 1941
 		},
 		"DAI": {
-			"withdrawal_fee": 7.921
+			"withdrawal_fee": 7.966
 		},
 		"DAN": {
-			"withdrawal_fee": 979
+			"withdrawal_fee": 1558
+		},
+		"DAPP": {
+			"withdrawal_fee": 769
 		},
 		"DASH": {
 			"withdrawal_fee": 0.03
 		},
 		"DATA": {
-			"withdrawal_fee": 422.1
+			"withdrawal_fee": 563.3
 		},
 		"DATX": {
-			"withdrawal_fee": 16097
+			"withdrawal_fee": 10050
 		},
 		"DAV": {
-			"withdrawal_fee": 4614
+			"withdrawal_fee": 9926
 		},
 		"DAXT": {
-			"withdrawal_fee": 2601
+			"withdrawal_fee": 4262
 		},
 		"DAY": {
-			"withdrawal_fee": 36.18
+			"withdrawal_fee": 41.16
 		},
 		"DBET": {
-			"withdrawal_fee": 203.6
+			"withdrawal_fee": 256.2
 		},
 		"DBIX": {
 			"withdrawal_fee": 0.0168
 		},
 		"DCN": {
-			"withdrawal_fee": 109589
+			"withdrawal_fee": 210526
 		},
 		"DCNT": {
 			"withdrawal_fee": 0.38
+		},
+		"DCR": {
+			"withdrawal_fee": 0.01
 		},
 		"DCT": {
 			"withdrawal_fee": 0.02
@@ -4878,61 +5710,61 @@
 			"withdrawal_fee": 646
 		},
 		"DENT": {
-			"withdrawal_fee": 8325
+			"withdrawal_fee": 13356
 		},
 		"DGB": {
 			"withdrawal_fee": 0.4
 		},
 		"DGD": {
-			"withdrawal_fee": 0.5028
+			"withdrawal_fee": 0.4253
 		},
 		"DGTX": {
-			"withdrawal_fee": 213.3
+			"withdrawal_fee": 232.3
 		},
 		"DICE": {
-			"withdrawal_fee": 21.46
+			"withdrawal_fee": 13.38
 		},
 		"DIM": {
 			"withdrawal_fee": 8.357
 		},
 		"DIT": {
-			"withdrawal_fee": 5178
+			"withdrawal_fee": 2516
 		},
 		"DLT": {
-			"withdrawal_fee": 73.9
+			"withdrawal_fee": 136.9
 		},
 		"DNT": {
-			"withdrawal_fee": 642.3
+			"withdrawal_fee": 828
 		},
 		"DOGE": {
 			"withdrawal_fee": 2
 		},
 		"DOR": {
-			"withdrawal_fee": 51613
+			"withdrawal_fee": 55172
 		},
 		"DOV": {
-			"withdrawal_fee": 2946
+			"withdrawal_fee": 7626
 		},
 		"DPN": {
-			"withdrawal_fee": 11478
+			"withdrawal_fee": 12270
 		},
 		"DRG": {
-			"withdrawal_fee": 121
+			"withdrawal_fee": 85.5
 		},
 		"DRPU": {
-			"withdrawal_fee": 108.2
+			"withdrawal_fee": 51.37
 		},
 		"DRT": {
-			"withdrawal_fee": 4762
+			"withdrawal_fee": 5424
 		},
 		"DSH": {
 			"withdrawal_fee": 0.017
 		},
 		"DTR": {
-			"withdrawal_fee": 560.6
+			"withdrawal_fee": 701
 		},
 		"DWS": {
-			"withdrawal_fee": 2222
+			"withdrawal_fee": 11173
 		},
 		"EBET": {
 			"withdrawal_fee": 1478.85
@@ -4953,10 +5785,10 @@
 			"withdrawal_fee": 500
 		},
 		"EDG": {
-			"withdrawal_fee": 45
+			"withdrawal_fee": 134
 		},
 		"EDO": {
-			"withdrawal_fee": 9.82
+			"withdrawal_fee": 13.38
 		},
 		"EET": {
 			"withdrawal_fee": 253
@@ -4965,16 +5797,16 @@
 			"withdrawal_fee": 250000
 		},
 		"EKO": {
-			"withdrawal_fee": 2536
+			"withdrawal_fee": 2772
 		},
 		"ELE": {
 			"withdrawal_fee": 0.001711
 		},
 		"ELEC": {
-			"withdrawal_fee": 2701
+			"withdrawal_fee": 4197
 		},
 		"ELF": {
-			"withdrawal_fee": 58.87
+			"withdrawal_fee": 63.29
 		},
 		"ELM": {
 			"withdrawal_fee": 0.004
@@ -4986,22 +5818,25 @@
 			"withdrawal_fee": 20
 		},
 		"ENG": {
-			"withdrawal_fee": 22.71
+			"withdrawal_fee": 16.78
 		},
 		"ENGT": {
-			"withdrawal_fee": 50314
+			"withdrawal_fee": 79208
 		},
 		"ENJ": {
-			"withdrawal_fee": 200.8
+			"withdrawal_fee": 95.2
 		},
 		"EOS": {
 			"withdrawal_fee": 0.01
 		},
+		"EOSDT": {
+			"withdrawal_fee": 8.06
+		},
 		"ERO": {
-			"withdrawal_fee": 2063
+			"withdrawal_fee": 1297
 		},
 		"ERT": {
-			"withdrawal_fee": 1501
+			"withdrawal_fee": 1490
 		},
 		"ETBS": {
 			"withdrawal_fee": 16.8
@@ -5010,7 +5845,7 @@
 			"withdrawal_fee": 0.002
 		},
 		"ETH": {
-			"withdrawal_fee": 0.00958
+			"withdrawal_fee": 0.0428
 		},
 		"ETN": {
 			"withdrawal_fee": 100.1
@@ -5019,110 +5854,122 @@
 			"withdrawal_fee": 0.004
 		},
 		"EURS": {
-			"withdrawal_fee": 7
+			"withdrawal_fee": 7.27
 		},
 		"EVN": {
-			"withdrawal_fee": 349.78
+			"withdrawal_fee": 135
 		},
 		"EVX": {
-			"withdrawal_fee": 30.18
+			"withdrawal_fee": 15.99
 		},
 		"EXN": {
 			"withdrawal_fee": 1545
 		},
+		"EXP": {
+			"withdrawal_fee": 0.01
+		},
 		"FACE": {
-			"withdrawal_fee": 5908
+			"withdrawal_fee": 8065
 		},
 		"FCN": {
 			"withdrawal_fee": 0.000005
 		},
 		"FDZ": {
-			"withdrawal_fee": 1796
+			"withdrawal_fee": 3618
+		},
+		"FET": {
+			"withdrawal_fee": 90.1
 		},
 		"FLP": {
-			"withdrawal_fee": 415
+			"withdrawal_fee": 599.6
 		},
 		"FOTA": {
-			"withdrawal_fee": 993
+			"withdrawal_fee": 1141
 		},
 		"FRD": {
 			"withdrawal_fee": 157654
 		},
 		"FREC": {
-			"withdrawal_fee": 10390
+			"withdrawal_fee": 68966
 		},
 		"FTX": {
-			"withdrawal_fee": 302
+			"withdrawal_fee": 312.3
 		},
 		"FUEL": {
-			"withdrawal_fee": 920
+			"withdrawal_fee": 601.1
 		},
 		"FUN": {
-			"withdrawal_fee": 1997
+			"withdrawal_fee": 2775
 		},
 		"FXT": {
-			"withdrawal_fee": 3336
+			"withdrawal_fee": 3096
 		},
 		"FYN": {
 			"withdrawal_fee": 103
 		},
 		"FYP": {
-			"withdrawal_fee": 308
+			"withdrawal_fee": 241.6
 		},
 		"GAME": {
 			"withdrawal_fee": 0.004
+		},
+		"GAS": {
+			"withdrawal_fee": 0
 		},
 		"GBX": {
 			"withdrawal_fee": 0.0003
 		},
 		"GET": {
-			"withdrawal_fee": 5776
+			"withdrawal_fee": 761.8
 		},
 		"GNO": {
-			"withdrawal_fee": 0.5629
+			"withdrawal_fee": 0.4565
 		},
 		"GNT": {
-			"withdrawal_fee": 118.7
+			"withdrawal_fee": 122.8
 		},
 		"GNX": {
-			"withdrawal_fee": 447.7
+			"withdrawal_fee": 297.7
+		},
+		"GRIN": {
+			"withdrawal_fee": 3
 		},
 		"GRMD": {
-			"withdrawal_fee": 2663
+			"withdrawal_fee": 2526
 		},
 		"GRPH": {},
 		"GST": {
-			"withdrawal_fee": 5197
+			"withdrawal_fee": 14983
 		},
 		"GUP": {
-			"withdrawal_fee": 437.2
+			"withdrawal_fee": 756.9
 		},
 		"GUSD": {
-			"withdrawal_fee": 7.89
+			"withdrawal_fee": 8
 		},
 		"GVT": {
-			"withdrawal_fee": 1.949
+			"withdrawal_fee": 4.172
 		},
 		"HAC": {
 			"withdrawal_fee": 14560.2
 		},
 		"HAND": {
-			"withdrawal_fee": 4000000
+			"withdrawal_fee": 8000000
 		},
 		"HBT": {
-			"withdrawal_fee": 61.27
+			"withdrawal_fee": 44.28
 		},
 		"HBZ": {
-			"withdrawal_fee": 12987
+			"withdrawal_fee": 20253
 		},
 		"HDG": {
 			"withdrawal_fee": 7
 		},
 		"HERO": {
-			"withdrawal_fee": 335.82
+			"withdrawal_fee": 309.8
 		},
 		"HGT": {
-			"withdrawal_fee": 4069
+			"withdrawal_fee": 5860
 		},
 		"HIRE": {
 			"withdrawal_fee": 1049.66
@@ -5131,23 +5978,26 @@
 			"withdrawal_fee": 9726
 		},
 		"HMQ": {
-			"withdrawal_fee": 894
+			"withdrawal_fee": 948
 		},
 		"HPC": {
 			"withdrawal_fee": 0.4
 		},
 		"HQX": {
-			"withdrawal_fee": 1526.82
+			"withdrawal_fee": 382
 		},
 		"HRB": {},
 		"HSR": {
 			"withdrawal_fee": 0.04
 		},
+		"HT": {
+			"withdrawal_fee": 1.696
+		},
 		"HTML": {
 			"withdrawal_fee": 20000
 		},
 		"HVN": {
-			"withdrawal_fee": 2080
+			"withdrawal_fee": 1761
 		},
 		"ICN": {
 			"withdrawal_fee": 82
@@ -5159,84 +6009,90 @@
 			"withdrawal_fee": 4
 		},
 		"ICX": {
-			"withdrawal_fee": 32.31
+			"withdrawal_fee": 0.02
 		},
 		"IDH": {
-			"withdrawal_fee": 2562
+			"withdrawal_fee": 820
 		},
 		"IFT": {
-			"withdrawal_fee": 4477
+			"withdrawal_fee": 36530
 		},
 		"IGNIS": {
 			"withdrawal_fee": 5
 		},
 		"IHT": {
-			"withdrawal_fee": 741.5
+			"withdrawal_fee": 1052
 		},
 		"IML": {},
 		"IND": {
-			"withdrawal_fee": 906
+			"withdrawal_fee": 1469
 		},
 		"INDI": {
 			"withdrawal_fee": 2182.83
 		},
 		"INK": {
-			"withdrawal_fee": 1307
+			"withdrawal_fee": 1198
 		},
 		"INSUR": {
-			"withdrawal_fee": 47337
+			"withdrawal_fee": 28269
 		},
 		"IOST": {
-			"withdrawal_fee": 969
+			"withdrawal_fee": 1
 		},
-		"IOTA": {},
+		"IOT": {},
 		"IPL": {
-			"withdrawal_fee": 1788
+			"withdrawal_fee": 1477
 		},
 		"ITS": {
 			"withdrawal_fee": 1521
 		},
 		"IVY": {
-			"withdrawal_fee": 978
+			"withdrawal_fee": 1314
 		},
 		"IXT": {
-			"withdrawal_fee": 198.7
+			"withdrawal_fee": 1192
 		},
 		"JBC": {
-			"withdrawal_fee": 2740
+			"withdrawal_fee": 5653
 		},
 		"JNT": {
-			"withdrawal_fee": 211.2
+			"withdrawal_fee": 285
 		},
 		"JOT": {
-			"withdrawal_fee": 858
+			"withdrawal_fee": 1132
 		},
 		"KBC": {
-			"withdrawal_fee": 267.9
+			"withdrawal_fee": 405.7
 		},
 		"KBR": {
 			"withdrawal_fee": 72801.03
 		},
+		"KEY": {
+			"withdrawal_fee": 4595
+		},
 		"KICK": {
-			"withdrawal_fee": 1877
+			"withdrawal_fee": 6780
 		},
 		"KIN": {
-			"withdrawal_fee": 307692
+			"withdrawal_fee": 200000
 		},
 		"KIND": {
-			"withdrawal_fee": 265.7
+			"withdrawal_fee": 4235
 		},
 		"KMD": {
 			"withdrawal_fee": 4
 		},
 		"KNC": {
-			"withdrawal_fee": 50.89
+			"withdrawal_fee": 42.23
 		},
 		"KRM": {
 			"withdrawal_fee": 1000.6
 		},
+		"KRWB": {
+			"withdrawal_fee": 8352
+		},
 		"LA": {
-			"withdrawal_fee": 79.86
+			"withdrawal_fee": 85.5
 		},
 		"LAT": {
 			"withdrawal_fee": 3023
@@ -5251,34 +6107,40 @@
 			"withdrawal_fee": 24901.5
 		},
 		"LEND": {
-			"withdrawal_fee": 918
+			"withdrawal_fee": 1688
 		},
 		"LIFE": {
-			"withdrawal_fee": 266667
+			"withdrawal_fee": 66667
+		},
+		"LINK": {
+			"withdrawal_fee": 3.716
 		},
 		"LNC": {
-			"withdrawal_fee": 890
+			"withdrawal_fee": 723.9
 		},
 		"LND": {
-			"withdrawal_fee": 2286
+			"withdrawal_fee": 1180
 		},
 		"LOC": {
-			"withdrawal_fee": 8.08
+			"withdrawal_fee": 16.56
+		},
+		"LOOM": {
+			"withdrawal_fee": 206.5
 		},
 		"LRC": {
-			"withdrawal_fee": 142.7
+			"withdrawal_fee": 174.7
 		},
 		"LSK": {
 			"withdrawal_fee": 0.3
 		},
 		"LTC": {
-			"withdrawal_fee": 0.003
+			"withdrawal_fee": 0.053
 		},
 		"LUC": {
-			"withdrawal_fee": 66667
+			"withdrawal_fee": 135593
 		},
 		"LUN": {
-			"withdrawal_fee": 4.173
+			"withdrawal_fee": 6.005
 		},
 		"LWF": {
 			"withdrawal_fee": 180.1
@@ -5287,43 +6149,46 @@
 			"withdrawal_fee": 75
 		},
 		"MAN": {
-			"withdrawal_fee": 90.7
+			"withdrawal_fee": 132.7
 		},
 		"MANA": {
-			"withdrawal_fee": 211.4
+			"withdrawal_fee": 200.3
 		},
 		"MCAP": {
 			"withdrawal_fee": 1474.3
 		},
 		"MCO": {
-			"withdrawal_fee": 2.661
+			"withdrawal_fee": 1.858
 		},
 		"MEK": {
 			"withdrawal_fee": 760
 		},
 		"MESH": {
-			"withdrawal_fee": 10829
+			"withdrawal_fee": 54300
 		},
 		"MESSE": {
-			"withdrawal_fee": 505.5
+			"withdrawal_fee": 568.8
+		},
+		"MG": {
+			"withdrawal_fee": 88.4
 		},
 		"MIPS": {
 			"withdrawal_fee": 1521
 		},
 		"MITH": {
-			"withdrawal_fee": 206.6
+			"withdrawal_fee": 276.1
 		},
 		"MITX": {
-			"withdrawal_fee": 2488
+			"withdrawal_fee": 297.2
 		},
 		"MKR": {
-			"withdrawal_fee": 0.01219
+			"withdrawal_fee": 0.01372
 		},
 		"MLD": {
 			"withdrawal_fee": 11076
 		},
 		"MLN": {
-			"withdrawal_fee": 0.503
+			"withdrawal_fee": 1.559
 		},
 		"MNE": {
 			"withdrawal_fee": 773.29
@@ -5336,10 +6201,10 @@
 		},
 		"MPK": {},
 		"MRK": {
-			"withdrawal_fee": 1369
+			"withdrawal_fee": 3400
 		},
 		"MRS": {
-			"withdrawal_fee": 3225
+			"withdrawal_fee": 26342
 		},
 		"MRV": {},
 		"MSP": {
@@ -5349,35 +6214,35 @@
 			"withdrawal_fee": 513.16
 		},
 		"MTH": {
-			"withdrawal_fee": 434.8
+			"withdrawal_fee": 528.8
 		},
 		"MTL": {
-			"withdrawal_fee": 22.09
+			"withdrawal_fee": 20.79
 		},
 		"MTX": {
-			"withdrawal_fee": 590.5
+			"withdrawal_fee": 185.2
 		},
 		"MXM": {
-			"withdrawal_fee": 702.2
+			"withdrawal_fee": 84.4
 		},
 		"MYB": {
-			"withdrawal_fee": 1105
+			"withdrawal_fee": 8395
 		},
 		"MYST": {
-			"withdrawal_fee": 140.1
+			"withdrawal_fee": 110.6
 		},
 		"NANJ": {
-			"withdrawal_fee": 47059
+			"withdrawal_fee": 137931
 		},
 		"NANO": {},
 		"NAVI": {
-			"withdrawal_fee": 8081
+			"withdrawal_fee": 16667
 		},
 		"NCT": {
-			"withdrawal_fee": 3291
+			"withdrawal_fee": 5044
 		},
 		"NDC": {
-			"withdrawal_fee": 6369
+			"withdrawal_fee": 11696
 		},
 		"NEBL": {
 			"withdrawal_fee": 0.04
@@ -5389,153 +6254,171 @@
 			"withdrawal_fee": 106
 		},
 		"NEU": {
-			"withdrawal_fee": 43.07
+			"withdrawal_fee": 66.86
 		},
 		"NEXO": {
 			"withdrawal_fee": 40
 		},
 		"NGC": {
-			"withdrawal_fee": 174.3
+			"withdrawal_fee": 299
 		},
 		"NIM": {
 			"withdrawal_fee": 2000.002
 		},
+		"NJBC": {
+			"withdrawal_fee": 100
+		},
 		"NLC2": {
-			"withdrawal_fee": 250.02
+			"withdrawal_fee": 1.02
 		},
 		"NMR": {
-			"withdrawal_fee": 2.155
+			"withdrawal_fee": 1.291
 		},
 		"NOAH": {
-			"withdrawal_fee": 38647
+			"withdrawal_fee": 35874
 		},
 		"NPLC": {
-			"withdrawal_fee": 1905
+			"withdrawal_fee": 18605
 		},
 		"NTK": {
-			"withdrawal_fee": 287.2
+			"withdrawal_fee": 440.2
 		},
 		"NTO": {
 			"withdrawal_fee": 160935.23
 		},
+		"NUT": {
+			"withdrawal_fee": 0.3317
+		},
 		"NXC": {
-			"withdrawal_fee": 1326
+			"withdrawal_fee": 10554
 		},
 		"NXT": {
 			"withdrawal_fee": 3
 		},
 		"OAK": {
-			"withdrawal_fee": 744.9
+			"withdrawal_fee": 26627
 		},
 		"OAX": {
-			"withdrawal_fee": 60.36
+			"withdrawal_fee": 81.4
 		},
 		"OCN": {
-			"withdrawal_fee": 3493
+			"withdrawal_fee": 4648
 		},
 		"ODN": {
 			"withdrawal_fee": 0.004
 		},
 		"OMG": {
-			"withdrawal_fee": 6.125
+			"withdrawal_fee": 5.191
 		},
 		"ONT": {
 			"withdrawal_fee": 1
 		},
 		"OPT": {
-			"withdrawal_fee": 3707
+			"withdrawal_fee": 4731
 		},
 		"ORME": {
 			"withdrawal_fee": 98.9
 		},
+		"ORMEUS": {
+			"withdrawal_fee": 204.6
+		},
 		"OTN": {
-			"withdrawal_fee": 131.8
+			"withdrawal_fee": 294.5
 		},
 		"OTX": {
 			"withdrawal_fee": 0.009
 		},
 		"PASS": {
-			"withdrawal_fee": 1683
+			"withdrawal_fee": 2235
 		},
 		"PAT": {
-			"withdrawal_fee": 3185
+			"withdrawal_fee": 29091
 		},
 		"PAX": {
-			"withdrawal_fee": 7.87
+			"withdrawal_fee": 7.989
 		},
 		"PAY": {
-			"withdrawal_fee": 33.14
+			"withdrawal_fee": 52.94
 		},
 		"PBKX": {},
+		"PBT": {
+			"withdrawal_fee": 0.005
+		},
 		"PBTT": {
-			"withdrawal_fee": 1.537
+			"withdrawal_fee": 79.94
 		},
 		"PCL": {
 			"withdrawal_fee": 4479
 		},
 		"PETH": {
-			"withdrawal_fee": 0.05066
+			"withdrawal_fee": 0.1
+		},
+		"PHB": {
+			"withdrawal_fee": 1260
+		},
+		"PHX": {
+			"withdrawal_fee": 2
 		},
 		"PING": {
 			"withdrawal_fee": 0.006
 		},
 		"PITCH": {
-			"withdrawal_fee": 32078
+			"withdrawal_fee": 21711
 		},
 		"PIX": {
-			"withdrawal_fee": 1814
+			"withdrawal_fee": 2530
 		},
 		"PKT": {
-			"withdrawal_fee": 218.5
+			"withdrawal_fee": 203
 		},
 		"PLA": {
-			"withdrawal_fee": 4967
+			"withdrawal_fee": 8097
 		},
 		"PLBT": {
-			"withdrawal_fee": 8.19
+			"withdrawal_fee": 6.762
 		},
 		"PLR": {
-			"withdrawal_fee": 228.8
+			"withdrawal_fee": 216.9
 		},
 		"PLU": {
-			"withdrawal_fee": 4.142
+			"withdrawal_fee": 6.522
 		},
 		"PMA": {
-			"withdrawal_fee": 15385
+			"withdrawal_fee": 19851
 		},
 		"PMNT": {
-			"withdrawal_fee": 10101
+			"withdrawal_fee": 81633
 		},
 		"PNT": {
-			"withdrawal_fee": 43716
+			"withdrawal_fee": 34188
 		},
 		"POA": {
 			"withdrawal_fee": 0.01
 		},
 		"POA20": {
-			"withdrawal_fee": 281.2
+			"withdrawal_fee": 413.6
 		},
 		"POE": {
-			"withdrawal_fee": 1654
+			"withdrawal_fee": 2511
 		},
 		"POLL": {
 			"withdrawal_fee": 75.58
 		},
 		"POLY": {
-			"withdrawal_fee": 88.4
+			"withdrawal_fee": 150
 		},
 		"POWR": {
-			"withdrawal_fee": 83.5
+			"withdrawal_fee": 105.6
 		},
 		"PPC": {
 			"withdrawal_fee": 0.02
 		},
 		"PPT": {
-			"withdrawal_fee": 6.282
+			"withdrawal_fee": 10.4
 		},
 		"PQT": {},
 		"PRE": {
-			"withdrawal_fee": 301
+			"withdrawal_fee": 956
 		},
 		"PREMINE": {
 			"withdrawal_fee": 273.39
@@ -5544,16 +6427,16 @@
 			"withdrawal_fee": 15
 		},
 		"PRO": {
-			"withdrawal_fee": 65.26
+			"withdrawal_fee": 45.77
 		},
 		"PROC": {
 			"withdrawal_fee": 2500.5
 		},
 		"PTOY": {
-			"withdrawal_fee": 560.9
+			"withdrawal_fee": 950
 		},
 		"PXG": {
-			"withdrawal_fee": 3738
+			"withdrawal_fee": 11080
 		},
 		"QAU": {
 			"withdrawal_fee": 451.28
@@ -5561,29 +6444,32 @@
 		"QCN": {
 			"withdrawal_fee": 0.03
 		},
+		"QKC": {
+			"withdrawal_fee": 540.7
+		},
 		"QNTU": {
-			"withdrawal_fee": 65041
+			"withdrawal_fee": 29740
 		},
 		"QTUM": {
 			"withdrawal_fee": 0.04
 		},
 		"QVT": {
-			"withdrawal_fee": 1782.73
+			"withdrawal_fee": 890
 		},
 		"R": {
-			"withdrawal_fee": 56.55
+			"withdrawal_fee": 73
 		},
 		"RCN": {
-			"withdrawal_fee": 430.4
+			"withdrawal_fee": 443
 		},
 		"RCOIN": {
 			"withdrawal_fee": 0.7
 		},
 		"REP": {
-			"withdrawal_fee": 0.5767
+			"withdrawal_fee": 0.7057
 		},
 		"REX": {
-			"withdrawal_fee": 252.3
+			"withdrawal_fee": 388.7
 		},
 		"RIK": {
 			"withdrawal_fee": 3144
@@ -5592,14 +6478,14 @@
 			"withdrawal_fee": 6247.83
 		},
 		"RLC": {
-			"withdrawal_fee": 28.56
+			"withdrawal_fee": 30.32
 		},
 		"RNTB": {
-			"withdrawal_fee": 21153
+			"withdrawal_fee": 79067
 		},
 		"ROOTS": {},
 		"ROX": {
-			"withdrawal_fee": 333.2
+			"withdrawal_fee": 131.6
 		},
 		"RPM": {
 			"withdrawal_fee": 4022.31
@@ -5608,13 +6494,13 @@
 			"withdrawal_fee": 1
 		},
 		"RVT": {
-			"withdrawal_fee": 169.7
+			"withdrawal_fee": 402.4
 		},
 		"SALT": {
-			"withdrawal_fee": 46.78
+			"withdrawal_fee": 60.2
 		},
 		"SAN": {
-			"withdrawal_fee": 14.73
+			"withdrawal_fee": 11.42
 		},
 		"SBD": {
 			"withdrawal_fee": 0.03
@@ -5624,25 +6510,25 @@
 			"withdrawal_fee": 30
 		},
 		"SCC": {
-			"withdrawal_fee": 12214
+			"withdrawal_fee": 33473
 		},
 		"SCL": {
-			"withdrawal_fee": 256.7
+			"withdrawal_fee": 613.8
 		},
 		"SENT": {
-			"withdrawal_fee": 6255
+			"withdrawal_fee": 2039
 		},
 		"SETH": {
 			"withdrawal_fee": 282.88
 		},
 		"SHIP": {
-			"withdrawal_fee": 1131
+			"withdrawal_fee": 1450
 		},
 		"SIG": {
-			"withdrawal_fee": 6410
+			"withdrawal_fee": 8565
 		},
 		"SILK": {
-			"withdrawal_fee": 3886
+			"withdrawal_fee": 7321
 		},
 		"SISA": {
 			"withdrawal_fee": 51154
@@ -5660,91 +6546,91 @@
 			"withdrawal_fee": 1.62
 		},
 		"SMT": {
-			"withdrawal_fee": 867
+			"withdrawal_fee": 713
 		},
 		"SNBL": {
-			"withdrawal_fee": 11120
+			"withdrawal_fee": 12268
 		},
 		"SNC": {
-			"withdrawal_fee": 490.4
+			"withdrawal_fee": 283.8
 		},
 		"SNGLS": {
-			"withdrawal_fee": 531
+			"withdrawal_fee": 766
 		},
 		"SNM": {
 			"withdrawal_fee": 322.13
 		},
 		"SNT": {
-			"withdrawal_fee": 362
+			"withdrawal_fee": 374.3
 		},
 		"SOC": {
-			"withdrawal_fee": 2030
+			"withdrawal_fee": 1525
 		},
 		"SPC": {
 			"withdrawal_fee": 491
 		},
 		"SPD": {
-			"withdrawal_fee": 16495
+			"withdrawal_fee": 9685
 		},
 		"SPF": {
-			"withdrawal_fee": 2441
+			"withdrawal_fee": 5066
 		},
 		"SRN": {
-			"withdrawal_fee": 269.4
+			"withdrawal_fee": 571.2
 		},
 		"STAK": {
 			"withdrawal_fee": 12.5002
 		},
 		"STAR": {
-			"withdrawal_fee": 4067
+			"withdrawal_fee": 4032
 		},
 		"STEEM": {
 			"withdrawal_fee": 0.01
 		},
 		"STORJ": {
-			"withdrawal_fee": 34.38
+			"withdrawal_fee": 46.87
 		},
 		"STORM": {
-			"withdrawal_fee": 2744
+			"withdrawal_fee": 3811
 		},
 		"STQ": {
-			"withdrawal_fee": 27304
+			"withdrawal_fee": 87912
 		},
 		"STRAT": {
 			"withdrawal_fee": 0.05
 		},
 		"STU": {
-			"withdrawal_fee": 4657
+			"withdrawal_fee": 23121
 		},
 		"STX": {
-			"withdrawal_fee": 479.1
+			"withdrawal_fee": 448.1
 		},
 		"SUB": {
-			"withdrawal_fee": 442.6
+			"withdrawal_fee": 452.5
 		},
 		"SUNC": {
-			"withdrawal_fee": 37261
+			"withdrawal_fee": 609756
 		},
 		"SUR": {
-			"withdrawal_fee": 12.33
+			"withdrawal_fee": 12.81
 		},
 		"SVD": {
-			"withdrawal_fee": 26667
+			"withdrawal_fee": 22727
 		},
 		"SWFTC": {
-			"withdrawal_fee": 7929
+			"withdrawal_fee": 4725
 		},
 		"SWM": {
-			"withdrawal_fee": 78.92
+			"withdrawal_fee": 131
 		},
 		"SWT": {
-			"withdrawal_fee": 75.1
+			"withdrawal_fee": 84.5
 		},
 		"TAAS": {
-			"withdrawal_fee": 24.38
+			"withdrawal_fee": 6.039
 		},
 		"TAU": {
-			"withdrawal_fee": 272.7
+			"withdrawal_fee": 628.5
 		},
 		"TBAR": {
 			"withdrawal_fee": 422
@@ -5756,13 +6642,13 @@
 			"withdrawal_fee": 8.006
 		},
 		"TDP": {
-			"withdrawal_fee": 331.9
+			"withdrawal_fee": 948
 		},
 		"TDS": {
-			"withdrawal_fee": 978
+			"withdrawal_fee": 2273
 		},
 		"TEL": {
-			"withdrawal_fee": 29304
+			"withdrawal_fee": 13468
 		},
 		"TFL": {
 			"withdrawal_fee": 34.1
@@ -5771,7 +6657,7 @@
 			"withdrawal_fee": 15591.68
 		},
 		"TIME": {
-			"withdrawal_fee": 3.881
+			"withdrawal_fee": 4.395
 		},
 		"TIO": {
 			"withdrawal_fee": 69
@@ -5780,37 +6666,37 @@
 			"withdrawal_fee": 50.01
 		},
 		"TIX": {
-			"withdrawal_fee": 71.31
+			"withdrawal_fee": 2140
 		},
 		"TKA": {
-			"withdrawal_fee": 3916
+			"withdrawal_fee": 5831
 		},
 		"TKN": {
-			"withdrawal_fee": 8.93
+			"withdrawal_fee": 16.81
 		},
 		"TKR": {
 			"withdrawal_fee": 7394.26
 		},
 		"TKY": {
-			"withdrawal_fee": 570
+			"withdrawal_fee": 10
 		},
 		"TNT": {
-			"withdrawal_fee": 488.1
+			"withdrawal_fee": 209.1
 		},
 		"TOLL": {
 			"withdrawal_fee": 3000
 		},
 		"TRAC": {
-			"withdrawal_fee": 366.1
+			"withdrawal_fee": 437.4
 		},
 		"TRAD": {
-			"withdrawal_fee": 1334
+			"withdrawal_fee": 8459
 		},
 		"TRST": {
-			"withdrawal_fee": 823
+			"withdrawal_fee": 373
 		},
 		"TRUE": {
-			"withdrawal_fee": 28.77
+			"withdrawal_fee": 2
 		},
 		"TRX": {
 			"withdrawal_fee": 150.5
@@ -5819,13 +6705,13 @@
 			"withdrawal_fee": 505.7
 		},
 		"TUSD": {
-			"withdrawal_fee": 7.882
+			"withdrawal_fee": 7.986
 		},
 		"TV": {
-			"withdrawal_fee": 27.1
+			"withdrawal_fee": 49.2
 		},
 		"UET": {
-			"withdrawal_fee": 480
+			"withdrawal_fee": 3773
 		},
 		"UGT": {
 			"withdrawal_fee": 15
@@ -5834,7 +6720,7 @@
 			"withdrawal_fee": 5348
 		},
 		"UMT": {
-			"withdrawal_fee": 1964
+			"withdrawal_fee": 3002
 		},
 		"UNC": {
 			"withdrawal_fee": 47749
@@ -5843,25 +6729,28 @@
 			"withdrawal_fee": 9.94
 		},
 		"USD": {
-			"withdrawal_fee": 45
+			"withdrawal_fee": 20
 		},
 		"USDC": {
-			"withdrawal_fee": 7.914
+			"withdrawal_fee": 7.99
+		},
+		"USDT20": {
+			"withdrawal_fee": 7.974
 		},
 		"USE": {
-			"withdrawal_fee": 6452
+			"withdrawal_fee": 5202
 		},
 		"UTK": {
-			"withdrawal_fee": 303.1
+			"withdrawal_fee": 245.5
 		},
 		"UTNP": {
 			"withdrawal_fee": 3935.85
 		},
 		"UTT": {
-			"withdrawal_fee": 25.28
+			"withdrawal_fee": 33.02
 		},
 		"UUU": {
-			"withdrawal_fee": 28470
+			"withdrawal_fee": 855
 		},
 		"VEO": {
 			"withdrawal_fee": 0.01
@@ -5873,10 +6762,10 @@
 			"withdrawal_fee": 100
 		},
 		"VIB": {
-			"withdrawal_fee": 323.3
+			"withdrawal_fee": 305.3
 		},
 		"VIBE": {
-			"withdrawal_fee": 204
+			"withdrawal_fee": 396.2
 		},
 		"VIO": {
 			"withdrawal_fee": 24670.16
@@ -5885,13 +6774,16 @@
 			"withdrawal_fee": 2698.19
 		},
 		"VME": {
-			"withdrawal_fee": 2764
+			"withdrawal_fee": 6969
 		},
 		"VOCO": {
-			"withdrawal_fee": 41451
+			"withdrawal_fee": 421053
 		},
 		"VOISE": {
 			"withdrawal_fee": 16354.26
+		},
+		"VRA": {
+			"withdrawal_fee": 11268
 		},
 		"W3C": {
 			"withdrawal_fee": 616237.87
@@ -5900,28 +6792,31 @@
 			"withdrawal_fee": 0.001
 		},
 		"WAX": {
-			"withdrawal_fee": 180.6
+			"withdrawal_fee": 134.9
+		},
+		"WBTC": {
+			"withdrawal_fee": 0.000801
 		},
 		"WEALTH": {
 			"withdrawal_fee": 0.0168
 		},
 		"WIKI": {
-			"withdrawal_fee": 13.93
+			"withdrawal_fee": 10.75
 		},
 		"WILD": {
 			"withdrawal_fee": 3647.97
 		},
 		"WINGS": {
-			"withdrawal_fee": 165.9
+			"withdrawal_fee": 172.8
 		},
 		"WITH": {
 			"withdrawal_fee": 22.23
 		},
 		"WIZ": {
-			"withdrawal_fee": 385.6
+			"withdrawal_fee": 718.6
 		},
 		"WLK": {
-			"withdrawal_fee": 957
+			"withdrawal_fee": 1190
 		},
 		"WMGO": {
 			"withdrawal_fee": 0.003
@@ -5930,19 +6825,22 @@
 			"withdrawal_fee": 2084.63
 		},
 		"WTC": {
-			"withdrawal_fee": 7.418
+			"withdrawal_fee": 4.412
 		},
 		"WTT": {
 			"withdrawal_fee": 0.89
 		},
 		"XAUR": {
-			"withdrawal_fee": 181
+			"withdrawal_fee": 216.3
 		},
 		"XBP": {
-			"withdrawal_fee": 9479
+			"withdrawal_fee": 6250
 		},
 		"XCLR": {
-			"withdrawal_fee": 16032
+			"withdrawal_fee": 51613
+		},
+		"XCON": {
+			"withdrawal_fee": 154
 		},
 		"XDN": {
 			"withdrawal_fee": 0.01
@@ -5968,49 +6866,52 @@
 			"withdrawal_fee": 0.09
 		},
 		"XRP": {
-			"withdrawal_fee": 0.02
+			"withdrawal_fee": 6.38
 		},
 		"XTZ": {
-			"withdrawal_fee": 3.5
+			"withdrawal_fee": 8.13
 		},
 		"XUC": {
-			"withdrawal_fee": 3.135
+			"withdrawal_fee": 4.947
 		},
 		"XVG": {
 			"withdrawal_fee": 1.5
 		},
+		"XZC": {
+			"withdrawal_fee": 0.02
+		},
 		"YCC": {
-			"withdrawal_fee": 1478
+			"withdrawal_fee": 627.7
 		},
 		"YOYOW": {
-			"withdrawal_fee": 447.8
+			"withdrawal_fee": 1
 		},
 		"ZAP": {
-			"withdrawal_fee": 917
+			"withdrawal_fee": 1040
 		},
 		"ZEC": {
-			"withdrawal_fee": 0.001
+			"withdrawal_fee": 0.005
 		},
 		"ZEN": {
 			"withdrawal_fee": 0.0015
 		},
 		"ZIL": {
-			"withdrawal_fee": 434.9
+			"withdrawal_fee": 752.8
 		},
 		"ZPR": {
-			"withdrawal_fee": 7626
+			"withdrawal_fee": 5000
 		},
 		"ZPT": {
-			"withdrawal_fee": 1400
+			"withdrawal_fee": 3
 		},
 		"ZRC": {
 			"withdrawal_fee": 0.0015
 		},
 		"ZRX": {
-			"withdrawal_fee": 32.04
+			"withdrawal_fee": 36.13
 		},
 		"ZSC": {
-			"withdrawal_fee": 5917
+			"withdrawal_fee": 7670
 		}
 	},
 	"public_rate_limits": [
