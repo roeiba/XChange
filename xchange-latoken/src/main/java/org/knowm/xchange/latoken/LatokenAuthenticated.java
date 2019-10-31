@@ -233,7 +233,7 @@ public interface LatokenAuthenticated extends Latoken {
    * Users latest trades by pair
    *
    * @param symbol - Symbol of traded pair (e.g. LAETH)
-   * @param timestamp - Time of request in milliseconds (e.g.: 1555515807369)
+   * @param timestamp - Time of request in seconds (e.g.: 1555515807)
    * @param limit - Number of orders to fetch (default: 50)
    * @param apiKey
    * @param signature

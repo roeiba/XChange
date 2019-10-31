@@ -4,6 +4,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.math.BigDecimal;
 import java.util.Date;
 
+import org.knowm.xchange.latoken.LatokenAdapters;
+
 /**
  * Response schema:
  *
@@ -66,8 +68,8 @@ public final class LatokenOrder extends LatokenNewOrder {
     this.latokenOrderStatus = LatokenOrderStatus.parse(orderStatus);
     this.executedAmount = executedAmount;
     this.reaminingAmount = reaminingAmount;
-    this.timeCreated = new Date(timeCreated);
-    this.timeFilled = new Date(timeFilled);
+    this.timeCreated = LatokenAdapters.adaptTimestampInSeconds(timeCreated);
+    this.timeFilled = LatokenAdapters.adaptTimestampInSeconds(timeFilled);
   }
 
   /**

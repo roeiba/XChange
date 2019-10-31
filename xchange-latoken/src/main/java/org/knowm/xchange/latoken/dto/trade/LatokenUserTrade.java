@@ -4,6 +4,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.math.BigDecimal;
 import java.util.Date;
 
+import org.knowm.xchange.latoken.LatokenAdapters;
+
 /**
  * Response schema:
  *
@@ -15,7 +17,7 @@ import java.util.Date;
  * 	"side": "buy",
  * 	"price": 136.2,
  * 	"amount": 0.7,
- * 	"time": 1555515807369
+ * 	"time": 1555515807  # seconds (!!)
  * }
  * </pre>
  *
@@ -49,7 +51,7 @@ public class LatokenUserTrade {
       @JsonProperty("side") String side,
       @JsonProperty("price") BigDecimal price,
       @JsonProperty("low") BigDecimal amount,
-      @JsonProperty("time") long time) {
+      @JsonProperty("timestamp") long time) {
 
     this.id = id;
     this.orderId = orderId;
@@ -57,7 +59,7 @@ public class LatokenUserTrade {
     this.side = LatokenOrderSide.parse(side);
     this.price = price;
     this.amount = amount;
-    this.time = new Date(time);
+    this.time = LatokenAdapters.adaptTimestampInSeconds(time);
   }
 
   /**
