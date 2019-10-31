@@ -244,7 +244,7 @@ public interface LatokenAuthenticated extends Latoken {
   LatokenUserTrades getUserTrades(
       @QueryParam("symbol") String symbol,
       @QueryParam("timestamp") long timestamp,
-      @QueryParam("limit") int limit,
+      @QueryParam("limit") Integer limit,
       @HeaderParam(API_KEY) String apiKey,
       @HeaderParam(SIGNATURE) ParamsDigest signature)
       throws IOException, LatokenException;
