@@ -147,7 +147,7 @@ public class BiboxAdapters {
     			  .divide(BigDecimal.TEN)
     			  .pow(amountScale);
     	  BigDecimal minAmountByMinimumNotional = BigDecimal.ONE.
-    			  divide(biboxMarket.getLastUsd(), RoundingMode.HALF_DOWN);
+    			  divide(biboxMarket.getLastUsd(), amountScale, RoundingMode.HALF_DOWN);
     	  
     	  // Choose the amount that holds both restrictions
     	  minAmount  = minAmountByMinimumNotional
@@ -155,7 +155,9 @@ public class BiboxAdapters {
     			  .setScale(amountScale, RoundingMode.HALF_DOWN);
     	  
     	  // Assume $10,000 as maximum notional and calculate max amount 
-      maxAmount = new BigDecimal("10000").divide(biboxMarket.getLastUsd(), RoundingMode.HALF_DOWN).setScale(amountScale, RoundingMode.HALF_DOWN);
+      maxAmount = new BigDecimal("10000")
+    		  .divide(biboxMarket.getLastUsd(), RoundingMode.HALF_DOWN)
+    		  .setScale(amountScale, RoundingMode.HALF_DOWN);
       
       CurrencyPairMetaData metadata = new CurrencyPairMetaData(
     		  tradingFee,
