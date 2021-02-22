@@ -5,6 +5,7 @@ import java.util.Collection;
 import java.util.List;
 import org.knowm.xchange.Exchange;
 import org.knowm.xchange.bibox.dto.BiboxAdapters;
+import org.knowm.xchange.currency.CurrencyPair;
 import org.knowm.xchange.dto.Order;
 import org.knowm.xchange.dto.trade.LimitOrder;
 import org.knowm.xchange.dto.trade.MarketOrder;
@@ -17,6 +18,8 @@ import org.knowm.xchange.service.trade.TradeService;
 import org.knowm.xchange.service.trade.params.CancelOrderByIdParams;
 import org.knowm.xchange.service.trade.params.CancelOrderParams;
 import org.knowm.xchange.service.trade.params.TradeHistoryParams;
+import org.knowm.xchange.service.trade.params.orders.DefaultOpenOrdersParamCurrencyPair;
+import org.knowm.xchange.service.trade.params.orders.OpenOrdersParamCurrencyPair;
 import org.knowm.xchange.service.trade.params.orders.OpenOrdersParams;
 
 /** @author odrotleff */
@@ -33,7 +36,12 @@ public class BiboxTradeService extends BiboxTradeServiceRaw implements TradeServ
 
   @Override
   public OpenOrders getOpenOrders(OpenOrdersParams params) throws IOException {
-    return getOpenOrders();
+	CurrencyPair currencyPair = null;
+    if (params instanceof OpenOrdersParamCurrencyPair) {
+	  OpenOrdersParamCurrencyPair openOrdersParamCurrencyPair = (OpenOrdersParamCurrencyPair) params;
+      currencyPair = openOrdersParamCurrencyPair.getCurrencyPair();
+    }
+	return BiboxAdapters.adaptOpenOrders(getBiboxOpenOrders(currencyPair));
   }
 
   @Override
@@ -79,8 +87,7 @@ public class BiboxTradeService extends BiboxTradeServiceRaw implements TradeServ
 
   @Override
   public OpenOrdersParams createOpenOrdersParams() {
-    throw new NotYetImplementedForExchangeException(
-        "This operation is not yet implemented for this exchange");
+	return new DefaultOpenOrdersParamCurrencyPair();
   }
 
   @Override

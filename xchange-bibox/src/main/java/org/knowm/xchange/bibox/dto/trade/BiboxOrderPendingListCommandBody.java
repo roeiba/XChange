@@ -30,6 +30,10 @@ public class BiboxOrderPendingListCommandBody {
     this(null, null, page, size, null, null, null);
   }
 
+  public BiboxOrderPendingListCommandBody(String pair, int page, int size) {
+    this(pair, null, page, size, null, null, null);
+  }
+  
   public BiboxOrderPendingListCommandBody(
       String pair,
       BiboxAccountType accountType,

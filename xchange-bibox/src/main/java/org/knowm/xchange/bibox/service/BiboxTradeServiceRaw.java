@@ -18,6 +18,7 @@ import org.knowm.xchange.bibox.dto.trade.BiboxOrderSide;
 import org.knowm.xchange.bibox.dto.trade.BiboxOrderType;
 import org.knowm.xchange.bibox.dto.trade.BiboxOrders;
 import org.knowm.xchange.bibox.dto.trade.BiboxTradeCommand;
+import org.knowm.xchange.currency.CurrencyPair;
 import org.knowm.xchange.dto.trade.LimitOrder;
 import org.knowm.xchange.dto.trade.MarketOrder;
 import org.knowm.xchange.exceptions.ExchangeException;
@@ -83,14 +84,24 @@ public class BiboxTradeServiceRaw extends BiboxBaseService {
   }
 
   public BiboxOrders getBiboxOpenOrders() {
-    return getBiboxOpenOrders(null);
+    return getBiboxOpenOrders(null, null);
   }
 
   public BiboxOrders getBiboxOpenOrders(Integer page) {
+	return getBiboxOpenOrders(page, null);
+  }
+  
+  public BiboxOrders getBiboxOpenOrders(CurrencyPair pair) {
+	return getBiboxOpenOrders(null, pair);
+  }
+  
+  public BiboxOrders getBiboxOpenOrders(Integer page, CurrencyPair pair) {
     try {
       BiboxOrderPendingListCommandBody body =
           new BiboxOrderPendingListCommandBody(
-              page == null ? 1 : page, Integer.MAX_VALUE); // wonder if this actually works
+        	  pair == null ? null: BiboxAdapters.toBiboxPair(pair),
+        	  page == null ? 1 : page,              
+              Integer.MAX_VALUE); // wonder if this actually works
       BiboxOrderPendingListCommand cmd = new BiboxOrderPendingListCommand(body);
       BiboxSingleResponse<BiboxOrders> response =
           bibox.orderPendingList(BiboxCommands.of(cmd).json(), apiKey, signatureCreator);
@@ -102,10 +113,14 @@ public class BiboxTradeServiceRaw extends BiboxBaseService {
   }
 
   public BiboxOrders getBiboxOrderHistory() {
+	  return getBiboxOrderHistory(null);
+  }
+	  
+  public BiboxOrders getBiboxOrderHistory(CurrencyPair pair) {
     try {
       BiboxOrderPendingListCommandBody body =
           new BiboxOrderPendingListCommandBody(
-              1, Integer.MAX_VALUE); // wonder if this actually works
+    		  pair == null ? null: BiboxAdapters.toBiboxPair(pair), 1, Integer.MAX_VALUE); // wonder if this actually works
       BiboxOrderHistoryCommand cmd = new BiboxOrderHistoryCommand(body);
       BiboxSingleResponse<BiboxOrders> response =
           bibox.orderPendingList(BiboxCommands.of(cmd).json(), apiKey, signatureCreator);
