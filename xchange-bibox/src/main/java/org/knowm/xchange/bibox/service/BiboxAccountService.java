@@ -100,7 +100,7 @@ public class BiboxAccountService extends BiboxAccountServiceRaw implements Accou
     if (withdrawals) {
       requestBiboxWithdrawals(body)
           .getItems()
-          .forEach(d -> result.add(BiboxAdapters.adaptDeposit(d)));
+          .forEach(d -> result.add(BiboxAdapters.adaptWithdrawal(d)));
     }
     return result;
   }
