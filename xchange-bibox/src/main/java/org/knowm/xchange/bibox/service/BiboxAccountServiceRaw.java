@@ -77,11 +77,13 @@ public class BiboxAccountServiceRaw extends BiboxBaseService {
     }
   }
 
-  public void requestBiboxWithdraw(BiboxTransferCommandBody body) {
+  public String requestBiboxWithdraw(BiboxTransferCommandBody body) {
     try {
       BiboxSingleResponse<String> response =
           bibox.transfer(BiboxCommands.transferCommand(body).json(), apiKey, signatureCreator);
       throwErrors(response);
+      String withdrawalId = response.get().getResult();
+      return withdrawalId;
     } catch (BiboxException e) {
       throw new ExchangeException(e.getMessage());
     }

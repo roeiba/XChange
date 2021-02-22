@@ -29,6 +29,15 @@ public class BiboxTransferCommandBody {
   /** address remark */
   public final String addrRemark;
 
+  /**
+   * 
+   * @param totpCode
+   * @param tradePwd
+   * @param coinSymbol
+   * @param amount
+   * @param addr
+   * @param addrRemark
+   */
   public BiboxTransferCommandBody(
       int totpCode,
       String tradePwd,

@@ -7,6 +7,7 @@ import java.util.List;
 import org.knowm.xchange.Exchange;
 import org.knowm.xchange.bibox.dto.BiboxAdapters;
 import org.knowm.xchange.bibox.dto.account.BiboxFundsCommandBody;
+import org.knowm.xchange.bibox.dto.account.BiboxTransferCommandBody;
 import org.knowm.xchange.currency.Currency;
 import org.knowm.xchange.dto.account.AccountInfo;
 import org.knowm.xchange.dto.account.FundingRecord;
@@ -14,6 +15,8 @@ import org.knowm.xchange.dto.account.FundingRecord.Type;
 import org.knowm.xchange.exceptions.NotYetImplementedForExchangeException;
 import org.knowm.xchange.service.account.AccountService;
 import org.knowm.xchange.service.trade.params.HistoryParamsFundingType;
+import org.knowm.xchange.service.trade.params.MoneroWithdrawFundsParams;
+import org.knowm.xchange.service.trade.params.RippleWithdrawFundsParams;
 import org.knowm.xchange.service.trade.params.TradeHistoryParamCurrency;
 import org.knowm.xchange.service.trade.params.TradeHistoryParams;
 import org.knowm.xchange.service.trade.params.WithdrawFundsParams;
@@ -40,8 +43,24 @@ public class BiboxAccountService extends BiboxAccountServiceRaw implements Accou
 
   @Override
   public String withdrawFunds(WithdrawFundsParams params) throws IOException {
-    throw new NotYetImplementedForExchangeException(
-        "This operation is not yet implemented for this exchange");
+
+	if (params instanceof RippleWithdrawFundsParams || params instanceof MoneroWithdrawFundsParams) {
+		throw new IllegalStateException("Don't know how to withdraw XRP or XMR: " + params);
+	}
+
+	if ((params instanceof BiboxWithdrawFundsParams) == false) {
+		throw new IllegalStateException("Don't know how to withdraw: " + params);
+	}
+
+	BiboxWithdrawFundsParams biboxParams = (BiboxWithdrawFundsParams) params;
+	BiboxTransferCommandBody body = new BiboxTransferCommandBody(
+			biboxParams.getGoogleAuth(),
+			biboxParams.getTradePassword(),
+			biboxParams.getCurrency().getCurrencyCode(),
+			biboxParams.getAmount(),
+			biboxParams.getAddress(),
+			biboxParams.getRemark());
+	return requestBiboxWithdraw(body);
   }
 
   @Override
