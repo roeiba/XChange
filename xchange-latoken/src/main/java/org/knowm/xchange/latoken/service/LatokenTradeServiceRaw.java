@@ -186,7 +186,7 @@ public class LatokenTradeServiceRaw extends LatokenBaseService {
    * Returns all user-trades of a given {@link CurrencyPair}.
    *
    * @param pair
-   * @param limit - optional (when {@code null}, default value of 10 is used)
+   * @param limit - optional (when {@code null}, default value of 50 is used)
    * @return
    * @throws LatokenException
    * @throws IOException
@@ -194,6 +194,9 @@ public class LatokenTradeServiceRaw extends LatokenBaseService {
   public LatokenUserTrades getLatokenUserTrades(CurrencyPair pair, Integer limit)
       throws LatokenException, IOException {
 
+	if (limit == null) {
+		limit = 50;
+	}
     return latoken.getUserTrades(
         LatokenAdapters.toSymbol(pair),
         System.currentTimeMillis(),
