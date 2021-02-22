@@ -146,26 +146,33 @@ public class BiboxAdapters {
       BigDecimal minAmountByScale = BigDecimal.ONE
           .divide(BigDecimal.TEN)
           .pow(amountScale);
-	  BigDecimal minAmountByMinimumNotional = BigDecimal.ONE
-          .divide(biboxMarket.getLastUsd(), amountScale, RoundingMode.HALF_DOWN);
-    	  
-      // Choose the amount that holds both restrictions
-      minAmount  = minAmountByMinimumNotional
+      
+      try {
+        BigDecimal minAmountByMinimumNotional;
+      
+    	minAmountByMinimumNotional = BigDecimal.ONE
+    	  .divide(biboxMarket.getLastUsd(), amountScale, RoundingMode.HALF_DOWN);
+      	  
+        // Choose the amount that holds both restrictions
+        minAmount  = minAmountByMinimumNotional
           .max(minAmountByScale)
     	  .setScale(amountScale, RoundingMode.HALF_DOWN);
 
-      // Assume $10,000 as maximum notional and calculate max amount 
-      maxAmount = new BigDecimal("10000")
+        // Assume $10,000 as maximum notional and calculate max amount 
+        maxAmount = new BigDecimal("10000")
     	  .divide(biboxMarket.getLastUsd(), RoundingMode.HALF_DOWN)
     	  .setScale(amountScale, RoundingMode.HALF_DOWN);
       
-      CurrencyPairMetaData metadata = new CurrencyPairMetaData(
+        CurrencyPairMetaData metadata = new CurrencyPairMetaData(
    	      tradingFee,
           minAmount,
           maxAmount,
           priceScale,
           null); 
-      pairMeta.put(pair, metadata);
+        pairMeta.put(pair, metadata);
+      } catch (ArithmeticException e) {
+    	  continue;
+	  }
     }
     // Currencies are not returned from API and exist only on resource file
     return new ExchangeMetaData(pairMeta, null, null, null, null);
