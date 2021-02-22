@@ -216,7 +216,8 @@ public class BiboxAdapters {
         .id(order.getId())
         .currencyPair(new CurrencyPair(order.getCoinSymbol(), order.getCurrencySymbol()))
         .price(order.getPrice())
-        .originalAmount(order.getAmount())
+        // At Bibox, deal_amount represents the the cumulative amount. Use it as a trade
+        .originalAmount(order.getDealAmount()) 
         .timestamp(new Date(order.getCreatedAt()))
         .type(order.getOrderSide().getOrderType())
         .build();
