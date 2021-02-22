@@ -84,7 +84,7 @@ public class BiboxTradeService extends BiboxTradeServiceRaw implements TradeServ
             (TradeHistoryParamCurrencyPair) params;
         currencyPair = tradeHistoryParamCurrencyPair.getCurrencyPair();
       }
-      return BiboxAdapters.adaptUserTrades(getBiboxOrderHistory(currencyPair));
+      return BiboxAdapters.adaptPendingOrdersHistory(getBiboxPendingHistory(currencyPair));
   }
 
   @Override

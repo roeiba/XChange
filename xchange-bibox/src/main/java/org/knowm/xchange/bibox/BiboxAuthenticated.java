@@ -106,7 +106,7 @@ public interface BiboxAuthenticated extends Bibox {
       @FormParam(FORM_SIGNATURE) ParamsDigest signature);
 
   /**
-   * Obtain open order list / order history
+   * Obtain open order list / order history / pending history
    *
    * @return open orders
    */

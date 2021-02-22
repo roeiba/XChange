@@ -17,6 +17,8 @@ import org.knowm.xchange.bibox.dto.trade.BiboxOrderPendingListCommandBody;
 import org.knowm.xchange.bibox.dto.trade.BiboxOrderSide;
 import org.knowm.xchange.bibox.dto.trade.BiboxOrderType;
 import org.knowm.xchange.bibox.dto.trade.BiboxOrders;
+import org.knowm.xchange.bibox.dto.trade.BiboxPendingHistoryCommand;
+import org.knowm.xchange.bibox.dto.trade.BiboxPendingHistoryCommandBody;
 import org.knowm.xchange.bibox.dto.trade.BiboxTradeCommand;
 import org.knowm.xchange.currency.CurrencyPair;
 import org.knowm.xchange.dto.trade.LimitOrder;
@@ -115,7 +117,22 @@ public class BiboxTradeServiceRaw extends BiboxBaseService {
   public BiboxOrders getBiboxOrderHistory() {
 	  return getBiboxOrderHistory(null);
   }
-	  
+
+  public BiboxOrders getBiboxPendingHistory(CurrencyPair pair) {
+    try {
+    	BiboxPendingHistoryCommandBody body =
+          new BiboxPendingHistoryCommandBody(
+        		  pair == null ? null: BiboxAdapters.toBiboxPair(pair),
+              1, Integer.MAX_VALUE); // wonder if this actually works
+      BiboxPendingHistoryCommand cmd = new BiboxPendingHistoryCommand(body);
+      BiboxSingleResponse<BiboxOrders> response =
+          bibox.orderPendingList(BiboxCommands.of(cmd).json(), apiKey, signatureCreator);
+      throwErrors(response);
+      return response.get().getResult();
+    } catch (BiboxException e) {
+      throw new ExchangeException(e.getMessage());
+    }
+  }
   public BiboxOrders getBiboxOrderHistory(CurrencyPair pair) {
     try {
       BiboxOrderPendingListCommandBody body =

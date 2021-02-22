@@ -192,7 +192,29 @@ public class BiboxAdapters {
         .feeAmount(order.getFee())
         .build();
   }
-
+  
+  public static UserTrades adaptPendingOrdersHistory(BiboxOrders biboxOrderHistory) {
+    List<UserTrade> trades =
+        biboxOrderHistory
+            .getItems()
+            .stream()
+            .map(BiboxAdapters::adaptPendingOrderHistory)
+            .collect(Collectors.toList());
+    return new UserTrades(trades, TradeSortType.SortByID);
+  }
+ 
+  private static UserTrade adaptPendingOrderHistory(BiboxOrder order) {
+    return new UserTrade.Builder()
+        .orderId(order.getId())
+        .id(order.getId())
+        .currencyPair(new CurrencyPair(order.getCoinSymbol(), order.getCurrencySymbol()))
+        .price(order.getPrice())
+        .originalAmount(order.getAmount())
+        .timestamp(new Date(order.getCreatedAt()))
+        .type(order.getOrderSide().getOrderType())
+        .build();
+  }
+  
   public static List<OrderBook> adaptAllOrderBooks(List<BiboxOrderBook> biboxOrderBooks) {
     return biboxOrderBooks.stream()
         .map(ob -> BiboxAdapters.adaptOrderBook(ob, adaptCurrencyPair(ob.getPair())))
