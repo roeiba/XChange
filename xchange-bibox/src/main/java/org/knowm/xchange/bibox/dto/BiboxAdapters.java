@@ -250,7 +250,7 @@ public class BiboxAdapters {
         null,
         null,
         Type.DEPOSIT,
-        convertStatus(d.status),
+        convertDepositStatus(d.status),
         null,
         null,
         null);
@@ -265,13 +265,13 @@ public class BiboxAdapters {
         null,
         null,
         Type.WITHDRAWAL,
-        convertStatus(w.status),
+        convertWithdrawalStatus(w.status),
         null,
         null,
         null);
   }
-
-  public static Status convertStatus(int status) {
+  
+  public static Status convertWithdrawalStatus(int status) {
 	  /**
 	   * Status:
 	   * 	-2: The review fails; 
@@ -292,10 +292,29 @@ public class BiboxAdapters {
       case 3:
         return Status.COMPLETE;
       default:
-        throw new RuntimeException("Unknown status of bibox deposit: " + status);
+        throw new RuntimeException("Unknown status of bibox withdrawal: " + status);
     }
   }
 
+  public static Status convertDepositStatus(int status) {
+	  /**
+	   * Status:
+	   * 	1: deposit is in process
+	   *    2: deposit finished
+	   *    3: deposit failed 
+	   */
+    switch (status) {
+      case 1:
+    	  return Status.PROCESSING;
+      case 2:
+        return Status.COMPLETE;
+      case 3:
+        return Status.FAILED;
+      default:
+        throw new RuntimeException("Unknown status of bibox deposit: " + status);
+    }
+  }
+  
   public static Trades adaptDeals(List<BiboxDeals> biboxDeals, CurrencyPair currencyPair) {
     List<Trade> trades =
         biboxDeals.stream()
