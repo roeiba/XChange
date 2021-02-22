@@ -17,6 +17,8 @@ import org.knowm.xchange.exceptions.NotYetImplementedForExchangeException;
 import org.knowm.xchange.service.trade.TradeService;
 import org.knowm.xchange.service.trade.params.CancelOrderByIdParams;
 import org.knowm.xchange.service.trade.params.CancelOrderParams;
+import org.knowm.xchange.service.trade.params.DefaultTradeHistoryParamCurrencyPair;
+import org.knowm.xchange.service.trade.params.TradeHistoryParamCurrencyPair;
 import org.knowm.xchange.service.trade.params.TradeHistoryParams;
 import org.knowm.xchange.service.trade.params.orders.DefaultOpenOrdersParamCurrencyPair;
 import org.knowm.xchange.service.trade.params.orders.OpenOrdersParamCurrencyPair;
@@ -76,13 +78,18 @@ public class BiboxTradeService extends BiboxTradeServiceRaw implements TradeServ
 
   @Override
   public UserTrades getTradeHistory(TradeHistoryParams params) throws IOException {
-    return BiboxAdapters.adaptUserTrades(getBiboxOrderHistory());
+      CurrencyPair currencyPair = null;
+      if (params instanceof TradeHistoryParamCurrencyPair) {
+        TradeHistoryParamCurrencyPair tradeHistoryParamCurrencyPair =
+            (TradeHistoryParamCurrencyPair) params;
+        currencyPair = tradeHistoryParamCurrencyPair.getCurrencyPair();
+      }
+      return BiboxAdapters.adaptUserTrades(getBiboxOrderHistory(currencyPair));
   }
 
   @Override
   public TradeHistoryParams createTradeHistoryParams() {
-    throw new NotYetImplementedForExchangeException(
-        "This operation is not yet implemented for this exchange");
+	  return new DefaultTradeHistoryParamCurrencyPair();
   }
 
   @Override
