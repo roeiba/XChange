@@ -11,10 +11,21 @@ public final class BitfinexUtils {
   /** private Constructor */
   private BitfinexUtils() {}
 
+  /**
+   * Converts a {@link Currency} to Bitfinex Symbol
+   * @param currency
+   * @return 
+   */
   public static String adaptXchangeCurrency(Currency xchangeSymbol) {
 
     if (xchangeSymbol == null) {
       return null;
+    
+    } else if (xchangeSymbol.equals(Currency.DASH)) {
+      return "DSH";
+  
+    } else if (xchangeSymbol.equals(Currency.QTUM)) {
+      return "QTM";
     }
 
     return xchangeSymbol.toString(); // .toLowerCase();

@@ -113,7 +113,14 @@ public final class BitfinexAdapters {
   }
 
   public static String adaptBitfinexCurrency(String bitfinexSymbol) {
-    return bitfinexSymbol.toUpperCase();
+    String currency = bitfinexSymbol.toUpperCase();
+    if (currency.equals("DSH")) {
+      currency = "DASH";
+    }
+    if (currency.equals("QTM")) {
+      currency = "QTUM";
+    }
+    return currency;
   }
 
   public static String adaptOrderType(OrderType type) {
@@ -915,8 +922,7 @@ public final class BitfinexAdapters {
     BigDecimal percentageChange =
         bitfinexTicker.getDailyChangePerc().multiply(new BigDecimal("100"), new MathContext(8));
 
-    CurrencyPair currencyPair =
-        CurrencyPairDeserializer.getCurrencyPairFromString(bitfinexTicker.getSymbol().substring(1));
+    CurrencyPair currencyPair = adaptCurrencyPair(bitfinexTicker.getSymbol().substring(1));
 
     return new Ticker.Builder()
         .currencyPair(currencyPair)
