@@ -380,6 +380,9 @@ public final class BitfinexAdapters {
     // each of those may be partially frozen/available
     for (BitfinexBalancesResponse balance : response) {
       String walletId = balance.getType();
+      if (! walletId.contains("exchange") ) {
+    	  	continue;
+      }
 
       if (!walletsBalancesMap.containsKey(walletId)) {
         walletsBalancesMap.put(walletId, new HashMap<>());
