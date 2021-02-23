@@ -9,7 +9,7 @@
       "transaction_value": 111,
       "fee": 0,
       "date": 1418008467000,
-      "status": 1
+      "status": 2
     },
     {
       "addr": "1lEWjmlkmlhTqcYj3l33sg980slkjtdqd",
@@ -20,7 +20,7 @@
       "transaction_value": 112,
       "fee": 0.07,
       "date": 1418008467005,
-      "status": 1
+      "status": 2
     }
   ],
   "symbol": "btc_usd"

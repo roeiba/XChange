@@ -60,7 +60,7 @@ public class OkCoinAdaptersTest {
     FundingRecord withdrawalRecord = records.get(1);
     assertThat(withdrawalRecord).isInstanceOf(FundingRecord.class);
     assertThat(withdrawalRecord.getType()).isEqualTo(FundingRecord.Type.WITHDRAWAL);
-    assertThat(withdrawalRecord.getStatus()).isEqualTo(FundingRecord.Status.PROCESSING);
+    assertThat(withdrawalRecord.getStatus()).isEqualTo(FundingRecord.Status.COMPLETE);
     assertThat(withdrawalRecord.getAmount()).isEqualTo(new BigDecimal("50"));
     assertThat(withdrawalRecord.getFee().doubleValue())
         .isEqualTo(new BigDecimal("0.07").doubleValue());
