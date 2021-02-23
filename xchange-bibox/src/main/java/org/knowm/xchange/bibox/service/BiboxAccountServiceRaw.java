@@ -31,7 +31,8 @@ public class BiboxAccountServiceRaw extends BiboxBaseService {
           bibox.assets(ASSETS_CMD.json(), apiKey, signatureCreator);
 
       throwErrors(response);
-      return response.get().getResult().getAssets_list();
+      BiboxAssetsResult result = response.get().getResult();
+      return result.assets_list;
     } catch (BiboxException e) {
       throw new ExchangeException(e.getMessage());
     }

@@ -20,5 +20,5 @@ public class BiboxAssetsResult {
 
   @JsonProperty("assets_list")
   @Getter
-  private List<BiboxAsset> assets_list;
+  public List<BiboxAsset> assets_list;
 }
