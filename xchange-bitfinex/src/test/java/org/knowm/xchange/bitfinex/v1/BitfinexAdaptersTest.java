@@ -101,28 +101,6 @@ public class BitfinexAdaptersTest {
             .findFirst()
             .orElse(null);
     assertNotNull("Exchange wallet is missing", exchangeWallet);
-    Wallet tradingWallet =
-        wallets.stream()
-            .filter(wallet -> "trading".equals(wallet.getId()))
-            .findFirst()
-            .orElse(null);
-    assertNotNull("Trading wallet is missing", tradingWallet);
-    Wallet depositWallet =
-        wallets.stream()
-            .filter(wallet -> "deposit".equals(wallet.getId()))
-            .findFirst()
-            .orElse(null);
-    assertNotNull("Deposit wallet is missing", depositWallet);
-
-    Balance tradingUsdBalance = tradingWallet.getBalance(Currency.USD);
-    assertNotNull(tradingUsdBalance);
-    assertEquals(new BigDecimal("100"), tradingUsdBalance.getTotal());
-    assertEquals(new BigDecimal("50"), tradingUsdBalance.getAvailable());
-
-    Balance tradingBtcBalance = tradingWallet.getBalance(Currency.BTC);
-    assertNotNull(tradingBtcBalance);
-    assertEquals(BigDecimal.ZERO, tradingBtcBalance.getTotal());
-    assertEquals(BigDecimal.ZERO, tradingBtcBalance.getAvailable());
 
     Balance exchangeUsdBalance = exchangeWallet.getBalance(Currency.USD);
     assertNotNull(exchangeUsdBalance);
@@ -134,15 +112,6 @@ public class BitfinexAdaptersTest {
     assertEquals(BigDecimal.ZERO, exchangeBtcBalance.getTotal());
     assertEquals(BigDecimal.ZERO, exchangeBtcBalance.getAvailable());
 
-    Balance depositUsdBalance = depositWallet.getBalance(Currency.USD);
-    assertNotNull(depositUsdBalance);
-    assertEquals(new BigDecimal("69"), depositUsdBalance.getTotal());
-    assertEquals(new BigDecimal("42"), depositUsdBalance.getAvailable());
-
-    Balance depositBtcBalance = depositWallet.getBalance(Currency.BTC);
-    assertNotNull(depositBtcBalance);
-    assertEquals(new BigDecimal("50"), depositBtcBalance.getTotal());
-    assertEquals(new BigDecimal("30"), depositBtcBalance.getAvailable());
   }
 
   @Test
