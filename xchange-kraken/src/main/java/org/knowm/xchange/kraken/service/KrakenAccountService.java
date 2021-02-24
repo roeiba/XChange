@@ -58,7 +58,9 @@ public class KrakenAccountService extends KrakenAccountServiceRaw implements Acc
             .build();
 
     return new AccountInfo(
-        exchange.getExchangeSpecification().getUserName(), tradingWallet, marginWallet);
+//        exchange.getExchangeSpecification().getUserName(), tradingWallet, marginWallet);
+    	// Roei: Only use trading wallet
+		exchange.getExchangeSpecification().getUserName(), tradingWallet);
   }
 
   @Override
