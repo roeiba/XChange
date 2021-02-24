@@ -142,7 +142,9 @@ public class BinanceExchange extends BaseExchange {
     int amountScale = 8;
     BigDecimal stepSize = null;
     
-    BigDecimal tradingFee = new BigDecimal("0.001"); // Trading fee at Binance is 0.1 %
+    // Trading fee at Binance is 0.1 %
+    // When using BNB, it reduces by 25% to 0.075%
+    BigDecimal tradingFee = new BigDecimal("0.00075"); 
     BigDecimal minAmount = BigDecimal.ZERO;
     BigDecimal maxAmount = BigDecimal.ZERO;
     BigDecimal minNotional = BigDecimal.ZERO;
