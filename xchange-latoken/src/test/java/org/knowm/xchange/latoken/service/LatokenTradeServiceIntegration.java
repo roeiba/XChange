@@ -18,6 +18,7 @@ import org.knowm.xchange.dto.trade.LimitOrder;
 import org.knowm.xchange.latoken.LatokenExchange;
 import org.knowm.xchange.latoken.dto.trade.LatokenOrderSide;
 import org.knowm.xchange.latoken.dto.trade.LatokenTestOrder;
+import org.knowm.xchange.latoken.dto.trade.LatokenUserTrades;
 import org.knowm.xchange.service.trade.params.orders.DefaultOpenOrdersParamCurrencyPair;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
