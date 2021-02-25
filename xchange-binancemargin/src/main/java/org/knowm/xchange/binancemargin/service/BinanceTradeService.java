@@ -12,7 +12,7 @@ import lombok.Value;
 import org.knowm.xchange.binancemargin.BinanceAdapters;
 import org.knowm.xchange.binancemargin.BinanceAuthenticated;
 import org.knowm.xchange.binancemargin.BinanceErrorAdapter;
-import org.knowm.xchange.binancemargin.BinanceExchange;
+import org.knowm.xchange.binancemargin.BinancemarginExchange;
 import org.knowm.xchange.binancemargin.dto.BinanceException;
 import org.knowm.xchange.binancemargin.dto.trade.BinanceNewOrder;
 import org.knowm.xchange.binancemargin.dto.trade.BinanceOrder;
@@ -53,7 +53,7 @@ import org.knowm.xchange.utils.Assert;
 public class BinanceTradeService extends BinanceTradeServiceRaw implements TradeService {
 
   public BinanceTradeService(
-      BinanceExchange exchange,
+      BinancemarginExchange exchange,
       BinanceAuthenticated binance,
       ResilienceRegistries resilienceRegistries) {
     super(exchange, binance, resilienceRegistries);

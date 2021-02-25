@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.time.Duration;
 import org.junit.Test;
 import org.knowm.xchange.binance.AbstractResilienceTest;
-import org.knowm.xchange.binancemargin.BinanceExchange;
+import org.knowm.xchange.binancemargin.BinancemarginExchange;
 import org.knowm.xchange.binancemargin.BinanceResilience;
 import org.knowm.xchange.currency.CurrencyPair;
 import org.knowm.xchange.dto.marketdata.OrderBook;
@@ -53,7 +53,7 @@ public class MarketDataServiceResilienceTest extends AbstractResilienceTest {
   @Test(timeout = 2000)
   public void shouldGetMaxDepthTwoTimesWithoutDelayWithDefaultRateLimiter() throws Exception {
     // given
-    BinanceExchange exchange = createExchangeWithRateLimiterEnabled();
+    BinancemarginExchange exchange = createExchangeWithRateLimiterEnabled();
     MarketDataService service = exchange.getMarketDataService();
     stubForDepth();
 
@@ -69,7 +69,7 @@ public class MarketDataServiceResilienceTest extends AbstractResilienceTest {
   @Test(timeout = 2000)
   public void shouldGetTimeoutOnSecondMaxDepthVeryRestrictiveCustomRateLimiter() throws Exception {
     // given
-    BinanceExchange exchange = createExchangeWithRateLimiterEnabled();
+    BinancemarginExchange exchange = createExchangeWithRateLimiterEnabled();
     exchange
         .getResilienceRegistries()
         .rateLimiters()

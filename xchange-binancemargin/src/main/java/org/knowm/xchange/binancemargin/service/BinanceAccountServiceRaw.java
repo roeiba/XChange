@@ -10,7 +10,7 @@ import java.util.List;
 
 import org.knowm.xchange.binancemargin.BinanceAdapters;
 import org.knowm.xchange.binancemargin.BinanceAuthenticated;
-import org.knowm.xchange.binancemargin.BinanceExchange;
+import org.knowm.xchange.binancemargin.BinancemarginExchange;
 import org.knowm.xchange.binancemargin.dto.BinanceException;
 import org.knowm.xchange.binancemargin.dto.account.*;
 import org.knowm.xchange.binancemargin.dto.account.DepositList.BinanceDeposit;
@@ -20,7 +20,7 @@ import org.knowm.xchange.currency.Currency;
 public class BinanceAccountServiceRaw extends BinanceBaseService {
 
   public BinanceAccountServiceRaw(
-      BinanceExchange exchange,
+      BinancemarginExchange exchange,
       BinanceAuthenticated binance,
       ResilienceRegistries resilienceRegistries) {
     super(exchange, binance, resilienceRegistries);

@@ -11,7 +11,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.knowm.xchange.Exchange;
 import org.knowm.xchange.ExchangeFactory;
-import org.knowm.xchange.binancemargin.BinanceExchange;
+import org.knowm.xchange.binancemargin.BinancemarginExchange;
 import org.knowm.xchange.currency.Currency;
 import org.knowm.xchange.currency.CurrencyPair;
 import org.knowm.xchange.dto.account.Balance;
@@ -30,7 +30,7 @@ public class AccountServiceIntegration {
 
   @BeforeClass
   public static void beforeClass() {
-    exchange = ExchangeFactory.INSTANCE.createExchange(BinanceExchange.class);
+    exchange = ExchangeFactory.INSTANCE.createExchange(BinancemarginExchange.class);
     accountService = exchange.getAccountService();
   }
 

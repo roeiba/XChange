@@ -5,7 +5,7 @@ import org.junit.Before;
 import org.junit.Rule;
 import org.knowm.xchange.ExchangeFactory;
 import org.knowm.xchange.ExchangeSpecification;
-import org.knowm.xchange.binancemargin.BinanceExchange;
+import org.knowm.xchange.binancemargin.BinancemarginExchange;
 
 public class AbstractResilienceTest {
 
@@ -15,25 +15,25 @@ public class AbstractResilienceTest {
 
   @Before
   public void resertResilienceRegistries() {
-    BinanceExchange.resetResilienceRegistries();
+    BinancemarginExchange.resetResilienceRegistries();
   }
 
-  protected BinanceExchange createExchangeWithRetryEnabled() {
+  protected BinancemarginExchange createExchangeWithRetryEnabled() {
     return createExchange(true, false);
   }
 
-  protected BinanceExchange createExchangeWithRetryDisabled() {
+  protected BinancemarginExchange createExchangeWithRetryDisabled() {
     return createExchange(false, false);
   }
 
-  protected BinanceExchange createExchangeWithRateLimiterEnabled() {
+  protected BinancemarginExchange createExchangeWithRateLimiterEnabled() {
     return createExchange(false, true);
   }
 
-  protected BinanceExchange createExchange(boolean retryEnabled, boolean rateLimiterEnabled) {
-    BinanceExchange exchange =
-        (BinanceExchange)
-            ExchangeFactory.INSTANCE.createExchangeWithoutSpecification(BinanceExchange.class);
+  protected BinancemarginExchange createExchange(boolean retryEnabled, boolean rateLimiterEnabled) {
+    BinancemarginExchange exchange =
+        (BinancemarginExchange)
+            ExchangeFactory.INSTANCE.createExchangeWithoutSpecification(BinancemarginExchange.class);
     ExchangeSpecification specification = exchange.getDefaultExchangeSpecification();
     specification.setHost("localhost");
     specification.setSslUri("http://localhost:" + wireMockRule.port() + "/");

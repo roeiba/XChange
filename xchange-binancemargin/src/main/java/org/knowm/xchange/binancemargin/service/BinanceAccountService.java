@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 import org.knowm.xchange.binancemargin.BinanceAuthenticated;
 import org.knowm.xchange.binancemargin.BinanceErrorAdapter;
-import org.knowm.xchange.binancemargin.BinanceExchange;
+import org.knowm.xchange.binancemargin.BinancemarginExchange;
 import org.knowm.xchange.binancemargin.dto.BinanceException;
 import org.knowm.xchange.binancemargin.dto.account.AssetDetail;
 import org.knowm.xchange.binancemargin.dto.account.BinanceAccountInformation;
@@ -30,7 +30,7 @@ import org.knowm.xchange.service.trade.params.*;
 public class BinanceAccountService extends BinanceAccountServiceRaw implements AccountService {
 
   public BinanceAccountService(
-      BinanceExchange exchange,
+      BinancemarginExchange exchange,
       BinanceAuthenticated binance,
       ResilienceRegistries resilienceRegistries) {
     super(exchange, binance, resilienceRegistries);

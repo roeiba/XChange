@@ -26,9 +26,9 @@ import org.slf4j.LoggerFactory;
 
 import si.mazi.rescu.SynchronizedValueFactory;
 
-public class BinanceExchange extends BaseExchange {
+public class BinancemarginExchange extends BaseExchange {
 
-  private static final Logger LOG = LoggerFactory.getLogger(BinanceExchange.class);
+  private static final Logger LOG = LoggerFactory.getLogger(BinancemarginExchange.class);
   private static final int DEFAULT_PRECISION = 8;
   
   private static ResilienceRegistries RESILIENCE_REGISTRIES;

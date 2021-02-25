@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 import org.knowm.xchange.binancemargin.BinanceAdapters;
 import org.knowm.xchange.binancemargin.BinanceAuthenticated;
-import org.knowm.xchange.binancemargin.BinanceExchange;
+import org.knowm.xchange.binancemargin.BinancemarginExchange;
 import org.knowm.xchange.binancemargin.dto.marketdata.BinanceAggTrades;
 import org.knowm.xchange.binancemargin.dto.marketdata.BinanceKline;
 import org.knowm.xchange.binancemargin.dto.marketdata.BinanceOrderbook;
@@ -23,7 +23,7 @@ import org.knowm.xchange.utils.StreamUtils;
 public class BinanceMarketDataServiceRaw extends BinanceBaseService {
 
   protected BinanceMarketDataServiceRaw(
-      BinanceExchange exchange,
+      BinancemarginExchange exchange,
       BinanceAuthenticated binance,
       ResilienceRegistries resilienceRegistries) {
     super(exchange, binance, resilienceRegistries);

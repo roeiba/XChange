@@ -5,7 +5,7 @@ import static org.knowm.xchange.binancemargin.BinanceResilience.REQUEST_WEIGHT_R
 import java.io.IOException;
 
 import org.knowm.xchange.binancemargin.BinanceAuthenticated;
-import org.knowm.xchange.binancemargin.BinanceExchange;
+import org.knowm.xchange.binancemargin.BinancemarginExchange;
 import org.knowm.xchange.binancemargin.dto.meta.BinanceSystemStatus;
 import org.knowm.xchange.binancemargin.dto.meta.exchangeinfo.BinanceExchangeInfo;
 import org.knowm.xchange.client.ResilienceRegistries;
@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 import si.mazi.rescu.ParamsDigest;
 import si.mazi.rescu.SynchronizedValueFactory;
 
-public class BinanceBaseService extends BaseResilientExchangeService<BinanceExchange> {
+public class BinanceBaseService extends BaseResilientExchangeService<BinancemarginExchange> {
 
   protected final Logger LOG = LoggerFactory.getLogger(getClass());
 
@@ -24,7 +24,7 @@ public class BinanceBaseService extends BaseResilientExchangeService<BinanceExch
   protected final ParamsDigest signatureCreator;
 
   protected BinanceBaseService(
-      BinanceExchange exchange,
+      BinancemarginExchange exchange,
       BinanceAuthenticated binance,
       ResilienceRegistries resilienceRegistries) {
 
