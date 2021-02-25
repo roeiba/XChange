@@ -1,7 +1,5 @@
 package org.knowm.xchange.binancemargin;
 
-import static org.knowm.xchange.binancemargin.BinanceResilience.*;
-
 import java.io.IOException;
 import java.util.List;
 import javax.ws.rs.GET;
@@ -22,7 +20,7 @@ import org.knowm.xchange.binancemargin.dto.meta.exchangeinfo.BinanceExchangeInfo
 
 @Path("")
 @Produces(MediaType.APPLICATION_JSON)
-public interface Binance {
+public interface Binancemargin {
 
   @GET
   @Path("wapi/v3/systemStatus.html")

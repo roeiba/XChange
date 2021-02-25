@@ -37,6 +37,7 @@ import org.knowm.xchange.service.trade.TradeService;
 import org.knowm.xchange.service.trade.params.CancelOrderByCurrencyPair;
 import org.knowm.xchange.service.trade.params.CancelOrderByIdParams;
 import org.knowm.xchange.service.trade.params.CancelOrderParams;
+import org.knowm.xchange.service.trade.params.DefaultCancelOrderByCurrencyPairAndIdParams;
 import org.knowm.xchange.service.trade.params.TradeHistoryParamCurrencyPair;
 import org.knowm.xchange.service.trade.params.TradeHistoryParamLimit;
 import org.knowm.xchange.service.trade.params.TradeHistoryParams;
@@ -193,6 +194,13 @@ public class BinanceTradeService extends BinanceTradeServiceRaw implements Trade
     throw new ExchangeException("You need to provide the currency pair to cancel an order.");
   }
 
+  @Override
+  public String changeOrder(LimitOrder limitOrder) throws IOException {
+	DefaultCancelOrderByCurrencyPairAndIdParams params = new DefaultCancelOrderByCurrencyPairAndIdParams(limitOrder.getCurrencyPair(), limitOrder.getId());
+    cancelOrder(params);
+    return placeLimitOrder(limitOrder);
+  }
+  
   @Override
   public boolean cancelOrder(CancelOrderParams params) throws IOException {
     try {

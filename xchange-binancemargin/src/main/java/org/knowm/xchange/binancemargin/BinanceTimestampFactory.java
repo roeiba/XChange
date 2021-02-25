@@ -18,7 +18,7 @@ public class BinanceTimestampFactory implements SynchronizedValueFactory<Long> {
 
   private static final Logger LOG = LoggerFactory.getLogger(BinanceTimestampFactory.class);
 
-  private final Binance binance;
+  private final Binancemargin binance;
   private final ExchangeSpecification.ResilienceSpecification resilienceSpecification;
   private final ResilienceRegistries resilienceRegistries;
 
@@ -26,7 +26,7 @@ public class BinanceTimestampFactory implements SynchronizedValueFactory<Long> {
   private Long deltaServerTime;
 
   public BinanceTimestampFactory(
-      Binance binance,
+      Binancemargin binance,
       ExchangeSpecification.ResilienceSpecification resilienceSpecification,
       ResilienceRegistries resilienceRegistries) {
     this.binance = binance;

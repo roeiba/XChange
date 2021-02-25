@@ -1,7 +1,5 @@
 package org.knowm.xchange.binance;
 
-import static org.knowm.xchange.binance.BinanceResilience.*;
-
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.List;

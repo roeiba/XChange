@@ -4,13 +4,13 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.math.BigDecimal;
 import org.knowm.xchange.currency.Currency;
 
-public final class BinanceBalance {
+public final class BinancemarginAsset {
 
   private final Currency currency;
   private final BigDecimal free;
   private final BigDecimal locked;
 
-  public BinanceBalance(
+  public BinancemarginAsset(
       @JsonProperty("asset") String asset,
       @JsonProperty("free") BigDecimal free,
       @JsonProperty("locked") BigDecimal locked) {
