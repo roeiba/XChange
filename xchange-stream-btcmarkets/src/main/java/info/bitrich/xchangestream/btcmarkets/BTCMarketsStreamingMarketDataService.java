@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 import info.bitrich.xchangestream.btcmarkets.dto.BTCMarketsWebSocketOrderbookMessage;
 import info.bitrich.xchangestream.core.StreamingMarketDataService;
 import info.bitrich.xchangestream.service.netty.StreamingObjectMapperHelper;
-import io.reactivex.Flowable;
+import io.reactivex.rxjava3.core.Flowable;
 import org.knowm.xchange.currency.CurrencyPair;
 import org.knowm.xchange.dto.marketdata.OrderBook;
 import org.knowm.xchange.dto.marketdata.Ticker;
