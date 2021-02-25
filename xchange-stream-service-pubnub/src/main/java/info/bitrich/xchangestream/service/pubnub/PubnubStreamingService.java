@@ -119,7 +119,7 @@ public class PubnubStreamingService {
     LOG.info("Subscribing to channel {}.", channelName);
     return Observable.<JsonNode>create(
             e -> {
-              if (!subscriptions.containsKey(channelName)) {
+              if (!subscriptions.containsKey(channelName) || subscriptions.get(channelName).isDisposed()) {
                 subscriptions.put(channelName, e);
                 pubnub.subscribe().channels(Collections.singletonList(channelName)).execute();
                 LOG.debug("Subscribe channel: {}", channelName);
