@@ -185,14 +185,6 @@ public class BinanceTradeService extends BinanceTradeServiceRaw implements Trade
   private String getClientOrderId(Order order) {
 
     String clientOrderId = null;
-    for (IOrderFlags flags : order.getOrderFlags()) {
-      if (flags instanceof BinanceOrderFlags) {
-        BinanceOrderFlags bof = (BinanceOrderFlags) flags;
-        if (clientOrderId == null) {
-          clientOrderId = bof.getClientId();
-        }
-      }
-    }
     return clientOrderId;
   }
 

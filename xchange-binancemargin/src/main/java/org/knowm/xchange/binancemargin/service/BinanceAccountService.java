@@ -3,7 +3,6 @@ package org.knowm.xchange.binancemargin.service;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -24,9 +23,6 @@ import org.knowm.xchange.dto.account.AccountInfo;
 import org.knowm.xchange.dto.account.AddressWithTag;
 import org.knowm.xchange.dto.account.Balance;
 import org.knowm.xchange.dto.account.Fee;
-import org.knowm.xchange.dto.account.FundingRecord;
-import org.knowm.xchange.dto.account.FundingRecord.Status;
-import org.knowm.xchange.dto.account.FundingRecord.Type;
 import org.knowm.xchange.dto.account.Wallet;
 import org.knowm.xchange.service.account.AccountService;
 import org.knowm.xchange.service.trade.params.*;
@@ -38,38 +34,6 @@ public class BinanceAccountService extends BinanceAccountServiceRaw implements A
       BinanceAuthenticated binance,
       ResilienceRegistries resilienceRegistries) {
     super(exchange, binance, resilienceRegistries);
-  }
-
-  /** (0:Email Sent,1:Cancelled 2:Awaiting Approval 3:Rejected 4:Processing 5:Failure 6Completed) */
-  private static FundingRecord.Status withdrawStatus(int status) {
-    switch (status) {
-      case 0:
-      case 2:
-      case 4:
-        return Status.PROCESSING;
-      case 1:
-        return Status.CANCELLED;
-      case 3:
-      case 5:
-        return Status.FAILED;
-      case 6:
-        return Status.COMPLETE;
-      default:
-        throw new RuntimeException("Unknown binance withdraw status: " + status);
-    }
-  }
-
-  /** (0:pending,6: credited but cannot withdraw,1:success) */
-  private static FundingRecord.Status depositStatus(int status) {
-    switch (status) {
-      case 0:
-      case 6:
-        return Status.PROCESSING;
-      case 1:
-        return Status.COMPLETE;
-      default:
-        throw new RuntimeException("Unknown binance deposit status: " + status);
-    }
   }
 
   @Override
@@ -176,180 +140,6 @@ public class BinanceAccountService extends BinanceAccountServiceRaw implements A
   public Map<String, AssetDetail> getAssetDetails() throws IOException {
     try {
       return super.requestAssetDetail().getAssetDetail();
-    } catch (BinanceException e) {
-      throw BinanceErrorAdapter.adapt(e);
-    }
-  }
-
-  @Override
-  public TradeHistoryParams createFundingHistoryParams() {
-    return new BinanceFundingHistoryParams();
-  }
-
-  @Override
-  public List<FundingRecord> getFundingHistory(TradeHistoryParams params) throws IOException {
-    try {
-      String asset = null;
-      if (params instanceof TradeHistoryParamCurrency) {
-        TradeHistoryParamCurrency cp = (TradeHistoryParamCurrency) params;
-        if (cp.getCurrency() != null) {
-          asset = cp.getCurrency().getCurrencyCode();
-        }
-      }
-
-      Integer limit = null;
-      Integer page = null;
-
-      if (params instanceof TradeHistoryParamLimit) {
-        limit = ((TradeHistoryParamLimit) params).getLimit();
-      }
-
-      if (params instanceof TradeHistoryParamPaging) {
-        page = ((TradeHistoryParamPaging) params).getPageNumber();
-      }
-
-      boolean withdrawals = true;
-      boolean deposits = true;
-      boolean otherInflow = true;
-
-      Long startTime = null;
-      Long endTime = null;
-      if (params instanceof TradeHistoryParamsTimeSpan) {
-        TradeHistoryParamsTimeSpan tp = (TradeHistoryParamsTimeSpan) params;
-        if (tp.getStartTime() != null) {
-          startTime = tp.getStartTime().getTime();
-        }
-        if (tp.getEndTime() != null) {
-          endTime = tp.getEndTime().getTime();
-        }
-      }
-
-      if (params instanceof HistoryParamsFundingType) {
-        HistoryParamsFundingType f = (HistoryParamsFundingType) params;
-        if (f.getType() != null) {
-          withdrawals = f.getType() == Type.WITHDRAWAL;
-          deposits = f.getType() == Type.DEPOSIT;
-          otherInflow = f.getType() == Type.OTHER_INFLOW;
-        }
-      }
-
-      String email = null;
-      boolean subAccount = false;
-
-      // Get transfer history from a master account to a sub account
-      if (params instanceof BinanceMasterAccountTransferHistoryParams) {
-        email = ((BinanceMasterAccountTransferHistoryParams) params).getEmail();
-      }
-
-      // Get transfer history from a sub account to a master/sub account
-      if (params instanceof BinanceSubAccountTransferHistoryParams) {
-        subAccount = true;
-      }
-
-      List<FundingRecord> result = new ArrayList<>();
-      if (withdrawals) {
-        super.withdrawHistory(asset, startTime, endTime)
-            .forEach(
-                w -> {
-                  result.add(
-                      new FundingRecord(
-                          w.getAddress(),
-                          w.getAddressTag(),
-                          new Date(w.getApplyTime()),
-                          Currency.getInstance(w.getAsset()),
-                          w.getAmount(),
-                          w.getId(),
-                          w.getTxId(),
-                          Type.WITHDRAWAL,
-                          withdrawStatus(w.getStatus()),
-                          null,
-                          w.getTransactionFee(),
-                          null));
-                });
-      }
-
-      if (deposits) {
-        super.depositHistory(asset, startTime, endTime)
-            .forEach(
-                d -> {
-                  result.add(
-                      new FundingRecord(
-                          d.getAddress(),
-                          d.getAddressTag(),
-                          new Date(d.getInsertTime()),
-                          Currency.getInstance(d.getAsset()),
-                          d.getAmount(),
-                          null,
-                          d.getTxId(),
-                          Type.DEPOSIT,
-                          depositStatus(d.getStatus()),
-                          null,
-                          null,
-                          null));
-                });
-      }
-
-      if (otherInflow) {
-        super.getAssetDividend(asset, startTime, endTime)
-            .forEach(
-                a -> {
-                  result.add(
-                      new FundingRecord(
-                          null,
-                          null,
-                          new Date(a.getDivTime()),
-                          Currency.getInstance(a.getAsset()),
-                          a.getAmount(),
-                          null,
-                          String.valueOf(a.getTranId()),
-                          Type.OTHER_INFLOW,
-                          Status.COMPLETE,
-                          null,
-                          null,
-                          a.getEnInfo()));
-                });
-      }
-
-      final String finalEmail = email;
-
-      if (email != null) {
-        super.getTransferHistory(email, startTime, endTime, page, limit)
-            .forEach(
-                a -> {
-                  result.add(
-                      new FundingRecord.Builder()
-                          .setAddress(finalEmail)
-                          .setDate(new Date(a.getTime()))
-                          .setCurrency(Currency.getInstance(a.getAsset()))
-                          .setAmount(a.getQty())
-                          .setType(Type.INTERNAL_WITHDRAWAL)
-                          .setStatus(Status.COMPLETE)
-                          .build());
-                });
-      }
-
-      if (subAccount) {
-
-        Integer type = deposits && withdrawals ? null : deposits ? 1 : 0;
-        super.getSubUserHistory(asset, type, startTime, endTime, limit)
-            .forEach(
-                a -> {
-                  result.add(
-                      new FundingRecord.Builder()
-                          .setAddress(a.getEmail())
-                          .setDate(new Date(a.getTime()))
-                          .setCurrency(Currency.getInstance(a.getAsset()))
-                          .setAmount(a.getQty())
-                          .setType(
-                              a.getType().equals(1)
-                                  ? Type.INTERNAL_DEPOSIT
-                                  : Type.INTERNAL_WITHDRAWAL)
-                          .setStatus(Status.COMPLETE)
-                          .build());
-                });
-      }
-
-      return result;
     } catch (BinanceException e) {
       throw BinanceErrorAdapter.adapt(e);
     }
