@@ -12,7 +12,7 @@ import java.io.IOException;
 import org.junit.Before;
 import org.junit.Test;
 import org.knowm.xchange.binance.AbstractResilienceTest;
-import org.knowm.xchange.binance.BinanceExchange;
+import org.knowm.xchange.binancemargin.BinanceExchange;
 import org.knowm.xchange.currency.CurrencyPair;
 import org.knowm.xchange.dto.Order;
 import org.knowm.xchange.dto.trade.OpenOrders;

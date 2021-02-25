@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Rule;
 import org.knowm.xchange.ExchangeFactory;
 import org.knowm.xchange.ExchangeSpecification;
+import org.knowm.xchange.binancemargin.BinanceExchange;
 
 public class AbstractResilienceTest {
 

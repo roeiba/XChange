@@ -1,9 +1,9 @@
 package org.knowm.xchange.binance.service.trade;
 
-import static org.knowm.xchange.binance.dto.trade.OrderType.LIMIT;
-import static org.knowm.xchange.binance.dto.trade.OrderType.MARKET;
-import static org.knowm.xchange.binance.dto.trade.OrderType.STOP_LOSS_LIMIT;
-import static org.knowm.xchange.binance.dto.trade.OrderType.TAKE_PROFIT_LIMIT;
+import static org.knowm.xchange.binancemargin.dto.trade.OrderType.LIMIT;
+import static org.knowm.xchange.binancemargin.dto.trade.OrderType.MARKET;
+import static org.knowm.xchange.binancemargin.dto.trade.OrderType.STOP_LOSS_LIMIT;
+import static org.knowm.xchange.binancemargin.dto.trade.OrderType.TAKE_PROFIT_LIMIT;
 import static org.knowm.xchange.dto.Order.OrderType.BID;
 
 import java.io.IOException;
@@ -15,9 +15,9 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.knowm.xchange.Exchange;
 import org.knowm.xchange.ExchangeFactory;
-import org.knowm.xchange.binance.BinanceExchange;
-import org.knowm.xchange.binance.dto.trade.TimeInForce;
-import org.knowm.xchange.binance.service.BinanceTradeService;
+import org.knowm.xchange.binancemargin.BinanceExchange;
+import org.knowm.xchange.binancemargin.dto.trade.TimeInForce;
+import org.knowm.xchange.binancemargin.service.BinanceTradeService;
 import org.knowm.xchange.currency.CurrencyPair;
 import org.knowm.xchange.dto.trade.LimitOrder;
 import org.knowm.xchange.dto.trade.MarketOrder;

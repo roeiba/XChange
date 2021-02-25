@@ -11,7 +11,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.knowm.xchange.Exchange;
 import org.knowm.xchange.ExchangeFactory;
-import org.knowm.xchange.binance.BinanceExchange;
+import org.knowm.xchange.binancemargin.BinanceExchange;
 import org.knowm.xchange.currency.Currency;
 import org.knowm.xchange.currency.CurrencyPair;
 import org.knowm.xchange.dto.account.Balance;

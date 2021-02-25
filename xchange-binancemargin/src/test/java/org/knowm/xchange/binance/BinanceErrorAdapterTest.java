@@ -3,7 +3,8 @@ package org.knowm.xchange.binance;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.Test;
-import org.knowm.xchange.binance.dto.BinanceException;
+import org.knowm.xchange.binancemargin.BinanceErrorAdapter;
+import org.knowm.xchange.binancemargin.dto.BinanceException;
 import org.knowm.xchange.exceptions.ExchangeException;
 import org.knowm.xchange.exceptions.OrderAmountUnderMinimumException;
 import org.knowm.xchange.exceptions.OrderNotValidException;
