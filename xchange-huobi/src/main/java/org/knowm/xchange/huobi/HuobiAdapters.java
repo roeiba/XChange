@@ -377,9 +377,8 @@ public class HuobiAdapters {
       case "wallet-reject":
       case "reject	":
       case "confirm-error":
-        return Status.FAILED;
       case "repealed":
-
+    	  return Status.FAILED;
       default:
         return null;
     }
